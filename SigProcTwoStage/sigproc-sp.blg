@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: sigproc-sp.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+You've used 17 entries,
+            2118 wiz_defined-function locations,
+            602 strings with 7779 characters,
+and the built_in function-call counts, 7183 in all, are:
+= -- 717
+> -- 364
+< -- 8
++ -- 148
+- -- 126
+* -- 506
+:= -- 1137
+add.period$ -- 60
+call.type$ -- 17
+change.case$ -- 114
+chr.to.int$ -- 0
+cite$ -- 17
+duplicate$ -- 277
+empty$ -- 548
+format.name$ -- 126
+if$ -- 1550
+int.to.chr$ -- 0
+int.to.str$ -- 17
+missing$ -- 16
+newline$ -- 89
+num.names$ -- 34
+pop$ -- 139
+preamble$ -- 1
+purify$ -- 97
+quote$ -- 0
+skip$ -- 193
+stack$ -- 0
+substring$ -- 433
+swap$ -- 91
+text.length$ -- 8
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 68
+warning$ -- 0
+while$ -- 67
+width$ -- 19
+write$ -- 196

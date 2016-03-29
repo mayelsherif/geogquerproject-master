@@ -1,0 +1,4861 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Hollaback-Germany</name>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/04/06/new-submission-from-l/</name>
+			<description><![CDATA[ID: 1897<br>Last.Updated: 4/6/2011 11:25:41<br>Title: New submission from L.<br>Type: groping<br>Story: Letztes Jahr ging ich mit meiner Freundi<br>Location: 52.5162691<br>Longitude: 13.3777785<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>1897</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/6/2011 11:25:41</value>
+				</Data>
+				<Data name='Title'>
+					<value>New submission from L.</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Letztes Jahr ging ich mit meiner Freundi</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5162691</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3777785</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3777785,52.51626910000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/04/06/new-submission-from-ama/</name>
+			<description><![CDATA[ID: 1903<br>Last.Updated: 4/6/2011 18:06:38<br>Title: New submission from Ama<br>Type: other<br>Story: Letztens war ich unterwegs, Grünzeug für<br>Location: 52.5234051<br>Longitude: 13.4113999<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>1903</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/6/2011 18:06:38</value>
+				</Data>
+				<Data name='Title'>
+					<value>New submission from Ama</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Letztens war ich unterwegs, Grünzeug für</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5234051</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4113999</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4113999,52.5234051,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/04/07/new-submission-from-l-2/</name>
+			<description><![CDATA[ID: 1915<br>Last.Updated: 4/7/2011 14:31:57<br>Title: New submission from L.<br>Type: homophobic<br>Story: Ich war mit meiner Freundin in einer kle<br>Location: 52.5484085<br>Longitude: 13.4212311<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>1915</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/7/2011 14:31:57</value>
+				</Data>
+				<Data name='Title'>
+					<value>New submission from L.</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war mit meiner Freundin in einer kle</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5484085</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4212311</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4212311,52.5484085,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/04/07/new-submission-from-diana/</name>
+			<description><![CDATA[ID: 1911<br>Last.Updated: 4/7/2011 6:05:13<br>Title: New submission from diana<br>Type: assault<br>Story: ich war vor zwei jahren mit meinen beide<br>Location: 52.5322217<br>Longitude: 13.3991554<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>1911</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/7/2011 6:05:13</value>
+				</Data>
+				<Data name='Title'>
+					<value>New submission from diana</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault</value>
+				</Data>
+				<Data name='Story'>
+					<value>ich war vor zwei jahren mit meinen beide</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5322217</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3991554</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3991554,52.5322217,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/04/07/new-submission-from-l-2/</name>
+			<description><![CDATA[ID: 1913<br>Last.Updated: 4/7/2011 14:29:46<br>Title: New submission from L.<br>Type: groping<br>Story: Vor einiger Zeit war ich mit meiner Freu<br>Location: 52.5234051<br>Longitude: 13.4113999<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>1913</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/7/2011 14:29:46</value>
+				</Data>
+				<Data name='Title'>
+					<value>New submission from L.</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Vor einiger Zeit war ich mit meiner Freu</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5234051</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4113999</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4113999,52.5234051,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/04/27/new-submission-from-toni-und-freund_innen/</name>
+			<description><![CDATA[ID: 2102<br>Last.Updated: 4/28/2011 9:43:20<br>Title: Rassistischer Vorfall im “Schokoladen”<br>Type: racist<br>Story: Am Montag, den 25. April 2011 ereignete <br>Location: 52.52974<br>Longitude: 13.39659<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2102</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/28/2011 9:43:20</value>
+				</Data>
+				<Data name='Title'>
+					<value>Rassistischer Vorfall im “Schokoladen”</value>
+				</Data>
+				<Data name='Type'>
+					<value>racist</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am Montag, den 25. April 2011 ereignete </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.52974</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.39659</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.39659,52.52974,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/06/12/neue-geschichte-von-madita/</name>
+			<description><![CDATA[ID: 2570<br>Last.Updated: 6/12/2011 13:13:53<br>Title: Neue Geschichte von Madita<br>Type: verbal<br>Story: Ich liebe Kreuzberg! Ich liebe den Landw<br>Location: 52.4983717<br>Longitude: 13.395979<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2570</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/12/2011 13:13:53</value>
+				</Data>
+				<Data name='Title'>
+					<value>Neue Geschichte von Madita</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich liebe Kreuzberg! Ich liebe den Landw</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4983717</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.395979</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.395979,52.4983717,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/06/22/neue-geschichte-von-nina/</name>
+			<description><![CDATA[ID: 2694<br>Last.Updated: 6/22/2011 10:00:38<br>Title: Neue Geschichte von Nina<br>Type: groping<br>Story: Ich war nach einem anstrengendem Tag auf<br>Location: 52.5234051<br>Longitude: 13.4113999<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2694</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/22/2011 10:00:38</value>
+				</Data>
+				<Data name='Title'>
+					<value>Neue Geschichte von Nina</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war nach einem anstrengendem Tag auf</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5234051</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4113999</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4113999,52.5234051,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/06/28/ey-guck-mal-wie-hasslich-die-ist/</name>
+			<description><![CDATA[ID: 2769<br>Last.Updated: 6/28/2011 16:18:59<br>Title: “Ey guck mal wie hässlich die ist?!”<br>Type: verbal<br>Story: Schon ca. 6 Jahre her....<br>Ich bin in der<br>Location: 52.4823588<br>Longitude: 13.3203583<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2769</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/28/2011 16:18:59</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Ey guck mal wie hässlich die ist?!”</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Schon ca. 6 Jahre her....
+Ich bin in der</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4823588</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3203583</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3203583,52.4823588,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/07/01/brust-grabscher-in-der-ubahn/</name>
+			<description><![CDATA[ID: 2813<br>Last.Updated: 7/1/2011 8:52:34<br>Title: Brust-Grabscher in der UBahn<br>Type: groping<br>Story: Es ist schon ein paar Monate her, dass m<br>Location: 52.4994253<br>Longitude: 13.4186625<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2813</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/1/2011 8:52:34</value>
+				</Data>
+				<Data name='Title'>
+					<value>Brust-Grabscher in der UBahn</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Es ist schon ein paar Monate her, dass m</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4994253</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4186625</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.418662500000002,52.4994253,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/07/01/gegenstrategien-von-laura/</name>
+			<description><![CDATA[ID: 2818<br>Last.Updated: 7/1/2011 15:21:03<br>Title: Gegenstrategien von Laura<br>Type: verbal und körperlich<br>Story: Gegenstrategien gegen Belästigung<br>------<br>Location: 52.5234051<br>Longitude: 13.4113999<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2818</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/1/2011 15:21:03</value>
+				</Data>
+				<Data name='Title'>
+					<value>Gegenstrategien von Laura</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal und körperlich</value>
+				</Data>
+				<Data name='Story'>
+					<value>Gegenstrategien gegen Belästigung
+------</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5234051</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4113999</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4113999,52.5234051,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/07/01/new-submission-from-mandii/</name>
+			<description><![CDATA[ID: 2821<br>Last.Updated: 7/2/2011 7:09:28<br>Title: Trans*phober Übergriff in der U8<br>Type: assault<br>Story: ich hätte mittlerweile beinah täglich ei<br>Location: 52.4730124<br>Longitude: 13.4244944<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2821</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/2/2011 7:09:28</value>
+				</Data>
+				<Data name='Title'>
+					<value>Trans*phober Übergriff in der U8</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault</value>
+				</Data>
+				<Data name='Story'>
+					<value>ich hätte mittlerweile beinah täglich ei</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4730124</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4244944</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4244944,52.4730124,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/07/06/neue-geschichte-von-katharine/</name>
+			<description><![CDATA[ID: 2861<br>Last.Updated: 7/7/2011 6:20:37<br>Title: “Yeah, what the fuck?!” im Tiergarten<br>Type: groping<br>Story: I was walking by myself in Tiergarten (t<br>Location: 52.525498<br>Longitude: 13.3427399<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2861</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/7/2011 6:20:37</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Yeah, what the fuck?!” im Tiergarten</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>I was walking by myself in Tiergarten (t</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.525498</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3427399</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3427399,52.525498,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/07/09/neue-geschichte/</name>
+			<description><![CDATA[ID: 2894<br>Last.Updated: 7/9/2011 7:37:10<br>Title: Stalker in Steglitz, Schlossstrasse bis Walther-Schreiber-Platz<br>Type: stalking<br>Story: Vor etwa 3 Jahren fuhr ich mit dem Bus v<br>Location: 52.464815<br>Longitude: 13.3285296<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2894</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/9/2011 7:37:10</value>
+				</Data>
+				<Data name='Title'>
+					<value>Stalker in Steglitz, Schlossstrasse bis Walther-Schreiber-Platz</value>
+				</Data>
+				<Data name='Type'>
+					<value>stalking</value>
+				</Data>
+				<Data name='Story'>
+					<value>Vor etwa 3 Jahren fuhr ich mit dem Bus v</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.464815</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3285296</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3285296,52.464815,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/07/10/mach-das-ja-nicht-noch-mal/</name>
+			<description><![CDATA[ID: 2907<br>Last.Updated: 7/10/2011 5:26:28<br>Title: “Mach das ja nicht noch mal!”<br>Type: groping<br>Story: Ich war auf dem Weg nach Hause; von der <br>Location: 52.4807717<br>Longitude: 13.4249861<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>2907</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/10/2011 5:26:28</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Mach das ja nicht noch mal!”</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war auf dem Weg nach Hause; von der </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4807717</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4249861</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4249861,52.4807717,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/07/21/am-sbahnhof-neukolln/</name>
+			<description><![CDATA[ID: 3046<br>Last.Updated: 7/21/2011 18:29:53<br>Title: Am SBahnhof Neukölln<br>Type: verbal<br>Story: In Neukölln braucht man tatsächlich nur <br>Location: 52.4694521<br>Longitude: 13.442919<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3046</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/21/2011 18:29:53</value>
+				</Data>
+				<Data name='Title'>
+					<value>Am SBahnhof Neukölln</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>In Neukölln braucht man tatsächlich nur </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4694521</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.442919</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.442919,52.4694521,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/08/06/elsas-geschichte/</name>
+			<description><![CDATA[ID: 3291<br>Last.Updated: 8/6/2011 10:49:31<br>Title: Horror, einfach Horror.<br>Type: other<br>Story: Meine Erfahrungen von sexistischen Überg<br>Location: 52.4807717<br>Longitude: 13.4249861<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3291</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/6/2011 10:49:31</value>
+				</Data>
+				<Data name='Title'>
+					<value>Horror, einfach Horror.</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Meine Erfahrungen von sexistischen Überg</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4807717</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4249861</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4249861,52.4807717,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/08/05/u-kleispark-mann-masturbiert-und-belastigt-frau/</name>
+			<description><![CDATA[ID: 3224<br>Last.Updated: 8/5/2011 11:20:33<br>Title: U Kleistpark Mann masturbiert und belästigt Frau<br>Type: stalking<br>Story: In einer Herbstnacht war ich unterwegs v<br>Location: 52.4905287<br>Longitude: 13.3603835<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3224</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/5/2011 11:20:33</value>
+				</Data>
+				<Data name='Title'>
+					<value>U Kleistpark Mann masturbiert und belästigt Frau</value>
+				</Data>
+				<Data name='Type'>
+					<value>stalking</value>
+				</Data>
+				<Data name='Story'>
+					<value>In einer Herbstnacht war ich unterwegs v</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4905287</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3603835</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3603835,52.4905287,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/08/06/na-du-hast-du-lust-zu-ficken/</name>
+			<description><![CDATA[ID: 3298<br>Last.Updated: 8/6/2011 17:40:04<br>Title: Na Du, hast Du Lust zu ficken?<br>Type: verbal<br>Story: Letzte Nacht bin ich alleine nach Hause <br>Location: 52.4807717<br>Longitude: 13.4249861<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3298</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/6/2011 17:40:04</value>
+				</Data>
+				<Data name='Title'>
+					<value>Na Du, hast Du Lust zu ficken?</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Letzte Nacht bin ich alleine nach Hause </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4807717</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4249861</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4249861,52.4807717,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/08/07/grabscher-am-hermannplatz/</name>
+			<description><![CDATA[ID: 3329<br>Last.Updated: 8/7/2011 15:19:46<br>Title: Grabscher am Hermannplatz<br>Type: groping<br>Story: Ich ging am 2.08 um 18:00 Uhr zusammen m<br>Location: 52.4872219<br>Longitude: 13.4251453<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3329</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/7/2011 15:19:46</value>
+				</Data>
+				<Data name='Title'>
+					<value>Grabscher am Hermannplatz</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich ging am 2.08 um 18:00 Uhr zusammen m</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4872219</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4251453</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4251453,52.4872219,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://nyc.ihollaback.org/2011/08/09/natashas-story-get-your-hands-off-of-me/</name>
+			<description><![CDATA[ID: 3401<br>Last.Updated: 8/11/2011 0:01:34<br>Title: Natasha’s Story: “Get your hands off of me!”<br>Type: verbal<br>Story: Like so many others, my story begins in <br>Location: 52.5234051<br>Longitude: 13.4113999<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3401</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/11/2011 0:01:34</value>
+				</Data>
+				<Data name='Title'>
+					<value>Natasha’s Story: “Get your hands off of me!”</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Like so many others, my story begins in </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5234051</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4113999</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4113999,52.5234051,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/08/17/neue-story-zu-aggressiver-presse-und-zuschauern-auf-dem-slutwalk-berlin/</name>
+			<description><![CDATA[ID: 3598<br>Last.Updated: 8/17/2011 11:58:03<br>Title: Neue Story zu aggressiver Presse und Zuschauern auf dem SlutWalk Berlin<br>Type: other<br>Story: Ich war am Samstag auf dem Slutwalk Berl<br>Location: 52.5015632<br>Longitude: 13.3428366<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3598</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/17/2011 11:58:03</value>
+				</Data>
+				<Data name='Title'>
+					<value>Neue Story zu aggressiver Presse und Zuschauern auf dem SlutWalk Berlin</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war am Samstag auf dem Slutwalk Berl</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5015632</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3428366</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3428366,52.5015632,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/08/28/gesprach-zwischen-einem-guten-freund-und-mir-vor-einigen-wochen-zum-thema-warum-ein-slutwalk/</name>
+			<description><![CDATA[ID: 3713<br>Last.Updated: 8/28/2011 10:19:17<br>Title: “gespräch zwischen einem guten freund und mir vor einigen wochen zum thema ‘warum ein slutwalk’”<br>Type: verbal<br>Story: gespräch zwischen einem guten freund und<br>Location: 52.5225977<br>Longitude: 13.4148965<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3713</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/28/2011 10:19:17</value>
+				</Data>
+				<Data name='Title'>
+					<value>“gespräch zwischen einem guten freund und mir vor einigen wochen zum thema ‘warum ein slutwalk’”</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>gespräch zwischen einem guten freund und</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5225977</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4148965</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4148965,52.522597700000006,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/09/09/im-internetcafe/</name>
+			<description><![CDATA[ID: 3838<br>Last.Updated: 9/9/2011 14:31:04<br>Title: Im Internetcafé…<br>Type: other<br>Story: anfang september: ein junger typ im inte<br>Location: 52.4807717<br>Longitude: 13.4249861<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>3838</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/9/2011 14:31:04</value>
+				</Data>
+				<Data name='Title'>
+					<value>Im Internetcafé…</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>anfang september: ein junger typ im inte</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4807717</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4249861</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4249861,52.4807717,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/10/02/angriff-auf-dem-weg-zu-ubahn-baerwaldstrasse/</name>
+			<description><![CDATA[ID: 4061<br>Last.Updated: 10/3/2011 9:22:38<br>Title: Angriff auf dem Weg zu UBahn – Baerwaldstrasse<br>Type: groping<br>Story: Freitag, halb neun Uhr abends: Ich bin m<br>Location: 52.4925484<br>Longitude: 13.4020077<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>4061</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/3/2011 9:22:38</value>
+				</Data>
+				<Data name='Title'>
+					<value>Angriff auf dem Weg zu UBahn – Baerwaldstrasse</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Freitag, halb neun Uhr abends: Ich bin m</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4925484</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4020077</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4020077,52.4925484,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/10/25/prapotenter-prugelknabe/</name>
+			<description><![CDATA[ID: 4285<br>Last.Updated: 10/26/2011 14:17:01<br>Title: Präpotenter Prügelknabe<br>Type: assault<br>Story: Ich wollte gerade von der S-Bahn runter <br>Location: 52.4760713<br>Longitude: 13.4406378<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>4285</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/26/2011 14:17:01</value>
+				</Data>
+				<Data name='Title'>
+					<value>Präpotenter Prügelknabe</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich wollte gerade von der S-Bahn runter </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4760713</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4406378</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4406378,52.4760713,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/10/28/heterosexistische-beschimpfungen-auf-der-admiralsbrucke/</name>
+			<description><![CDATA[ID: 4308<br>Last.Updated: 10/28/2011 6:36:07<br>Title: Heterosexistische Beschimpfungen in der Admiralstrasse!<br>Type: verbal<br>Story: Heute morgen schob ich mein Fahrrad die <br>Location: 52.4968865<br>Longitude: 13.4162043<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>4308</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/28/2011 6:36:07</value>
+				</Data>
+				<Data name='Title'>
+					<value>Heterosexistische Beschimpfungen in der Admiralstrasse!</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Heute morgen schob ich mein Fahrrad die </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4968865</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4162043</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4162043,52.4968865,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2011/11/16/keine-wier-am-plotzensee/</name>
+			<description><![CDATA[ID: 4417<br>Last.Updated: 11/16/2011 16:33:35<br>Title: Keine Wi***er am Plötzensee!<br>Type: other<br>Story: Ich moechte von meinen Erlebnissen am Pl<br>Location: 52.5437973<br>Longitude: 13.3304851<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>4417</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/16/2011 16:33:35</value>
+				</Data>
+				<Data name='Title'>
+					<value>Keine Wi***er am Plötzensee!</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich moechte von meinen Erlebnissen am Pl</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5437973</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3304851</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3304851,52.5437973,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/01/mit-dem-handy-gefilmt/</name>
+			<description><![CDATA[ID: 4786<br>Last.Updated: 1/6/2012 14:02:36<br>Title: Mit dem Handy gefilmt!<br>Type: stalking<br>Story: Ich lief die Strasse runter und da kam m<br>Location: 52.4813889<br>Longitude: 13.4352778<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>4786</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/6/2012 14:02:36</value>
+				</Data>
+				<Data name='Title'>
+					<value>Mit dem Handy gefilmt!</value>
+				</Data>
+				<Data name='Type'>
+					<value>stalking</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich lief die Strasse runter und da kam m</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4813889</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4352778</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.435277800000001,52.4813889,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/01/lachel-doch-mal-auch-schonmal-gehort/</name>
+			<description><![CDATA[ID: 4858<br>Last.Updated: 1/16/2012 16:04:59<br>Title: “Lächel doch mal” – auch schon mal gehört?!<br>Type: verbal<br>Story: Es gibt eine Sache die mich rasend macht<br>Location: 52.4733987<br>Longitude: 13.3377925<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>4858</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/16/2012 16:04:59</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Lächel doch mal” – auch schon mal gehört?!</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Es gibt eine Sache die mich rasend macht</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4733987</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3377925</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3377925,52.4733987,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/02/der-unterschied-zwischen-helfen-und-entmundigen/</name>
+			<description><![CDATA[ID: 5408<br>Last.Updated: 3/2/2012 5:32:33<br>Title: Der Unterschied zwischen “helfen” und “entmündigen”<br>Type: other<br>Story: Dies ist kein Erlebnis mit schlimmen Fol<br>Location: 52.4563661<br>Longitude: 13.3324966<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>5408</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>3/2/2012 5:32:33</value>
+				</Data>
+				<Data name='Title'>
+					<value>Der Unterschied zwischen “helfen” und “entmündigen”</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Dies ist kein Erlebnis mit schlimmen Fol</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4563661</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3324966</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3324966,52.4563661,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/03/der-neue-ive-got-your-back-button-zeig-deinen-support-fur-betroffene/</name>
+			<description><![CDATA[ID: 5712<br>Last.Updated: 3/22/2012 14:59:55<br>Title: Der neue “I’ve got your back”-Button! Zeig Deinen Support für Betroffene<br>Type: other<br>Story: Unter jeder Geschichte die eingesendet w<br>Location: 52.4719375<br>Longitude: 13.3388475<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>5712</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>3/22/2012 14:59:55</value>
+				</Data>
+				<Data name='Title'>
+					<value>Der neue “I’ve got your back”-Button! Zeig Deinen Support für Betroffene</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Unter jeder Geschichte die eingesendet w</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4719375</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3388475</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3388475,52.4719375,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/04/kreuzberg-gneisenaustrasse/</name>
+			<description><![CDATA[ID: 6057<br>Last.Updated: 4/25/2012 13:16:58<br>Title: Kreuzberg – Gneisenaustrasse<br>Type: verbal<br>Story: Ich liebe Kreuzberg, aber langsam macht <br>Location: 52.4912807<br>Longitude: 13.3965741<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6057</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/25/2012 13:16:58</value>
+				</Data>
+				<Data name='Title'>
+					<value>Kreuzberg – Gneisenaustrasse</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich liebe Kreuzberg, aber langsam macht </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4912807</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3965741</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3965741,52.4912807,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/06/warum-belastigung-einen-aus-der-bahn-wirft/</name>
+			<description><![CDATA[ID: 6710<br>Last.Updated: 6/12/2012 12:38:28<br>Title: Warum Belästigung einen aus der Bahn wirft<br>Type: verbal<br>Story: Ich gehe zur S Bahn Station Friedrichstr<br>Location: 52.520394<br>Longitude: 13.387314<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6710</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/12/2012 12:38:28</value>
+				</Data>
+				<Data name='Title'>
+					<value>Warum Belästigung einen aus der Bahn wirft</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich gehe zur S Bahn Station Friedrichstr</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.520394</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.387314</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.387314,52.520394,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/06/viele-geschichten-gesammelt-seit-dem-13-lebensjahr/</name>
+			<description><![CDATA[ID: 6721<br>Last.Updated: 6/14/2012 16:10:53<br>Title: Viele Geschichten gesammelt seit dem 13. Lebensjahr…<br>Type: groping,verbal<br>Story: Nachdem ich mich durch viele Geschichten<br>Location: 52.576025<br>Longitude: 13.351022<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6721</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/14/2012 16:10:53</value>
+				</Data>
+				<Data name='Title'>
+					<value>Viele Geschichten gesammelt seit dem 13. Lebensjahr…</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Nachdem ich mich durch viele Geschichten</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.576025</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.351022</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.351022000000002,52.576025,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/06/angestarrt-werden-ist-belastigung/</name>
+			<description><![CDATA[ID: 6725<br>Last.Updated: 6/18/2012 17:04:08<br>Title: Angestarrt werden ist Belästigung!<br>Type: other<br>Story: Erstmal mein Empfinden nach dem Lesen vi<br>Location: 52.519171<br>Longitude: 13.4060912<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6725</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/18/2012 17:04:08</value>
+				</Data>
+				<Data name='Title'>
+					<value>Angestarrt werden ist Belästigung!</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Erstmal mein Empfinden nach dem Lesen vi</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.519171</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4060912</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4060912,52.519171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/07/potsdamer-platz-mann-masturbiert-und-belastigt-wie-kann-reagiert-werden/</name>
+			<description><![CDATA[ID: 6923<br>Last.Updated: 7/11/2012 15:42:16<br>Title: Potsdamer Platz – Mann masturbiert und belästigt. Wie kann reagiert werden?<br>Type: other<br>Story: Gestern am Potsdamer Platz zwischen der <br>Location: 52.5090646<br>Longitude: 13.3746958<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6923</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/11/2012 15:42:16</value>
+				</Data>
+				<Data name='Title'>
+					<value>Potsdamer Platz – Mann masturbiert und belästigt. Wie kann reagiert werden?</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Gestern am Potsdamer Platz zwischen der </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5090646</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3746958</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3746958,52.5090646,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/06/ein-exhibitionist-in-der-hasenheide/</name>
+			<description><![CDATA[ID: 6841<br>Last.Updated: 7/3/2012 18:01:40<br>Title: Ein Exhibitionist in der Hasenheide<br>Type: other<br>Story: Es ist Juni 2012, gegen 14.30 Uhr. Ich f<br>Location: 52.4832702<br>Longitude: 13.4171965<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6841</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/3/2012 18:01:40</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ein Exhibitionist in der Hasenheide</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Es ist Juni 2012, gegen 14.30 Uhr. Ich f</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4832702</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4171965</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4171965,52.4832702,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/07/kreuzberg-gneisenaustrasse-2/</name>
+			<description><![CDATA[ID: 6887<br>Last.Updated: 7/8/2012 11:25:45<br>Title: Kreuzberg – Gneisenaustrasse<br>Type: verbal<br>Story: Vor etwa 15 Minuten war Anpfiff. Spanien<br>Location: 52.49235<br>Longitude: 13.38784<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6887</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/8/2012 11:25:45</value>
+				</Data>
+				<Data name='Title'>
+					<value>Kreuzberg – Gneisenaustrasse</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Vor etwa 15 Minuten war Anpfiff. Spanien</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.49235</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.38784</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.38784,52.49235,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/07/und-wieder-wi-in-der-hasenheide/</name>
+			<description><![CDATA[ID: 6982<br>Last.Updated: 7/17/2012 16:03:07<br>Title: und wieder Wi*** in der Hasenheide<br>Type: other<br>Story: Ich wollte mich in der Hasenheide ein bi<br>Location: 52.4832702<br>Longitude: 13.4171965<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6982</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/17/2012 16:03:07</value>
+				</Data>
+				<Data name='Title'>
+					<value>und wieder Wi*** in der Hasenheide</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich wollte mich in der Hasenheide ein bi</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4832702</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4171965</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4171965,52.4832702,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/07/grabschen-sie-hat-zuruck-gebrullt/</name>
+			<description><![CDATA[ID: 6983<br>Last.Updated: 7/17/2012 16:06:24<br>Title: Grabschen? Sie hat zurück gebrüllt!<br>Type: groping<br>Story: Bei der langen Buchnacht in Kreuzberg wa<br>Location: 52.4994253<br>Longitude: 13.4186625<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6983</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/17/2012 16:06:24</value>
+				</Data>
+				<Data name='Title'>
+					<value>Grabschen? Sie hat zurück gebrüllt!</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Bei der langen Buchnacht in Kreuzberg wa</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4994253</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4186625</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.418662500000002,52.4994253,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/07/ubergriffe-sexismus-und-gewalt-auf-der-slutwalk-soliparty/</name>
+			<description><![CDATA[ID: 6997<br>Last.Updated: 7/22/2012 8:35:54<br>Title: Übergriffe, Sexismus und Gewalt auf der Slutwalk Soliparty!<br>Type: groping,verbal<br>Story: Am Samstag war die Solidaritäts-Party de<br>Location: 52.519171<br>Longitude: 13.4060912<br>Marker: grn_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>6997</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/22/2012 8:35:54</value>
+				</Data>
+				<Data name='Title'>
+					<value>Übergriffe, Sexismus und Gewalt auf der Slutwalk Soliparty!</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am Samstag war die Solidaritäts-Party de</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.519171</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4060912</value>
+				</Data>
+				<Data name='Marker'>
+					<value>grn_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4060912,52.519171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/07/belastigung-am-halensee/</name>
+			<description><![CDATA[ID: 7062<br>Last.Updated: 7/29/2012 8:08:25<br>Title: Belästigung am Halensee<br>Type: verbal,other<br>Story: 27. Juli 2012, 18 Uhr, ein heißer Sommer<br>Location: 52.4975299<br>Longitude: 13.2928398<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>7062</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/29/2012 8:08:25</value>
+				</Data>
+				<Data name='Title'>
+					<value>Belästigung am Halensee</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>27. Juli 2012, 18 Uhr, ein heißer Sommer</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4975299</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.2928398</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.2928398,52.4975299,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/08/ich-hatte-gern-anders-und-besser-reagiert-war-aber-so-geschockt-von-der-explosiven-situation-dass-ich-nur-rumbrullen-konnte-aber-das-ist-ja-schonmal-was/</name>
+			<description><![CDATA[ID: 7241<br>Last.Updated: 8/8/2012 16:08:41<br>Title: “Ich hätte gern anders und besser reagiert, war aber so geschockt von der explosiven Situation, dass ich nur rumbrüllen konnte, aber das ist ja schonmal was.”<br>Type: homophobic,verbal<br>Story: Gestern, am 7. August, saß ich mit einer<br>Location: 52.5122734<br>Longitude: 13.4601234<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>7241</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/8/2012 16:08:41</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Ich hätte gern anders und besser reagiert, war aber so geschockt von der explosiven Situation, dass ich nur rumbrüllen konnte, aber das ist ja schonmal was.”</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Gestern, am 7. August, saß ich mit einer</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5122734</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4601234</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.460123400000002,52.5122734,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/08/aber-einen-tag-spater-wunsche-ich-mir-die-menschen-hatten-verstanden-wie-sie-objektiviziert-wird-und-dass-auch-positive-kommentare-zu-ihrem-korper-sexistisch-sind/</name>
+			<description><![CDATA[ID: 7279<br>Last.Updated: 8/13/2012 14:02:24<br>Title: “Aber einen Tag später wünsche ich mir, die Menschen hätten verstanden, wie sie objektiviziert wird und dass auch “positive” Kommentare zu ihrem Körper sexistisch sind.”<br>Type: other<br>Story: Gestern Abend in der WG: Es waren Gäste <br>Location: 52.519171<br>Longitude: 13.4060912<br>Marker: grn_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>7279</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/13/2012 14:02:24</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Aber einen Tag später wünsche ich mir, die Menschen hätten verstanden, wie sie objektiviziert wird und dass auch “positive” Kommentare zu ihrem Körper sexistisch sind.”</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Gestern Abend in der WG: Es waren Gäste </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.519171</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4060912</value>
+				</Data>
+				<Data name='Marker'>
+					<value>grn_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4060912,52.519171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/09/du-gehst-mit-um-die-ecke-und-musst-lutschen/</name>
+			<description><![CDATA[ID: 7549<br>Last.Updated: 9/10/2012 12:07:59<br>Title: “du gehst mit um die Ecke und musst lutschen”.<br>Type: verbal<br>Story: Es ist in der Nacht von Samstag auf Sonn<br>Location: 52.4669833<br>Longitude: 13.4313201<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>7549</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/10/2012 12:07:59</value>
+				</Data>
+				<Data name='Title'>
+					<value>“du gehst mit um die Ecke und musst lutschen”.</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Es ist in der Nacht von Samstag auf Sonn</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4669833</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4313201</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4313201,52.4669833,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://ldn.ihollaback.org/2012/09/14/reading-the-london-posts-i-get-the-impression-that-the-balance-of-power-on-the-streets-is-much-more-on-the-mens-side/</name>
+			<description><![CDATA[ID: 7651<br>Last.Updated: 9/22/2012 9:40:23<br>Title: ”Reading the London posts I get the impression, that the balance of power on the streets is much more on the men’s side”<br>Type: other<br>Story: New submission from Kathrin<br>I have read <br>Location: 52.519171<br>Longitude: 13.4060912<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>7651</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/22/2012 9:40:23</value>
+				</Data>
+				<Data name='Title'>
+					<value>”Reading the London posts I get the impression, that the balance of power on the streets is much more on the men’s side”</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>New submission from Kathrin
+I have read </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.519171</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4060912</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4060912,52.519171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/10/berlin/</name>
+			<description><![CDATA[ID: 8122<br>Last.Updated: 10/14/2012 6:46:53<br>Title: verbale Kackscheiße in Berlin<br>Type: verbal<br>Story: Mir ist gestern etwas passiert wovon ich<br>Location: 52.4896<br>Longitude: 13.4072<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8122</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/14/2012 6:46:53</value>
+				</Data>
+				<Data name='Title'>
+					<value>verbale Kackscheiße in Berlin</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Mir ist gestern etwas passiert wovon ich</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4896</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4072</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4072,52.48960000000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/10/new-submission-from-admin/</name>
+			<description><![CDATA[ID: 8189<br>Last.Updated: 10/21/2012 15:25:02<br>Title: Warschauer Brücke<br>Type: groping,verbal<br>Story: Vor einigen Wochen war ich morgens um vi<br>Location: 52.5063291<br>Longitude: 13.4493644<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8189</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/21/2012 15:25:02</value>
+				</Data>
+				<Data name='Title'>
+					<value>Warschauer Brücke</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Vor einigen Wochen war ich morgens um vi</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5063291</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4493644</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4493644,52.5063291,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/11/s-bahn-hauptbahnof/</name>
+			<description><![CDATA[ID: 8319<br>Last.Updated: 11/12/2012 14:30:43<br>Title: S Bahn Hauptbahnof<br>Type: verbal<br>Story: Als ich heute Abend am Hauptbahnhof in d<br>Location: 52.525592<br>Longitude: 13.369545<br>Marker: grn_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8319</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/12/2012 14:30:43</value>
+				</Data>
+				<Data name='Title'>
+					<value>S Bahn Hauptbahnof</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Als ich heute Abend am Hauptbahnhof in d</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.525592</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.369545</value>
+				</Data>
+				<Data name='Marker'>
+					<value>grn_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.369545,52.525592,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/11/grabschen-und-transphobe-beleidungen/</name>
+			<description><![CDATA[ID: 8374<br>Last.Updated: 11/12/2012 14:33:57<br>Title: Grabschen und transphobe Beleidungen<br>Type: groping,transphobic,verbal<br>Story: Ich wurde gestern abend so um 0:20 ca. v<br>Location: 52.4685864<br>Longitude: 13.4422445<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8374</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/12/2012 14:33:57</value>
+				</Data>
+				<Data name='Title'>
+					<value>Grabschen und transphobe Beleidungen</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich wurde gestern abend so um 0:20 ca. v</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4685864</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4422445</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4422445,52.4685864,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/11/transphobie-im-wedding/</name>
+			<description><![CDATA[ID: 8463<br>Last.Updated: 11/19/2012 14:23:49<br>Title: Trans*phobie im Wedding<br>Type: transphobic<br>Story: Am 4. November ging ich durch die Gottsc<br>Location: 52.5520122<br>Longitude: 13.3712889<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8463</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/19/2012 14:23:49</value>
+				</Data>
+				<Data name='Title'>
+					<value>Trans*phobie im Wedding</value>
+				</Data>
+				<Data name='Type'>
+					<value>transphobic</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am 4. November ging ich durch die Gottsc</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5520122</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3712889</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3712889,52.5520122,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/12/transphob-beleidigt/</name>
+			<description><![CDATA[ID: 8936<br>Last.Updated: 12/29/2012 16:57:29<br>Title: Trans*phob beleidigt<br>Type: transphobic,verbal<br>Story: Am 24.12.2012 wurde ich in der Selchower<br>Location: 52.478849<br>Longitude: 13.4229062<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8936</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/29/2012 16:57:29</value>
+				</Data>
+				<Data name='Title'>
+					<value>Trans*phob beleidigt</value>
+				</Data>
+				<Data name='Type'>
+					<value>transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am 24.12.2012 wurde ich in der Selchower</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.478849</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4229062</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4229062,52.478849,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/12/bystander-erfolg-am-herrmannplatz/</name>
+			<description><![CDATA[ID: 8950<br>Last.Updated: 12/29/2012 16:58:53<br>Title: Bystander Erfolg am Herrmannplatz<br>Type: verbal<br>Story: Ich saß gerade am U-Bahnhof Hermannplatz<br>Location: 52.4865566<br>Longitude: 13.4244132<br>Marker: grn_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8950</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/29/2012 16:58:53</value>
+				</Data>
+				<Data name='Title'>
+					<value>Bystander Erfolg am Herrmannplatz</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich saß gerade am U-Bahnhof Hermannplatz</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4865566</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4244132</value>
+				</Data>
+				<Data name='Marker'>
+					<value>grn_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4244132,52.4865566,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/12/belastigung-in-schonefeld/</name>
+			<description><![CDATA[ID: 8951<br>Last.Updated: 12/29/2012 17:00:18<br>Title: Belästigung in Schönefeld<br>Type: verbal<br>Story: Ich wollte eine Freundin besuchen und fu<br>Location: 52.3923169<br>Longitude: 13.5170006<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8951</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/29/2012 17:00:18</value>
+				</Data>
+				<Data name='Title'>
+					<value>Belästigung in Schönefeld</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich wollte eine Freundin besuchen und fu</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.3923169</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.5170006</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.5170006,52.3923169,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2012/12/bystander-intervention-in-der-u8/</name>
+			<description><![CDATA[ID: 8961<br>Last.Updated: 12/30/2012 17:36:33<br>Title: Bystander Intervention in der U8<br>Type: verbal<br>Story: am 27. saß ich abends in der u8 an der h<br>Location: 52.46751<br>Longitude: 13.431313<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>8961</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/30/2012 17:36:33</value>
+				</Data>
+				<Data name='Title'>
+					<value>Bystander Intervention in der U8</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>am 27. saß ich abends in der u8 an der h</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.46751</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.431313</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.431313,52.467510000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/01/grabscher-in-der-u8-alex/</name>
+			<description><![CDATA[ID: 9124<br>Last.Updated: 1/30/2013 14:59:19<br>Title: Grabscher in der U8 Alex<br>Type: groping<br>Story: Vor einigen Monaten stieg ich an einem F<br>Location: 52.5218316<br>Longitude: 13.413168<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9124</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/30/2013 14:59:19</value>
+				</Data>
+				<Data name='Title'>
+					<value>Grabscher in der U8 Alex</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Vor einigen Monaten stieg ich an einem F</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5218316</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.413168</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.413168,52.5218316,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/01/zum-1-mal-bin-ich-nicht-wortlos-auf-den-boden-guckend-weitergelaufen-sondern-ich-habe-mich-gewehrt/</name>
+			<description><![CDATA[ID: 9206<br>Last.Updated: 1/30/2013 15:04:24<br>Title: “zum 1. Mal bin ich nicht wortlos, auf den Boden guckend weitergelaufen, sondern ich habe mich gewehrt!”<br>Type: verbal<br>Story: Neulich stand auf der Strasse ein Mann, <br>Location: 52.5392<br>Longitude: 13.4242<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9206</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/30/2013 15:04:24</value>
+				</Data>
+				<Data name='Title'>
+					<value>“zum 1. Mal bin ich nicht wortlos, auf den Boden guckend weitergelaufen, sondern ich habe mich gewehrt!”</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Neulich stand auf der Strasse ein Mann, </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5392</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4242</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4242,52.5392,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://france.ihollaback.org/2013/02/04/celia-ils-sont-plus-facilement-desarconnes-quon-ne-le-pense/</name>
+			<description><![CDATA[ID: 9256<br>Last.Updated: 2/5/2013 13:38:09<br>Title: Celia : “Ces hommes sont si persuadés d’être en position de force que lorsqu’ils rencontrent une résistance, ils sont plus facilement désarçonnés qu’on ne le pense”<br>Type: stalking<br>Story: Des histoires de merde il m&apos;en est <br>Location: 52.519171<br>Longitude: 13.4060912<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9256</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/5/2013 13:38:09</value>
+				</Data>
+				<Data name='Title'>
+					<value>Celia : “Ces hommes sont si persuadés d’être en position de force que lorsqu’ils rencontrent une résistance, ils sont plus facilement désarçonnés qu’on ne le pense”</value>
+				</Data>
+				<Data name='Type'>
+					<value>stalking</value>
+				</Data>
+				<Data name='Story'>
+					<value>Des histoires de merde il m&amp;apos;en est </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.519171</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4060912</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4060912,52.519171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/02/reinickendorferstrasse-berlin/</name>
+			<description><![CDATA[ID: 9270<br>Last.Updated: 2/8/2013 17:17:25<br>Title: Reinickendorferstrasse, Berlin<br>Type: verbal<br>Story: Gestern war wieder einer dieser Tage. Ic<br>Location: 52.5486851<br>Longitude: 13.3689668<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9270</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/8/2013 17:17:25</value>
+				</Data>
+				<Data name='Title'>
+					<value>Reinickendorferstrasse, Berlin</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Gestern war wieder einer dieser Tage. Ic</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5486851</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3689668</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3689668,52.5486851,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/02/ich-habe-mein-recht-auf-meinen-korper-verteidigt-wenn-auch-nicht-auf-die-diplomatischste-weise/</name>
+			<description><![CDATA[ID: 9300<br>Last.Updated: 2/11/2013 8:04:27<br>Title: “Ich habe mein Recht auf meinen Körper verteidigt, wenn auch nicht auf die diplomatischste Weise.”<br>Type: groping<br>Story: Ich komme gerade von der Semesterabschlu<br>Location: 52.519171<br>Longitude: 13.4060912<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9300</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/11/2013 8:04:27</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Ich habe mein Recht auf meinen Körper verteidigt, wenn auch nicht auf die diplomatischste Weise.”</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich komme gerade von der Semesterabschlu</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.519171</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4060912</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4060912,52.519171,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/02/ode-to-anne/</name>
+			<description><![CDATA[ID: 9338<br>Last.Updated: 2/15/2013 4:59:15<br>Title: Ode to Anne<br>Type: verbal,other<br>Story: Ich war Ende zwanzig, da ging ich in ein<br>Location: 52.5392<br>Longitude: 13.4242<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9338</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/15/2013 4:59:15</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ode to Anne</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war Ende zwanzig, da ging ich in ein</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5392</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4242</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4242,52.5392,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/03/ich-will-ihm-diesen-raum-nicht-uberlassen/</name>
+			<description><![CDATA[ID: 9524<br>Last.Updated: 3/13/2013 17:23:05<br>Title: “ich WILL ihm diesen Raum nicht überlassen”<br>Type: other<br>Story: U-Bahnhof Yorckstraße, nach 22 Uhr, die <br>Location: 52.49117<br>Longitude: 13.372128<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9524</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>3/13/2013 17:23:05</value>
+				</Data>
+				<Data name='Title'>
+					<value>“ich WILL ihm diesen Raum nicht überlassen”</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>U-Bahnhof Yorckstraße, nach 22 Uhr, die </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.49117</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.372128</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.372128,52.49117,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/03/ganz-alte-story-but-never-told/</name>
+			<description><![CDATA[ID: 9532<br>Last.Updated: 3/17/2013 13:06:00<br>Title: “Ganz alte Story but never told…”<br>Type: groping,verbal<br>Story: Ganz alte Story but never told: ich, 15 <br>Location: 52.5158<br>Longitude: 13.4542<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9532</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>3/17/2013 13:06:00</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Ganz alte Story but never told…”</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ganz alte Story but never told: ich, 15 </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5158</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4542</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4542,52.5158,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/04/new-submission-from-xxx/</name>
+			<description><![CDATA[ID: 9865<br>Last.Updated: 4/11/2013 12:37:30<br>Title: Messe Sexismus<br>Type: groping,verbal<br>Story: Gewidmet den arbeitenden Frauen, die sic<br>Location: 52.50555<br>Longitude: 13.28068<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>9865</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/11/2013 12:37:30</value>
+				</Data>
+				<Data name='Title'>
+					<value>Messe Sexismus</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Gewidmet den arbeitenden Frauen, die sic</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.50555</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.28068</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.28068,52.50555,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/04/i-holla-back-ich-nehme-mir-das-letzte-wort/</name>
+			<description><![CDATA[ID: 10029<br>Last.Updated: 4/17/2013 15:58:47<br>Title: I holla back! Ich nehme mir das letzte Wort<br>Type: verbal<br>Story: Ich gehe über die Ampel. Mir kommen drei<br>Location: 52.4869349<br>Longitude: 13.4251027<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>10029</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/17/2013 15:58:47</value>
+				</Data>
+				<Data name='Title'>
+					<value>I holla back! Ich nehme mir das letzte Wort</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich gehe über die Ampel. Mir kommen drei</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4869349</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4251027</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4251027,52.4869349,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/06/m-s-geschichten/</name>
+			<description><![CDATA[ID: 10399<br>Last.Updated: 6/9/2013 11:43:59<br>Title: M.’s Geschichten<br>Type: groping,stalking<br>Story: Ich bin mal zur S-Bahn gehetzt, kurz bev<br>Location: 52.4407709<br>Longitude: 13.4445071<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>10399</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/9/2013 11:43:59</value>
+				</Data>
+				<Data name='Title'>
+					<value>M.’s Geschichten</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,stalking</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich bin mal zur S-Bahn gehetzt, kurz bev</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4407709</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4445071</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4445071,52.4407709,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/06/harassment-summer-berlin/</name>
+			<description><![CDATA[ID: 10618<br>Last.Updated: 6/25/2013 12:00:30<br>Title: harassment – summer – berlin<br>Type: assault,groping,verbal<br>Story: What the FUCK is wrong with this city. J<br>Location: 52.4842043<br>Longitude: 13.3869709<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>10618</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/25/2013 12:00:30</value>
+				</Data>
+				<Data name='Title'>
+					<value>harassment – summer – berlin</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault,groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>What the FUCK is wrong with this city. J</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4842043</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3869709</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.386970900000001,52.4842043,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/06/das-ist-das-erste-mal-dass-mir-so-was-passiert-dabei-noch-auf-offener-strase-tagsuber-in-lichterfelde-west/</name>
+			<description><![CDATA[ID: 10719<br>Last.Updated: 6/30/2013 16:15:52<br>Title: Das ist das erste Mal, dass mir so was passiert, dabei noch auf offener Straße, tagsüber in Lichterfelde West.<br>Type: groping<br>Story: Ich kam eben aus der Uni (ca. 10 Uhr mor<br>Location: 52.431696<br>Longitude: 13.319164<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>10719</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/30/2013 16:15:52</value>
+				</Data>
+				<Data name='Title'>
+					<value>Das ist das erste Mal, dass mir so was passiert, dabei noch auf offener Straße, tagsüber in Lichterfelde West.</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich kam eben aus der Uni (ca. 10 Uhr mor</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.431696</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.319164</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.319164,52.431696,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/07/rehberge-wedding/</name>
+			<description><![CDATA[ID: 10900<br>Last.Updated: 7/13/2013 8:50:15<br>Title: Rehberge – Wedding<br>Type: other<br>Story: Am Montag, so etwa um 4 Uhr Nachmittags,<br>Location: 52.5666667<br>Longitude: 13.1833333<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>10900</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/13/2013 8:50:15</value>
+				</Data>
+				<Data name='Title'>
+					<value>Rehberge – Wedding</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am Montag, so etwa um 4 Uhr Nachmittags,</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5666667</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.1833333</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.1833333,52.5666667,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/08/new-submission-from-jb/</name>
+			<description><![CDATA[ID: 11228<br>Last.Updated: 8/7/2013 16:27:04<br>Title: “Ich will gar nichts, außer meine Freiheit” – Park – Sonne – Belästigung<br>Type: verbal<br>Story: Ist schon etwas her, aber weil es einer <br>Location: 52.4800728<br>Longitude: 13.3322851<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>11228</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/7/2013 16:27:04</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Ich will gar nichts, außer meine Freiheit” – Park – Sonne – Belästigung</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ist schon etwas her, aber weil es einer </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4800728</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3322851</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.332285100000002,52.4800728,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/08/berlin-s1/</name>
+			<description><![CDATA[ID: 11445<br>Last.Updated: 8/25/2013 13:38:02<br>Title: Berlin – S1<br>Type: verbal<br>Story: Ich saß abends gegen 21:00 in der S1 und<br>Location: 52.544795<br>Longitude: 13.379277<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>11445</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/25/2013 13:38:02</value>
+				</Data>
+				<Data name='Title'>
+					<value>Berlin – S1</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich saß abends gegen 21:00 in der S1 und</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.544795</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.379277</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.379277,52.544795,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/09/und-ich-will-dass-sich-was-aendert/</name>
+			<description><![CDATA[ID: 11733<br>Last.Updated: 9/18/2013 13:41:02<br>Title: Und ich will, dass sich was ändert!<br>Type: verbal,other<br>Story: Ich bin vorgestern Abend mal ausnahmswei<br>Location: 52.4921011<br>Longitude: 13.4225902<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>11733</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/18/2013 13:41:02</value>
+				</Data>
+				<Data name='Title'>
+					<value>Und ich will, dass sich was ändert!</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich bin vorgestern Abend mal ausnahmswei</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4921011</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4225902</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4225902,52.4921011,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/10/laecheln-am-ubahnhof-jannowitzbruecke/</name>
+			<description><![CDATA[ID: 11867<br>Last.Updated: 10/3/2013 12:04:52<br>Title: “Lächeln” am Ubahnhof Jannowitzbrücke<br>Type: verbal<br>Story: Gestern im vorbeigehen am UBahnhof Janno<br>Location: 52.51427<br>Longitude: 13.419347<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>11867</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/3/2013 12:04:52</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Lächeln” am Ubahnhof Jannowitzbrücke</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Gestern im vorbeigehen am UBahnhof Janno</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.51427</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.419347</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.419347,52.51427,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/10/so-sieht-rape-culture-aus/</name>
+			<description><![CDATA[ID: 11873<br>Last.Updated: 10/4/2013 12:45:52<br>Title: So sieht Rape Culture aus<br>Type: verbal<br>Story: Ich stand vor dem Kaisers am Kotti ca 21<br>Location: 52.4992667<br>Longitude: 13.4204973<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>11873</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/4/2013 12:45:52</value>
+				</Data>
+				<Data name='Title'>
+					<value>So sieht Rape Culture aus</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich stand vor dem Kaisers am Kotti ca 21</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4992667</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4204973</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4204973,52.4992667,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/2013/10/belaestigung-im-restaurant-ich-weiss-nur-das-ich-beim-naechsten-mal-handeln-wuerde/</name>
+			<description><![CDATA[ID: 11901<br>Last.Updated: 10/7/2013 16:33:50<br>Title: Belästigung im Restaurant “Ich weiß nur das ich beim nächsten mal handeln würde”<br>Type: groping<br>Story: Es ist jetzt bestimmt schon fast zwei Ja<br>Location: 52.5392<br>Longitude: 13.4242<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>11901</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/7/2013 16:33:50</value>
+				</Data>
+				<Data name='Title'>
+					<value>Belästigung im Restaurant “Ich weiß nur das ich beim nächsten mal handeln würde”</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Es ist jetzt bestimmt schon fast zwei Ja</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5392</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4242</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4242,52.5392,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/das-ohnmachtsgefuehl-diese-koerperliche-hilflosigkeit-war-das-schlimmste/</name>
+			<description><![CDATA[ID: 12130<br>Last.Updated: 11/10/2013 13:19:19<br>Title: “Das Ohnmachtsgefühl, diese körperliche Hilflosigkeit war das Schlimmste.”<br>Type: assault<br>Story: ...ich hatte einen Freund, den kannte ic<br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>12130</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/10/2013 13:19:19</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Das Ohnmachtsgefühl, diese körperliche Hilflosigkeit war das Schlimmste.”</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault</value>
+				</Data>
+				<Data name='Story'>
+					<value>...ich hatte einen Freund, den kannte ic</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/rudi-dutschke-strasse-in-berlin-kreuzberg/</name>
+			<description><![CDATA[ID: 12338<br>Last.Updated: 12/8/2013 11:11:50<br>Title: Rudi-Dutschke-Straße in Berlin, Kreuzberg<br>Type: stalking,verbal<br>Story: Morgens gegen 11:00 auf dem Weg in eine <br>Location: 52.5071<br>Longitude: 13.39349<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>12338</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/8/2013 11:11:50</value>
+				</Data>
+				<Data name='Title'>
+					<value>Rudi-Dutschke-Straße in Berlin, Kreuzberg</value>
+				</Data>
+				<Data name='Type'>
+					<value>stalking,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Morgens gegen 11:00 auf dem Weg in eine </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5071</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.39349</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.39349,52.5071,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/neue-geschichte-wieso-muessen-komplimente-mit-belaestigendem-und-ignoranten-verhalten-gekoppelt-werden/</name>
+			<description><![CDATA[ID: 12606<br>Last.Updated: 12/28/2013 15:12:59<br>Title: Neue Geschichte “Wieso müssen Komplimente mit belästigendem und ignoranten Verhalten gekoppelt werden?”<br>Type: verbal,other<br>Story: Ich gehe die Sonne genießen alleine im P<br>Location: 52.5356753<br>Longitude: 13.383566<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>12606</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/28/2013 15:12:59</value>
+				</Data>
+				<Data name='Title'>
+					<value>Neue Geschichte “Wieso müssen Komplimente mit belästigendem und ignoranten Verhalten gekoppelt werden?”</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich gehe die Sonne genießen alleine im P</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5356753</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.383566</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.383566,52.5356753,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://france.ihollaback.org/2014/01/04/fred-se-battre-en-ayant-conscience-de-sa-force-et-de-ses-propres-moyens/</name>
+			<description><![CDATA[ID: 12700<br>Last.Updated: 1/5/2014 6:10:42<br>Title: Fred : “Se battre en ayant conscience de sa force et de ses propres moyens”<br>Type: assault,groping,verbal<br>Story: J&apos;habite à Berlin depuis 4 mois, et<br>Location: 52.5081253<br>Longitude: 13.4504005<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>12700</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/5/2014 6:10:42</value>
+				</Data>
+				<Data name='Title'>
+					<value>Fred : “Se battre en ayant conscience de sa force et de ses propres moyens”</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault,groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>J&amp;apos;habite à Berlin depuis 4 mois, et</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5081253</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4504005</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4504005,52.5081253,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/su-neukoelln/</name>
+			<description><![CDATA[ID: 12931<br>Last.Updated: 1/20/2014 12:01:35<br>Title: S+U Neukölln<br>Type: homophobic,transphobic,verbal<br>Story: Ich (genderqueere Trans*weiblichkeit) gi<br>Location: 52.4407709<br>Longitude: 13.4445071<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>12931</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/20/2014 12:01:35</value>
+				</Data>
+				<Data name='Title'>
+					<value>S+U Neukölln</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic,transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich (genderqueere Trans*weiblichkeit) gi</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4407709</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4445071</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4445071,52.4407709,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/wrangelstrasse-kreuzberg/</name>
+			<description><![CDATA[ID: 12950<br>Last.Updated: 1/26/2014 12:37:55<br>Title: Wrangelstrasse, Kreuzberg<br>Type: groping<br>Story: Als ich abends die Wrangelstrasse entlan<br>Location: 52.5010645<br>Longitude: 13.4359476<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>12950</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/26/2014 12:37:55</value>
+				</Data>
+				<Data name='Title'>
+					<value>Wrangelstrasse, Kreuzberg</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Als ich abends die Wrangelstrasse entlan</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5010645</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4359476</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4359476,52.501064500000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/sbahn/</name>
+			<description><![CDATA[ID: 12964<br>Last.Updated: 1/26/2014 12:39:53<br>Title: SBahn<br>Type: verbal<br>Story: Sitze in der S-Bahn und gebe einem Mensc<br>Location: 52.4407709<br>Longitude: 13.4445071<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>12964</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>1/26/2014 12:39:53</value>
+				</Data>
+				<Data name='Title'>
+					<value>SBahn</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Sitze in der S-Bahn und gebe einem Mensc</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4407709</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4445071</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4445071,52.4407709,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/yorckstrasse/</name>
+			<description><![CDATA[ID: 13094<br>Last.Updated: 2/8/2014 15:48:53<br>Title: Yorckstraße<br>Type: homophobic,transphobic,verbal<br>Story: Am U-Bahnhof Yorckstraße wurde ich (gend<br>Location: 52.49117<br>Longitude: 13.372128<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13094</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/8/2014 15:48:53</value>
+				</Data>
+				<Data name='Title'>
+					<value>Yorckstraße</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic,transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am U-Bahnhof Yorckstraße wurde ich (gend</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.49117</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.372128</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.372128,52.49117,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/im-m41/</name>
+			<description><![CDATA[ID: 13095<br>Last.Updated: 2/9/2014 12:28:28<br>Title: Im M41<br>Type: homophobic,transphobic,verbal<br>Story: Ich (genderqueere Trans*weiblichkeit) wu<br>Location: 52.4749166<br>Longitude: 13.4536965<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13095</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/9/2014 12:28:28</value>
+				</Data>
+				<Data name='Title'>
+					<value>Im M41</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic,transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich (genderqueere Trans*weiblichkeit) wu</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4749166</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4536965</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4536965,52.47491660000001,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/homofeindlichkeit-am-hermannplatz/</name>
+			<description><![CDATA[ID: 13212<br>Last.Updated: 2/25/2014 6:10:44<br>Title: Homo*feindlichkeit am Hermannplatz<br>Type: homophobic,transphobic,verbal<br>Story: Als ich (genderqueere Trans*weiblichkeit<br>Location: 52.4868616<br>Longitude: 13.4248639<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13212</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/25/2014 6:10:44</value>
+				</Data>
+				<Data name='Title'>
+					<value>Homo*feindlichkeit am Hermannplatz</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic,transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Als ich (genderqueere Trans*weiblichkeit</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4868616</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4248639</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4248639,52.4868616,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/beim-einkaufen/</name>
+			<description><![CDATA[ID: 13241<br>Last.Updated: 3/1/2014 13:10:23<br>Title: Beim Einkaufen<br>Type: homophobic,transphobic,verbal<br>Story: Als ich (genderqueere Trans*weiblichkeit<br>Location: 52.4821579<br>Longitude: 13.432996<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13241</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>3/1/2014 13:10:23</value>
+				</Data>
+				<Data name='Title'>
+					<value>Beim Einkaufen</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic,transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Als ich (genderqueere Trans*weiblichkeit</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4821579</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.432996</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.432996,52.4821579,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/drei-geschichten-auf-einmal/</name>
+			<description><![CDATA[ID: 13330<br>Last.Updated: 4/5/2014 12:33:52<br>Title: Drei Geschichten auf einmal<br>Type: verbal<br>Story: Drei Geschichten auf einmal quasi:<br>-ich <br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13330</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/5/2014 12:33:52</value>
+				</Data>
+				<Data name='Title'>
+					<value>Drei Geschichten auf einmal</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Drei Geschichten auf einmal quasi:
+-ich </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/u-bhf-kottbusser-tor/</name>
+			<description><![CDATA[ID: 13331<br>Last.Updated: 4/6/2014 13:17:43<br>Title: U-Bhf Kottbusser Tor<br>Type: homophobic,transphobic,verbal<br>Story: Am U-Bahnhof Kottbusser Tor wollte ich (<br>Location: 52.4988159<br>Longitude: 13.419814<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13331</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/6/2014 13:17:43</value>
+				</Data>
+				<Data name='Title'>
+					<value>U-Bhf Kottbusser Tor</value>
+				</Data>
+				<Data name='Type'>
+					<value>homophobic,transphobic,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am U-Bahnhof Kottbusser Tor wollte ich (</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4988159</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.419814</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.419814,52.4988159,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/in-der-strassenbahn/</name>
+			<description><![CDATA[ID: 13754<br>Last.Updated: 4/14/2014 4:37:44<br>Title: In der Straßenbahn<br>Type: verbal<br>Story: Ich wollte mit der Straßenbahn von der U<br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13754</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/14/2014 4:37:44</value>
+				</Data>
+				<Data name='Title'>
+					<value>In der Straßenbahn</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich wollte mit der Straßenbahn von der U</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/jungs-was-ihr-da-macht-ist-nicht-in-ordnung-lasst-es/</name>
+			<description><![CDATA[ID: 13822<br>Last.Updated: 4/18/2014 9:11:45<br>Title: “Jungs, was ihr da macht ist nicht in Ordnung. Lasst es.”<br>Type: verbal<br>Story: Ich war auf dem Heimweg vom S-Bahnhof Ha<br>Location: 52.49416<br>Longitude: 13.30218<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>13822</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>4/18/2014 9:11:45</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Jungs, was ihr da macht ist nicht in Ordnung. Lasst es.”</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war auf dem Heimweg vom S-Bahnhof Ha</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.49416</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.30218</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.30218,52.49416,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://www.ihollaback.org/blog/2014/06/03/saras-story-harassed-while-babysitting/</name>
+			<description><![CDATA[ID: 14378<br>Last.Updated: 6/5/2014 11:58:57<br>Title: Sara’s Story: Harassed While Babysitting<br>Type: verbal<br>Story: I was babysitting a 1.5 year old and wal<br>Location: 52.52046<br>Longitude: 13.25299<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>14378</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/5/2014 11:58:57</value>
+				</Data>
+				<Data name='Title'>
+					<value>Sara’s Story: Harassed While Babysitting</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>I was babysitting a 1.5 year old and wal</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.52046</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.25299</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.25299,52.52046,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://france.ihollaback.org/2014/06/06/morgane-dans-cette-histoire-on-a-perdu-beaucoup-de-notre-confiance/</name>
+			<description><![CDATA[ID: 14453<br>Last.Updated: 6/9/2014 13:01:37<br>Title: Morgane : “Dans cette histoire, on a perdu beaucoup de notre confiance”<br>Type: stalking<br>Story: Alors que le soleil revenait doucement s<br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: grn_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>14453</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/9/2014 13:01:37</value>
+				</Data>
+				<Data name='Title'>
+					<value>Morgane : “Dans cette histoire, on a perdu beaucoup de notre confiance”</value>
+				</Data>
+				<Data name='Type'>
+					<value>stalking</value>
+				</Data>
+				<Data name='Story'>
+					<value>Alors que le soleil revenait doucement s</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>grn_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/fass-mich-nicht-an/</name>
+			<description><![CDATA[ID: 14483<br>Last.Updated: 6/11/2014 13:02:51<br>Title: “Fass mich nicht an”<br>Type: groping<br>Story: Beim Tanzen in der Menge hat mich ein Ty<br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>14483</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/11/2014 13:02:51</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Fass mich nicht an”</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Beim Tanzen in der Menge hat mich ein Ty</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/new-story-people-in-positions-of-power-should-not-use-their-authority-to-sexually-harass-others/</name>
+			<description><![CDATA[ID: 14667<br>Last.Updated: 6/21/2014 7:42:05<br>Title: New Story “People in positions of power should not use their authority to sexually harass others”<br>Type: verbal<br>Story: Going through security at Tegel airport,<br>Location: 52.5588327<br>Longitude: 13.2884374<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>14667</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/21/2014 7:42:05</value>
+				</Data>
+				<Data name='Title'>
+					<value>New Story “People in positions of power should not use their authority to sexually harass others”</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Going through security at Tegel airport,</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5588327</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.2884374</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.2884374,52.5588327,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-bin-12-jahre-alt-und-mir-sind-in-den-letzten-wochen-zwei-total-krasse-sachen-passiert/</name>
+			<description><![CDATA[ID: 14690<br>Last.Updated: 6/24/2014 9:45:49<br>Title: ich bin 12 Jahre alt und mir sind in den letzten Wochen zwei total krasse Sachen passiert<br>Type: other<br>Story: ich bin 12 Jahre alt und mir sind in den<br>Location: 52.3872923<br>Longitude: 13.7108965<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>14690</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>6/24/2014 9:45:49</value>
+				</Data>
+				<Data name='Title'>
+					<value>ich bin 12 Jahre alt und mir sind in den letzten Wochen zwei total krasse Sachen passiert</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>ich bin 12 Jahre alt und mir sind in den</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.3872923</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.7108965</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.7108965,52.3872923,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/alle-taten-so-als-gaebe-es-mich-nicht/</name>
+			<description><![CDATA[ID: 14752<br>Last.Updated: 7/4/2014 6:47:02<br>Title: Alle taten so als gäbe es mich nicht.<br>Type: assault,groping<br>Story: Es ist schon etwas her, aber mir ist es <br>Location: 52.5002944<br>Longitude: 13.3107046<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>14752</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/4/2014 6:47:02</value>
+				</Data>
+				<Data name='Title'>
+					<value>Alle taten so als gäbe es mich nicht.</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault,groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Es ist schon etwas her, aber mir ist es </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5002944</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3107046</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3107046,52.5002944,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/und-ich-hoffe-den-aggressor-zumindest-geaergert-zu-haben/</name>
+			<description><![CDATA[ID: 14958<br>Last.Updated: 7/27/2014 5:08:39<br>Title: “Und ich hoffe, den Aggressor zumindest geärgert zu haben.”<br>Type: assault,verbal<br>Story: Ich war auf dem Heimweg vom U-Bahnhof Ko<br>Location: 52.4990628<br>Longitude: 13.4182472<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>14958</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/27/2014 5:08:39</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Und ich hoffe, den Aggressor zumindest geärgert zu haben.”</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war auf dem Heimweg vom U-Bahnhof Ko</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4990628</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4182472</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4182472,52.4990628,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/sonntag-nachmittag-friedrichshainer-kiez/</name>
+			<description><![CDATA[ID: 15160<br>Last.Updated: 8/4/2014 13:34:43<br>Title: Sonntag Nachmittag, Friedrichshainer Kiez.<br>Type: assault<br>Story: Ich gehe langsam und verträumt gerade me<br>Location: 52.5094066<br>Longitude: 13.4617578<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>15160</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/4/2014 13:34:43</value>
+				</Data>
+				<Data name='Title'>
+					<value>Sonntag Nachmittag, Friedrichshainer Kiez.</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich gehe langsam und verträumt gerade me</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5094066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4617578</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4617578,52.5094066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/neue-einsendung-2/</name>
+			<description><![CDATA[ID: 16158<br>Last.Updated: 8/31/2014 13:39:17<br>Title: Neue Einsendung<br>Type: Groping<br>Story: Der fremde Mann sprach zuerst freundlich<br>Location: 52.506882<br>Longitude: 13.332927<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>16158</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>8/31/2014 13:39:17</value>
+				</Data>
+				<Data name='Title'>
+					<value>Neue Einsendung</value>
+				</Data>
+				<Data name='Type'>
+					<value>Groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Der fremde Mann sprach zuerst freundlich</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.506882</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.332927</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.332927,52.506882,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-m-14wurde-im-bus-m29-vom-olivaer-platz-richtung-checkpoint-charlie-von-einem-ca-20-25-jaehrigen-mann-belaestigt/</name>
+			<description><![CDATA[ID: 16271<br>Last.Updated: 9/1/2014 14:11:23<br>Title: Ich (M-14),wurde im Bus M29 vom Olivaer Platz Richtung Checkpoint Charlie von einem ca.20-25 jährigen Mann belästigt<br>Type: groping<br>Story: Ich (M-14),wurde im Bus M29 vom Olivaer <br>Location: 52.4997568<br>Longitude: 13.3141342<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>16271</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/1/2014 14:11:23</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ich (M-14),wurde im Bus M29 vom Olivaer Platz Richtung Checkpoint Charlie von einem ca.20-25 jährigen Mann belästigt</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich (M-14),wurde im Bus M29 vom Olivaer </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4997568</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3141342</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3141342,52.4997568,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-koennte-beinahe-jeden-tag-eine-geschichte-teilen-und-es-frustriert-mich/</name>
+			<description><![CDATA[ID: 16357<br>Last.Updated: 9/3/2014 16:19:30<br>Title: “Ich könnte beinahe jeden Tag eine Geschichte teilen und es frustriert mich.”<br>Type: groping,verbal<br>Story: Ich gehe mit einer Freundin nachts im Re<br>Location: 52.5091536<br>Longitude: 13.4508341<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>16357</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/3/2014 16:19:30</value>
+				</Data>
+				<Data name='Title'>
+					<value>“Ich könnte beinahe jeden Tag eine Geschichte teilen und es frustriert mich.”</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich gehe mit einer Freundin nachts im Re</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5091536</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4508341</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4508341,52.5091536,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/schlachtensee/</name>
+			<description><![CDATA[ID: 16721<br>Last.Updated: 9/20/2014 12:19:32<br>Title: Schlachtensee<br>Type: verbal,other<br>Story: Am Schlachtensee herrscht unter Badenden<br>Location: 52.4430741<br>Longitude: 13.2171377<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>16721</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/20/2014 12:19:32</value>
+				</Data>
+				<Data name='Title'>
+					<value>Schlachtensee</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Am Schlachtensee herrscht unter Badenden</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4430741</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.2171377</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.2171377,52.4430741,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-war-leider-so-schockiert-dass-ich-nicht-wirklich-reagieren-konnte/</name>
+			<description><![CDATA[ID: 17101<br>Last.Updated: 9/29/2014 14:54:43<br>Title: Ich war leider so schockiert, dass ich nicht wirklich reagieren konnte..<br>Type: groping<br>Story: Ich fahre mit meiner Freundin auf dem Fa<br>Location: 52.5319959<br>Longitude: 13.3285028<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>17101</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/29/2014 14:54:43</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ich war leider so schockiert, dass ich nicht wirklich reagieren konnte..</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich fahre mit meiner Freundin auf dem Fa</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5319959</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3285028</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3285028,52.531995900000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-finde-ich-habe-gut-verhindert-dass-die-situation-eskaliert/</name>
+			<description><![CDATA[ID: 18144<br>Last.Updated: 10/15/2014 16:58:10<br>Title: Ich finde ich habe gut verhindert, dass die Situation eskaliert.<br>Type: other<br>Story: Ich ging Samstag Nacht alleine an der Wa<br>Location: 52.5091536<br>Longitude: 13.4508341<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>18144</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/15/2014 16:58:10</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ich finde ich habe gut verhindert, dass die Situation eskaliert.</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich ging Samstag Nacht alleine an der Wa</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5091536</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4508341</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4508341,52.5091536,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://www.ihollaback.org/blog/2014/10/22/sophias-story-street-harassment-in-neukolln/</name>
+			<description><![CDATA[ID: 18589<br>Last.Updated: 10/22/2014 15:46:52<br>Title: Sophia’s Story: Street Harassment in Neukölln<br>Type: assault,groping,verbal<br>Story: It&apos;s not just one event, being hara<br>Location: 52.483333<br>Longitude: 13.45<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>18589</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/22/2014 15:46:52</value>
+				</Data>
+				<Data name='Title'>
+					<value>Sophia’s Story: Street Harassment in Neukölln</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault,groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>It&amp;apos;s not just one event, being hara</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.483333</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.45</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.45,52.483333,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/fahrradstory/</name>
+			<description><![CDATA[ID: 18573<br>Last.Updated: 10/24/2014 12:24:20<br>Title: Fahrradstory<br>Type: verbal<br>Story: Da es ein Kopfsteinplaster Weg ist fuhr <br>Location: 52.50422<br>Longitude: 13.39973<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>18573</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/24/2014 12:24:20</value>
+				</Data>
+				<Data name='Title'>
+					<value>Fahrradstory</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Da es ein Kopfsteinplaster Weg ist fuhr </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.50422</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.39973</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.399730000000002,52.50422,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/l-s-geschichte/</name>
+			<description><![CDATA[ID: 18776<br>Last.Updated: 10/31/2014 15:47:42<br>Title: L.’s Geschichte<br>Type: verbal<br>Story: Ich war bei Freunden im Prenzlauer Berg <br>Location: 52.4963153<br>Longitude: 13.4277721<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>18776</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/31/2014 15:47:42</value>
+				</Data>
+				<Data name='Title'>
+					<value>L.’s Geschichte</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich war bei Freunden im Prenzlauer Berg </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4963153</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4277721</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4277721,52.4963153,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/zum-verzweifeln/</name>
+			<description><![CDATA[ID: 18798<br>Last.Updated: 11/1/2014 10:52:38<br>Title: Zum Verzweifeln!<br>Type: verbal<br>Story: Diese Geschichte hat sich vor einigen Mo<br>Location: 52.5020207<br>Longitude: 13.4165451<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>18798</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/1/2014 10:52:38</value>
+				</Data>
+				<Data name='Title'>
+					<value>Zum Verzweifeln!</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Diese Geschichte hat sich vor einigen Mo</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5020207</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4165451</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4165451,52.5020207,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/erinnerungen/</name>
+			<description><![CDATA[ID: 19449<br>Last.Updated: 11/14/2014 15:01:45<br>Title: Erinnerungen<br>Type: assault,groping,verbal,other<br>Story: Mein Vater, der plötzlich aus seinem Ver<br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>19449</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/14/2014 15:01:45</value>
+				</Data>
+				<Data name='Title'>
+					<value>Erinnerungen</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault,groping,verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Mein Vater, der plötzlich aus seinem Ver</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/wir-sind-frauen-die-mit-respekt-zu-behandeln-sind/</name>
+			<description><![CDATA[ID: 20139<br>Last.Updated: 11/25/2014 11:01:23<br>Title: Wir sind Frauen, die mit Respekt zu behandeln sind<br>Type: groping,verbal<br>Story: Berlin, Watergate, Samstag, 2:30 Uhr:<br>Zw<br>Location: 52.4956904<br>Longitude: 13.4272009<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>20139</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>11/25/2014 11:01:23</value>
+				</Data>
+				<Data name='Title'>
+					<value>Wir sind Frauen, die mit Respekt zu behandeln sind</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping,verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Berlin, Watergate, Samstag, 2:30 Uhr:
+Zw</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4956904</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4272009</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4272009,52.4956904,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/am-u-bahnhof-kurfuerstendamm/</name>
+			<description><![CDATA[ID: 20560<br>Last.Updated: 12/2/2014 12:01:55<br>Title: Am U-Bahnhof Kurfürstendamm<br>Type: verbal<br>Story: Als ich im Sommer abends mit einer Freun<br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>20560</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/2/2014 12:01:55</value>
+				</Data>
+				<Data name='Title'>
+					<value>Am U-Bahnhof Kurfürstendamm</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Als ich im Sommer abends mit einer Freun</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/auf-einem-konzert-in-kreuzberg/</name>
+			<description><![CDATA[ID: 20597<br>Last.Updated: 12/4/2014 7:01:02<br>Title: Auf einem Konzert in Kreuzberg<br>Type: verbal,other<br>Story: Ich bin mit zwei Freund_innen auf einem <br>Location: 52.4986049<br>Longitude: 13.3917987<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>20597</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/4/2014 7:01:02</value>
+				</Data>
+				<Data name='Title'>
+					<value>Auf einem Konzert in Kreuzberg</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich bin mit zwei Freund_innen auf einem </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4986049</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3917987</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3917987,52.4986049,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/wartend-am-fotoautomaten/</name>
+			<description><![CDATA[ID: 20657<br>Last.Updated: 12/7/2014 13:01:28<br>Title: Wartend am Fotoautomaten<br>Type: Verbal<br>Story: Meine Freundin und ich stehen vorm Foto-<br>Location: 52.5331226<br>Longitude: 13.4011442<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>20657</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>12/7/2014 13:01:28</value>
+				</Data>
+				<Data name='Title'>
+					<value>Wartend am Fotoautomaten</value>
+				</Data>
+				<Data name='Type'>
+					<value>Verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Meine Freundin und ich stehen vorm Foto-</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5331226</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4011442</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4011442,52.5331226,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-stands-abends-am-relativ-leeren-u-bahn/</name>
+			<description><![CDATA[ID: 21818<br>Last.Updated: 2/26/2015 10:12:48<br>Title: Ich stand abends am relativ leeren U-Bahnhof…<br>Type: verbal,other<br>Story: Ich stand abends am relativ leeren U-Bah<br>Location: 52.518111<br>Longitude: 13.342165<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>21818</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/26/2015 10:12:48</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ich stand abends am relativ leeren U-Bahnhof…</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich stand abends am relativ leeren U-Bah</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.518111</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.342165</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.342165,52.518111000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/auf-dem-weg-ins-kino/</name>
+			<description><![CDATA[ID: 21820<br>Last.Updated: 2/26/2015 10:13:06<br>Title: Auf dem Weg ins Kino<br>Type: verbal<br>Story: Es ist gegen 19 Uhr. Ich bin auf dem Weg<br>Location: 52.5344989<br>Longitude: 13.4188677<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>21820</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/26/2015 10:13:06</value>
+				</Data>
+				<Data name='Title'>
+					<value>Auf dem Weg ins Kino</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Es ist gegen 19 Uhr. Ich bin auf dem Weg</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5344989</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4188677</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4188677,52.5344989,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/im-club-fhain/</name>
+			<description><![CDATA[ID: 21833<br>Last.Updated: 2/28/2015 8:31:07<br>Title: Im Club – F’hain<br>Type: groping<br>Story: Hi, heute im Club, sonst ein sehr schöne<br>Location: 52.5200066<br>Longitude: 13.404954<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>21833</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>2/28/2015 8:31:07</value>
+				</Data>
+				<Data name='Title'>
+					<value>Im Club – F’hain</value>
+				</Data>
+				<Data name='Type'>
+					<value>groping</value>
+				</Data>
+				<Data name='Story'>
+					<value>Hi, heute im Club, sonst ein sehr schöne</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5200066</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.404954</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.404954,52.5200066,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-fahre-in-berlin-mit-der-u-bahn-richtung-hermannstrasse/</name>
+			<description><![CDATA[ID: 21868<br>Last.Updated: 3/6/2015 11:06:00<br>Title: Ich fahre in Berlin mit der U-Bahn Richtung Hermannstraße<br>Type: verbal<br>Story: Ich fahre in Berlin mit der U-Bahn Richt<br>Location: 52.595665<br>Longitude: 13.334648<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>21868</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>3/6/2015 11:06:00</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ich fahre in Berlin mit der U-Bahn Richtung Hermannstraße</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich fahre in Berlin mit der U-Bahn Richt</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.595665</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.334648</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.334648,52.595665000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/i-was-cycling-through-hasenheide-enjoying-the-sunshine/</name>
+			<description><![CDATA[ID: 554cbc7d686f734a43000000<br>Last.Updated: 5/9/2015 12:05:05<br>Title: I was cycling through Hasenheide, enjoying the sunshine&#8230;<br>Type: verbal<br>Story: I was cycling through Hasenheide, enjoyi<br>Location: 52.4864431<br>Longitude: 13.4238473<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>554cbc7d686f734a43000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>5/9/2015 12:05:05</value>
+				</Data>
+				<Data name='Title'>
+					<value>I was cycling through Hasenheide, enjoying the sunshine&amp;#8230;</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>I was cycling through Hasenheide, enjoyi</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4864431</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4238473</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4238473,52.4864431,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/zum-ersten-mal-hatte-ich-den-mut-laut-zu-sein/</name>
+			<description><![CDATA[ID: 55509b60686f732187000000<br>Last.Updated: 5/13/2015 11:02:12<br>Title: Zum ersten Mal hatte ich den Mut, LAUT zu sein…<br>Type: assault<br>Story: Ich stand am UBahnhof (oben) an der Ampe<br>Location: 52.5488862<br>Longitude: 13.3688254<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>55509b60686f732187000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>5/13/2015 11:02:12</value>
+				</Data>
+				<Data name='Title'>
+					<value>Zum ersten Mal hatte ich den Mut, LAUT zu sein…</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich stand am UBahnhof (oben) an der Ampe</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5488862</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3688254</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3688254,52.5488862,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-hoere-ein-geiler-arsch-von-hinter-mir/</name>
+			<description><![CDATA[ID: 556752c2686f733b11000000<br>Last.Updated: 5/29/2015 12:01:51<br>Title: Ich höre ein “geiler Arsch” von hinter mir…<br>Type: verbal<br>Story: Ich bin verabredet, freue mich darauf un<br>Location: 52.475871<br>Longitude: 13.4395167<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>556752c2686f733b11000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>5/29/2015 12:01:51</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ich höre ein “geiler Arsch” von hinter mir…</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich bin verabredet, freue mich darauf un</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.475871</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4395167</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4395167,52.475871000000005,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/ich-bin-mit-dem-fahrrad-naehe-leopoldplatz/</name>
+			<description><![CDATA[ID: 5567944d686f732d2a010000<br>Last.Updated: 7/27/2015 20:53:15<br>Title: Ich bin mit dem Fahrrad nähe Leopoldplatz…<br>Type: verbal,other<br>Story: Seit ich in Berlin bin werde ich so gut <br>Location: 52.55<br>Longitude: 13.366667<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>5567944d686f732d2a010000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/27/2015 20:53:15</value>
+				</Data>
+				<Data name='Title'>
+					<value>Ich bin mit dem Fahrrad nähe Leopoldplatz…</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Seit ich in Berlin bin werde ich so gut </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.55</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.366667</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.366667,52.550000000000004,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/what-the-fuck/</name>
+			<description><![CDATA[ID: 5596cb82686f7305cd000000<br>Last.Updated: 7/29/2015 15:59:33<br>Title: „What the fuck“<br>Type: other<br>Story: I was in the U-bahn station Rosenthaler <br>Location: 52.5299308<br>Longitude: 13.4029232<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>5596cb82686f7305cd000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/29/2015 15:59:33</value>
+				</Data>
+				<Data name='Title'>
+					<value>„What the fuck“</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>I was in the U-bahn station Rosenthaler </value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5299308</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4029232</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.4029232,52.5299308,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/i-was-walking-home-from-the-library/</name>
+			<description><![CDATA[ID: 5596ccc8686f7305cd010000<br>Last.Updated: 7/30/2015 15:56:56<br>Title: I was walking home from the library<br>Type: verbal<br>Story: I was walking home from the library (Tue<br>Location: 52.536<br>Longitude: 13.41007<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>5596ccc8686f7305cd010000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>7/30/2015 15:56:56</value>
+				</Data>
+				<Data name='Title'>
+					<value>I was walking home from the library</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>I was walking home from the library (Tue</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.536</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.41007</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.41007,52.536,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/wo-bleibt-der-respekt-vor-frauen/</name>
+			<description><![CDATA[ID: 55c48a56686f7339a9000000<br>Last.Updated: 9/27/2015 10:34:15<br>Title: Wo bleibt der Respekt vor Frauen.<br>Type: other<br>Story: Ich wollte am Abend nicht mal wirklich s<br>Location: 52.5219184<br>Longitude: 13.4132147<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>55c48a56686f7339a9000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/27/2015 10:34:15</value>
+				</Data>
+				<Data name='Title'>
+					<value>Wo bleibt der Respekt vor Frauen.</value>
+				</Data>
+				<Data name='Type'>
+					<value>other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Ich wollte am Abend nicht mal wirklich s</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5219184</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4132147</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.413214700000001,52.5219184,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/spar-dir-doch-einfach-die-sexistischen-sprueche/</name>
+			<description><![CDATA[ID: 55c4cd59686f73532d000000<br>Last.Updated: 9/27/2015 10:37:25<br>Title: Spar dir doch einfach die sexistischen Sprüche<br>Type: verbal<br>Story: Begegnung auf dem Nachhauseweg.<br><br>Abends,<br>Location: 52.4213402<br>Longitude: 13.3756312<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>55c4cd59686f73532d000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/27/2015 10:37:25</value>
+				</Data>
+				<Data name='Title'>
+					<value>Spar dir doch einfach die sexistischen Sprüche</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Begegnung auf dem Nachhauseweg.
+
+Abends,</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4213402</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3756312</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3756312,52.4213402,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/unfortunately-this-wasnt-the-only-cat-call-i-experienced-that-night-but-certainly-the-most-aggressive/</name>
+			<description><![CDATA[ID: 55cbca14686f736ece040000<br>Last.Updated: 9/27/2015 10:43:10<br>Title: Unfortunately this wasn’t the only cat call I experienced that night, but certainly the most aggressive.<br>Type: assault<br>Story: Coming out of Kottbusser Tor station aro<br>Location: 52.4986049<br>Longitude: 13.3917987<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>55cbca14686f736ece040000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/27/2015 10:43:10</value>
+				</Data>
+				<Data name='Title'>
+					<value>Unfortunately this wasn’t the only cat call I experienced that night, but certainly the most aggressive.</value>
+				</Data>
+				<Data name='Type'>
+					<value>assault</value>
+				</Data>
+				<Data name='Story'>
+					<value>Coming out of Kottbusser Tor station aro</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.4986049</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3917987</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3917987,52.4986049,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/new-submissionon-three-different-occasions-we-were-harassed-by-male-passers-by/</name>
+			<description><![CDATA[ID: 55d88ea4686f731b1b000000<br>Last.Updated: 9/28/2015 10:45:23<br>Title: On THREE different occasions we were harassed by male passers-by<br>Type: verbal,homophobic,racist,other<br>Story: Was on a date with a girl, weather was n<br>Location: 52.5465239<br>Longitude: 13.366936<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>55d88ea4686f731b1b000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>9/28/2015 10:45:23</value>
+				</Data>
+				<Data name='Title'>
+					<value>On THREE different occasions we were harassed by male passers-by</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal,homophobic,racist,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>Was on a date with a girl, weather was n</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5465239</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.366936</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.366936,52.5465239,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/coming-home-from-a-party/</name>
+			<description><![CDATA[ID: 55f6b989686f73072e000000<br>Last.Updated: 10/14/2015 15:20:07<br>Title: Coming home from a party<br>Type: verbal<br>Story: Coming home from a party, I walked by th<br>Location: 52.5508199<br>Longitude: 13.3796451<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>55f6b989686f73072e000000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/14/2015 15:20:07</value>
+				</Data>
+				<Data name='Title'>
+					<value>Coming home from a party</value>
+				</Data>
+				<Data name='Type'>
+					<value>verbal</value>
+				</Data>
+				<Data name='Story'>
+					<value>Coming home from a party, I walked by th</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5508199</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.3796451</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.3796451,52.5508199,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>http://berlin.ihollaback.org/i-looked-at-him-with-disgust-and-move-away/</name>
+			<description><![CDATA[ID: 561a793f686f7368c5010000<br>Last.Updated: 10/18/2015 13:22:15<br>Title: I looked at him with disgust and move away<br>Type: stalking,other<br>Story: I was waiting for my S bahn in Warschaue<br>Location: 52.5091442<br>Longitude: 13.4508643<br>Marker: pink_blank<br>unnamed (1): ]]></description>
+			<styleUrl>#icon-503-DB4436</styleUrl>
+			<ExtendedData>
+				<Data name='ID'>
+					<value>561a793f686f7368c5010000</value>
+				</Data>
+				<Data name='Last.Updated'>
+					<value>10/18/2015 13:22:15</value>
+				</Data>
+				<Data name='Title'>
+					<value>I looked at him with disgust and move away</value>
+				</Data>
+				<Data name='Type'>
+					<value>stalking,other</value>
+				</Data>
+				<Data name='Story'>
+					<value>I was waiting for my S bahn in Warschaue</value>
+				</Data>
+				<Data name='Location'>
+					<value>52.5091442</value>
+				</Data>
+				<Data name='Longitude'>
+					<value>13.4508643</value>
+				</Data>
+				<Data name='Marker'>
+					<value>pink_blank</value>
+				</Data>
+				<Data name='unnamed (1)'>
+					<value></value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>13.450864300000001,52.5091442,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-503-DB4436-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+		</Style>
+		<Style id='icon-503-DB4436-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

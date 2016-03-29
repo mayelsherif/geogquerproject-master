@@ -1,0 +1,118 @@
+\begin{thebibliography}{10}
+
+\bibitem{agapie2015crowdsourcing}
+E.~Agapie, J.~Teevan, and A.~Monroy-Hern{\'a}ndez.
+\newblock Crowdsourcing in the field: A case study using local crowds for event
+  reporting.
+\newblock In {\em Third AAAI Conference on Human Computation and
+  Crowdsourcing}, 2015.
+
+\bibitem{akyildiz2002survey}
+I.~F. Akyildiz, W.~Su, Y.~Sankarasubramaniam, and E.~Cayirci.
+\newblock A survey on sensor networks.
+\newblock {\em IEEE Communications magazine}, 40(8):102--114, 2002.
+
+\bibitem{blaschke2011collective}
+T.~Blaschke, G.~J. Hay, Q.~Weng, and B.~Resch.
+\newblock Collective sensing: Integrating geospatial technologies to understand
+  urban systems-an overview.
+\newblock {\em Remote Sensing}, 3(8):1743--1776, 2011.
+
+\bibitem{cardone2013fostering}
+G.~Cardone, L.~Foschini, P.~Bellavista, A.~Corradi, C.~Borcea, M.~Talasila, and
+  R.~Curtmola.
+\newblock Fostering participaction in smart cities: a geo-social crowdsensing
+  platform.
+\newblock {\em IEEE Communications Magazine}, 51(6):112--119, 2013.
+
+\bibitem{ferreira2013visual}
+N.~Ferreira, J.~Poco, H.~T. Vo, J.~Freire, and C.~T. Silva.
+\newblock Visual exploration of big spatio-temporal urban data: A study of new
+  york city taxi trips.
+\newblock {\em IEEE Transactions on Visualization and Computer Graphics},
+  19(12):2149--2158, 2013.
+
+\bibitem{fontugne2013strip}
+R.~Fontugne, J.~Ortiz, N.~Tremblay, P.~Borgnat, P.~Flandrin, K.~Fukuda,
+  D.~Culler, and H.~Esaki.
+\newblock Strip, bind, and search: a method for identifying abnormal energy
+  consumption in buildings.
+\newblock In {\em Proceedings of the 12th international conference on
+  Information processing in sensor networks}, pages 129--140. ACM, 2013.
+
+\bibitem{hollaback}
+Hollaback.
+\newblock {Read and Share Stories. When it comes to street harassment, you are
+  not alone.}
+\newblock \url{ http://www.ihollaback.org/share/ }, 2015.
+\newblock [Online; accessed July-2015].
+
+\bibitem{howe2006rise}
+J.~Howe.
+\newblock The rise of crowdsourcing.
+\newblock {\em Wired magazine}, 14(6):1--4, 2006.
+
+\bibitem{krishnamachari2002impact}
+B.~Krishnamachari, D.~Estrin, and S.~Wicker.
+\newblock The impact of data aggregation in wireless sensor networks.
+\newblock In {\em Proceedings of the 22nd International Conference on
+  Distributed Computing Systems Workshops, 2002}, pages 575--578. IEEE, 2002.
+
+\bibitem{lee2010measuring}
+R.~Lee and K.~Sumiya.
+\newblock Measuring geographical regularities of crowd behaviors for
+  twitter-based geo-social event detection.
+\newblock In {\em Proceedings of the 2nd ACM SIGSPATIAL international workshop
+  on location based social networks}, pages 1--10. ACM, 2010.
+
+\bibitem{liu2013using}
+Y.~Liu, T.~Alexandrova, and T.~Nakajima.
+\newblock Using stranger as sensors: temporal and geo-sensitive question
+  answering via social media.
+\newblock In {\em Proceedings of the 22nd international conference on World
+  Wide Web}, pages 803--814. International World Wide Web Conferences Steering
+  Committee, 2013.
+
+\bibitem{marco2003many}
+D.~Marco, E.~J. Duarte-Melo, M.~Liu, and D.~L. Neuhoff.
+\newblock On the many-to-one transport capacity of a dense wireless sensor
+  network and the compressibility of its data.
+\newblock In {\em Information Processing in Sensor Networks}, pages 1--16.
+  Springer, 2003.
+
+\bibitem{pattem2008impact}
+S.~Pattem, B.~Krishnamachari, and R.~Govindan.
+\newblock The impact of spatial correlation on routing with compression in
+  wireless sensor networks.
+\newblock {\em ACM Transactions on Sensor Networks (TOSN)}, 4(4):24, 2008.
+
+\bibitem{sallai2004acoustic}
+J.~Sallai, G.~Balogh, M.~Maroti, A.~Ledeczi, and B.~Kusy.
+\newblock Acoustic ranging in resource-constrained sensor networks.
+\newblock In {\em International Conference on Wireless Networks}, page 467.
+  Citeseer, 2004.
+
+\bibitem{venanzi2013crowdsourcing}
+M.~Venanzi, A.~Rogers, and N.~R. Jennings.
+\newblock Crowdsourcing spatial phenomena using trust-based heteroskedastic
+  gaussian processes.
+\newblock In {\em First AAAI Conference on Human Computation and
+  Crowdsourcing}, 2013.
+
+\bibitem{venanzi2013trust}
+M.~Venanzi, A.~Rogers, and N.~R. Jennings.
+\newblock Trust-based fusion of untrustworthy information in crowdsourcing
+  applications.
+\newblock In {\em Proceedings of the 2013 international conference on
+  autonomous agents and multi-agent systems}, pages 829--836. International
+  Foundation for Autonomous Agents and Multiagent Systems, 2013.
+
+\bibitem{yu2013reputation}
+H.~Yu, Z.~Shen, C.~Miao, and B.~An.
+\newblock A reputation-aware decision-making approach for improving the
+  efficiency of crowdsourcing systems.
+\newblock In {\em Proceedings of the 2013 international conference on
+  Autonomous agents and multi-agent systems}, pages 1315--1316. International
+  Foundation for Autonomous Agents and Multiagent Systems, 2013.
+
+\end{thebibliography}
