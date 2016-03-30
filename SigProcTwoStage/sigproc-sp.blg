@@ -1,46 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2015)
+This is BibTeX, Version 0.99d (TeX Live 2014)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: sigproc-sp.aux
 The style file: abbrv.bst
 Database file #1: sigproc.bib
-You've used 17 entries,
+Warning--to sort, need author or key in guardianSH
+Warning--to sort, need author or key in worldPostHS
+You've used 24 entries,
             2118 wiz_defined-function locations,
-            602 strings with 7779 characters,
-and the built_in function-call counts, 7183 in all, are:
-= -- 717
-> -- 364
-< -- 8
-+ -- 148
-- -- 126
-* -- 506
-:= -- 1137
-add.period$ -- 60
-call.type$ -- 17
-change.case$ -- 114
+            642 strings with 9290 characters,
+and the built_in function-call counts, 9763 in all, are:
+= -- 992
+> -- 456
+< -- 11
++ -- 185
+- -- 156
+* -- 668
+:= -- 1510
+add.period$ -- 84
+call.type$ -- 24
+change.case$ -- 150
 chr.to.int$ -- 0
-cite$ -- 17
-duplicate$ -- 277
-empty$ -- 548
-format.name$ -- 126
-if$ -- 1550
+cite$ -- 26
+duplicate$ -- 384
+empty$ -- 772
+format.name$ -- 156
+if$ -- 2136
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 16
-newline$ -- 89
-num.names$ -- 34
-pop$ -- 139
+int.to.str$ -- 24
+missing$ -- 21
+newline$ -- 124
+num.names$ -- 44
+pop$ -- 190
 preamble$ -- 1
-purify$ -- 97
+purify$ -- 126
 quote$ -- 0
-skip$ -- 193
+skip$ -- 278
 stack$ -- 0
-substring$ -- 433
-swap$ -- 91
-text.length$ -- 8
+substring$ -- 616
+swap$ -- 130
+text.length$ -- 11
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 68
-warning$ -- 0
-while$ -- 67
-width$ -- 19
-write$ -- 196
+type$ -- 96
+warning$ -- 2
+while$ -- 90
+width$ -- 26
+write$ -- 274
+(There were 2 warnings)

@@ -1,5 +1,19 @@
 \begin{thebibliography}{10}
 
+\bibitem{guardianSH}
+{Eighty sexual assaults in one day - the other story of Tahrir Square}.
+\newblock \url{
+  http://www.theguardian.com/world/2013/jul/05/egypt-women-rape-sexual-assault-tahrir-square
+  }, 2016.
+\newblock [Online; accessed March-2016].
+
+\bibitem{worldPostHS}
+{Human Shield Formed In Tahrir Square To Protect Women From Sexual Assault }.
+\newblock \url{
+  http://www.huffingtonpost.com/2013/07/03/human-shield-tahrir-square-egypt-sexual-violence_n_3540970.html
+  }, 2016.
+\newblock [Online; accessed March-2016].
+
 \bibitem{agapie2015crowdsourcing}
 E.~Agapie, J.~Teevan, and A.~Monroy-Hern{\'a}ndez.
 \newblock Crowdsourcing in the field: A case study using local crowds for event
@@ -24,6 +38,19 @@ G.~Cardone, L.~Foschini, P.~Bellavista, A.~Corradi, C.~Borcea, M.~Talasila, and
 \newblock Fostering participaction in smart cities: a geo-social crowdsensing
   platform.
 \newblock {\em IEEE Communications Magazine}, 51(6):112--119, 2013.
+
+\bibitem{crooks2013earthquake}
+A.~Crooks, A.~Croitoru, A.~Stefanidis, and J.~Radzikowski.
+\newblock \# earthquake: Twitter as a distributed sensor system.
+\newblock {\em Transactions in GIS}, 17(1):124--147, 2013.
+
+\bibitem{deng2013maximizing}
+D.~Deng, C.~Shahabi, and U.~Demiryurek.
+\newblock Maximizing the number of worker's self-selected tasks in spatial
+  crowdsourcing.
+\newblock In {\em Proceedings of the 21st ACM SIGSPATIAL International
+  Conference on Advances in Geographic Information Systems}, pages 324--333.
+  ACM, 2013.
 
 \bibitem{ferreira2013visual}
 N.~Ferreira, J.~Poco, H.~T. Vo, J.~Freire, and C.~T. Silva.
@@ -52,6 +79,12 @@ J.~Howe.
 \newblock The rise of crowdsourcing.
 \newblock {\em Wired magazine}, 14(6):1--4, 2006.
 
+\bibitem{kazemi2012geocrowd}
+L.~Kazemi and C.~Shahabi.
+\newblock Geocrowd: enabling query answering with spatial crowdsourcing.
+\newblock In {\em Proceedings of the 20th International Conference on Advances
+  in Geographic Information Systems}, pages 189--198. ACM, 2012.
+
 \bibitem{krishnamachari2002impact}
 B.~Krishnamachari, D.~Estrin, and S.~Wicker.
 \newblock The impact of data aggregation in wireless sensor networks.
@@ -72,6 +105,11 @@ Y.~Liu, T.~Alexandrova, and T.~Nakajima.
 \newblock In {\em Proceedings of the 22nd international conference on World
   Wide Web}, pages 803--814. International World Wide Web Conferences Steering
   Committee, 2013.
+
+\bibitem{manoj2007communication}
+B.~S. Manoj and A.~H. Baker.
+\newblock Communication challenges in emergency response.
+\newblock {\em Communications of the ACM}, 50(3):51--53, 2007.
 
 \bibitem{marco2003many}
 D.~Marco, E.~J. Duarte-Melo, M.~Liu, and D.~L. Neuhoff.
@@ -106,6 +144,13 @@ M.~Venanzi, A.~Rogers, and N.~R. Jennings.
 \newblock In {\em Proceedings of the 2013 international conference on
   autonomous agents and multi-agent systems}, pages 829--836. International
   Foundation for Autonomous Agents and Multiagent Systems, 2013.
+
+\bibitem{yu2015quality}
+H.~Yu, C.~Miao, Z.~Shen, and C.~Leung.
+\newblock Quality and budget aware task allocation for spatial crowdsourcing.
+\newblock In {\em Proceedings of the 2015 International Conference on
+  Autonomous Agents and Multiagent Systems}, pages 1689--1690. International
+  Foundation for Autonomous Agents and Multiagent Systems, 2015.
 
 \bibitem{yu2013reputation}
 H.~Yu, Z.~Shen, C.~Miao, and B.~An.
