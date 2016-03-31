@@ -75,19 +75,25 @@ Another related body of work is sensor networks~\cite{akyildiz2002survey} that i
 
 
 \section{Research question and proposed algorithm}
-In our system, we have a two-dimensional grid and a number of objects that can sense the environment around them. These objects can be humans, artificial sensors, mobile phones or even robotic sensors. If we are interested in answering the question "What is the answer to Question X in this grid?", we can basically ask or query all the objects in the two-dimensional space and aggregate their findings. In this paper, we assume that to answer this question, you can only query $N$ objects. Hence, the question becomes: \textit{Given $N$ resources, who should you select to track a phenomenon?} Answering this question becomes essential in the case of limited resources. This is particularly important in emergency scenarios when a network's performance degrades and preserving energy and other resources become critical.\par
-If we attempt to tackle this question from a probabilistic point of view, then the straightforward answer would be to try to select objects/users with the same probabilistic distribution as the phenomenon. For instance, if we know that a certain phenomenon occurs at different places in the two-dimensional grid uniformly, then we would have no bias in selecting the users to query, i.e. each user/object would have the same probability of selection to be queried. On the other hand, if we know the phenomenon we are interested in is more prevalent in certain areas of the grid as opposed to other areas, we would take that into consideration when we are selecting the users to select more users to query in this area and fewer users in areas where there is a smaller probability of occurrence.\par
-The question becomes far more challenging if the distribution is not known or if it is time variant? The aforementioned question becomes more interesting in this case and we can then inquire if there is a systematic algorithm that can be used for querying/selecting users to track a phenomenon regardless of the probabilistic distribution or time variation. \par
+In our system, we have a two-dimensional grid and a number of objects that can sense the environment around them. These objects can be humans, artificial sensors, mobile phones or even robotic sensors. We are interested in answering the following question: "What is the answer to Question X in this grid?". To find the answer, one approach would be to query all the objects in the two-dimensional space and aggregate the findings. However, in certain situations like in the case of an emergency, the network's performance degrades and preserving energy and other resources become critical~\cite{manoj2007communication}. In this paper, we investigate how to answer the aforementioned question in the case of limited resources. Hence, the question becomes: \textit{Given $N$ resources, who should you select to track a phenomenon?}\par
+
+
+If we attempt to tackle this question from a probabilistic point of view, then the straightforward answer is to try to select objects with the same probabilistic distribution as the phenomenon. For instance, if we know that a certain phenomenon occurs at different places in the two-dimensional grid uniformly, then we would have no bias in selecting the users to query, i.e. each user/object should have the same probability of selection to be queried. On the other hand, if we know the phenomenon we are interested in is more prevalent in certain areas of the grid as opposed to other areas, we should take that into consideration when we are selecting the users such that we query users in the area of interest and fewer users in areas where there is a smaller probability of occurrence.\par
+
+The question becomes far more challenging if the distribution is not known or if it is time variant. In this case, we inquire if there is a systematic algorithm that can be used for querying/selecting users to track a phenomenon regardless of the probabilistic distribution or time variation. In the following sections, we propose a two-stage algorithm that queries objects without any assumptions about the distribution of events and succeeds in locating objects that are close to the events and in covering up to more than $80\%$ of the incidents. \par
+
 \subsection{Technique Description}
-We assume that there are $M$ users in a two-dimensional grid and that the system that selects a user to query is bounded by $N$ resources, where $N < M$.  Each of the $M$ users has a specific location in the grid, determined by a two-dimensional system, e.g. (x, y) or a (lat, long). We also assume that the users selected will participate in answering the question of interest to the system and fully co-operate. A pre-selection phase can be used to eliminate users that are not likely to co-operate such as requiring the installation of an app to facilitate querying. Here, we focus on how to select $N$ out of $M$ users to  where $N < M$ to keep track of events occurring in the two-dimensional grid.\par
-Our technique combines $K$ nearest neighbor (KNN) queries with querying users to maximize the dispersion of their location in the grid as depicted in Algorithm 1. We divide the selection of users into two stages. In the first stage, our goal is to select users with the goal of maximizing the dispersion of users' locations. We maximize the dispersion by selecting the set of points that maximizes the average distance between each point and its nearest neighbor as follows:
+We assume that there are $M$ users in a two-dimensional grid and that the system that selects a user to query is bounded by $N$ resources, where $N < M$.  Each of the $M$ users has a specific location in the grid, determined by a two-dimensional system, e.g. (x, y) or a (lat, long). We also assume that the selected users will fully cooperate and respond to the query. If needed, a pre-selection phase can be used to eliminate users that are not likely to co-operate, such as requiring the installation of an app to facilitate querying. Here, we focus on how to select $N$ out of $M$ users, where $N < M$ to keep track of events occurring in the two-dimensional grid.\par
+
+Our technique combines querying users to maximize the dispersion of their location in the grid with $K$ nearest neighbor (KNN) selection as depicted in Algorithm~\ref{TSalgorithm}. We divide the selection of users into two stages. In the first stage, our goal is to select users that maximize the dispersion of users' locations. This is accomplished by selecting the set of points that maximizes the average distance between each point and its nearest neighbor as follows:
 \begin{equation} \label{eq:maxDisp}
-\argmax \sum_{i=1}^{N} \norm{p(i) - NN(p(i))}^2
+\argmax \sum_{i=1}^{\floor{(FSP*N)}} \norm{p(i) - NN(p(i))}^2
 \end{equation}
-where $p$ represents a point in the $2D$ grid and $NN$ represents the nearest neighbor and the distance is measured as the Euclidean distance. The algorithm attempts to maximize the dispersion up to the number of maximization trials.
-Based on the crowd feedback in the first stage, we then proceed to a more fine-grained selection. The users that provide a positive feedback (i.e. they witness an event/ emergency in their location) are called the \textit{pivot users}. In the second stage, we want the $K$ nearest neighbors for the pivot users. \par
-%We assume that because the pivot users witness an event, the $K$ nearest neighbors will probably witness another event of the same type in a neighboring area. \par
-This initial algorithm assumes that the first stage users will respond with unfalsified responses. To relax this assumption, we explore dividing the selection of the second phase users into two groups: a group that consists of the $KNN$ of the trusted pivot users, and another group that aims to maximize the dispersion. In this section, we will focus on studying our two-stage querying technique with the assumption of having full trust in the crowd and discuss other variants of the technique in subsequent sections.\par
+
+where $p$ represents a point in the $2D$ grid and $NN$ represents the nearest neighbor; the distance is measured as the Euclidean distance. The algorithm attempts to maximize the dispersion with a percentage of the $N$ resources up a certain number of trials controlled by the ``maximization trials'' setting as explained in Table~\ref{table:systemParameters}. \par
+After the dispersin maximization phase, we query the sensors that were selected and look at the feedback of these sensors. The feedback provided is application dependant. For some applications, the query can be in the form of probing for measurement and if that measurement exceeds a certain threhold, the system marks this as a positive feedback of the incident under investigation. In other applications such as in the case of emergency sitiuations, the query is usually a simple yes-no question. An example is in~\cite{crooks2013earthquake}, when an earthquake occured at the East Coast in the US in 2011, the query was the question ``Did You Feel It?'' (DYFI). Based on the senors/objects feedback in the first stage, we then proceed to a more fine-grained selection. The objects that provide a positive feedback, where the definition of a positive feedback is application dependant, are called the \textit{pivot users}. In our experiments, we simulate the positive feedback. A node will provide a positive feedback if it is in the kNN of one or more incidents in the grid. The positive feedback does not contain any information about the number or location of incidents. In the second stage, we divide the rest of the resources among the nearest neighbors for each of the pivot users. If no nodes provide a positive feedback, the second stage maximizes the dispersion of the location of nodes with the rest of the available resources. \par
+
+This initial algorithm assumes that the first stage users will respond with unfalsified responses. To relax this assumption, we explore dividing the selection of the second phase users into two groups: a group that consists of the $KNN$ of trusted pivot users, and another group that aims to maximize the dispersion. In the next section, we focus on studying our two-stage querying algorithm with the assumption of having full trust in the crowd and discuss other variants of the technique in Section 5.\par
 \begin{algorithm}
 \caption{Two-stage querying algorithm}
 \label{TSalgorithm}
@@ -111,15 +117,15 @@ This initial algorithm assumes that the first stage users will respond with unfa
 \EndFunction
 \end{algorithmic}
 \end{algorithm}
+
 \begin{table}{}
 \centering
 \begin{tabulary}{0.5\textwidth}{|L|}
 \hline
 \textit{Environment settings: }\\
-\tabitem matrix dimension: the length and
-the width of the $2D$ spatial matrix. We model the spatial area under investigation as a $2D$ square matrix.\\
+\tabitem matrix dimension: the length and width of the $2D$ spatial matrix. We model the spatial area under investigation as a $2D$ square matrix.\\
 \tabitem incident count: number of incidents distributed across the cells of the spatial matrix\\
-\tabitem resources or crowd count: the $M$ resources from which $N$, where $N < M$, will be chosen to query\\
+\tabitem resources or crowd count: the $M$ resources from which $N$ will be chosen to query, where $N < M$.\\
 \hline
 \textit{Query settings:}\\
 \tabitem $N$: the number of resources the system is limited by to query/sense \\
@@ -130,26 +136,30 @@ the width of the $2D$ spatial matrix. We model the spatial area under investigat
 \tabitem maximization trials: number of attempts to maximize the dispersion of selected individuals/sensors from the crowd\\
 \hline
 \end{tabulary}
-\caption{Different parameters of the two-stage querying technique.}
+\caption{Parameters of the two-stage querying algorithm.}
 \label{table:systemParameters}
 \end{table}
+
+
 \section{Experiments}
-To quantify the performance of our technique, we perform multiple experiments with three types of data spread: clustered, uniform and real datasets. In our experiments, we compare our algorithm in the selection of users to two policies as follows:
+To quantify the performance of our technique, we perform multiple experiments with three types of data spread: clustered, uniform and real datasets. In our experiments, we compare our algorithm in the selection of users to two alternative approaches as follows:
 \begin{itemize}
-\item Random user selection: For this policy, we select $N$ users randomly based on a uniform distribution.
-\item Dispersion maximization selection: The selection of users in this policy depends on selecting $N$ users from the crowd who maximize the dispersion of their locations.
+\item Random user selection: For this approach, we select $N$ users randomly based on a uniform distribution.
+\item Dispersion maximization (DispMax) selection: In this approach, $N$ users are selected from the resources/crowd who maximize the dispersion of their locations.
 \end{itemize}
-\subsection{Experiment Variables}
+\subsection{Experiment variables}
 There are multiple variables that can be controlled to test the behavior of the two-stage querying technique. Table~\ref{table:systemParameters} summarizes the most important.
-The environment settings are related to the size of the $2D$ matrix, the number of incidents, the distribution of incidents across the matrix, and the number of resources from which to choose. In all of our experiments, except the case study, we set up the $2D$ matrix as a $10$ by $10$ matrix. We show results for incident count of $50$ and number of resources ($M$) of $100$. We varied the environment settings in our experiments and no noticeable differences were observed in performance. Instead, we focus on varying the query settings to better understand the two-stage technique. In this section, we focus on varying the first stage percentage and leave the variation of the $k$ setting to the following section. We also show results for $t\_setting = 30$ which constitutes $30\%$ of the available resources ($M$). We notice that the gap between the performance of our technique and the other techniques increases when $t\_setting$ decreases and all the techniques converge in performance when $t\_setting$ approaches $M$. \par
-We compare the performance of our technique to two alternative selection approaches: Random selection and Dispersion Maximization. To do so, we utilize two different metrics: count of nodes queried in the $KNN$ of incidents, and the number of incidents covered by the nodes queried. The two metrics are formally defined as follows.
+The environment settings are related to the size of the $2D$ matrix, the number of incidents, the distribution of incidents across the matrix, and the number of resources from which to choose. In all of our experiments, except the case study, we set up the $2D$ matrix as a $10$ by $10$ matrix. We show results for incident count of $50$ and number of resources ($M$) of $100$. 
+We varied the environment settings in our experiments and we do not observe any differences in performance. Instead, we focus on varying the query settings to better understand the two-stage technique. In this section, we vary the first stage percentage and leave the variation of the $k$ setting to the following section. We also show results for $t\_setting = 30$, which constitutes $30\%$ of the available resources ($M$). We notice that the gap between the performance of our technique and the other techniques increases when $t\_setting$ decreases, and all the techniques converge in performance when $t\_setting$ approaches $M$. \par
+
+We compare the performance of our technique to two alternative selection approaches: random selection and dispersion maximization. To do so, we utilize two different metrics: count of nodes queried in the $KNN$ of incidents, and the number of incidents covered by the nodes queried. The two metrics are defined as:
 \begin{itemize}
-\item Close node count: This is measured as the absolute number of people/resources in the KNN of each incident for all incidents. This is formally represented as follows:
+\item Close node count: the absolute number of sensors/resources in the KNN of each incident for all incidents. This is formally represented as follows:
 \begin{equation}
 Close\ node\ count = \sum \forall_{incident\ i}\ |(KNN_i \cap {QU})|
 \end{equation}
 where $QU$ (the ``Queried Users'' set) is the set of users selected for querying.
-\item Coverage: measured as the number of incidents covered out of the total number of incidents occurring in the $2D$ matrix. We define an incident as covered if at least one of the nodes in the incident's KNN was queried. This is formally measured as:
+\item Coverage: the number of incidents covered out of the total number of incidents occurring in the $2D$ matrix. We define an incident as covered if at least one of the nodes in the incident's KNN was queried. This is formally measured as:
 \begin{equation}
 Coverage = \sum \forall_{incident\ i}\ Coverage_i\  where,
 \end{equation}
@@ -162,14 +172,45 @@ Coverage = \sum \forall_{incident\ i}\ Coverage_i\  where,
 \]
 \end{itemize}
 \subsection{Clustered data experiments}
-In this section, we aim to test our technique in a scenario where the events take a clustered form. Geographer Waldo R. Tobler's stated in the first law of geography: ``Everything is related to everything else, but near things are more related than distant things.'' In this subsection, we assume that the incidents are related to each other in a clustered way i.e. they form clusters across the $2D$ spatial matrix as seen in Fig~\ref{fig: clust}. \par
+Geographer Waldo R. Tobler's stated in the first law of geography: ``Everything is related to everything else, but near things are more related than distant things.'' In this subsection, we assume that the incidents are related to each other in a clustered way, i.e. they form clusters across the $2D$ spatial matrix as seen in Fig~\ref{fig: clust}. Our goal in this section is to study the performance of the different approaches when the events are clustered.\par
 \begin{figure}[!h]
 \centering
 \includegraphics[width=9cm ,height=5.5cm]{figuresPng/clust.png}
 \caption{An example of a $2D$ spatial matrix with $5$ clusters.}\label{fig: clust}
 \end{figure}
-For this experiment type, we vary the number of clusters in our $2D$ matrix from one to ten clusters while fixing the resources or crowd count to be $100$. To ensure data variability, we model the size of each cluster as a random variable while ensuring that the aggregated size of all the clusters is equal to the crowd count. For each case of number of clusters, we average over $100$ different configurations. Our objective is to measure the effect of variation of the first stage percentage on our performance metrics.\par
-Figure~\ref{fig:clusteredResults} depicts the results for Close node count when varying the first stage percentage from $20\%$ to $80\%$. We notice that our two-stage querying technique always outperforms the Random node selection and the selection based on maximizing the dispersion only. Table~\ref{table:clusteredSurge} depicts the amount of surge in Close node count in comparison to the Random and Dispersion maximization techniques. As the amount of resources queried in the first stage decreases, the close node count increases. This is due to the fact that when the first stage percentage decreases, the second stage resources increase under limited resources constraints, which focuses on resources close to incidents detected in the first stage. On the other hand, incident coverage tends to increase as the first stage count increases. This is depicted in Figure~\ref{fig: clustCoverage}. We also notice that both Close node count and Incident coverage tend to increase with the number of clusters until the number of clusters is around four or five. Then, it decreases.
+
+For this set of experiments, we vary the number of clusters in our $2D$ matrix from one to ten clusters while fixing the resources or crowd count to be $100$. To enforce data variability, we model the size of each cluster as a random variable while ensuring that the aggregated size of all the clusters is equal to the crowd count. For each case of number of clusters, we average over $100$ different configurations. Our objective is to measure the effect of variation of the first stage percentage on our performance metrics.\par
+
+Figure~\ref{fig:clusteredResults} depicts the results for Close node count when varying the first stage percentage (FSP) from $20\%$ to $80\%$. The two-stage querying technique always outperforms the Random node selection and the Dispersion Maximization selection. Table~\ref{table:clusteredSurge} depicts the surge in Close node count in comparison to the Random and Dispersion maximization techniques. As the amount of resources queried in the first stage decreases, the close node count increases. This is due to the fact that when the first stage percentage decreases, the second stage resources increase under limited resources constraints, which focuses on resources close to incidents detected in the first stage. On the other hand, incident coverage tends to increase as the first stage count increases. This is depicted in Figure~\ref{fig: clustCoverage}. Both Close node count and Incident coverage tend to increase with the number of clusters until the number of clusters is around four or five. Then, they decrease.
+
+%Real life examples of clustered events include
+%- Begin by pointing out real-life examples of spatially clustered phenomenon and spatial correlation in general. Lots of social phenomena are spatially dependent. %(https://books.google.com/books?id=jbFRojt85TUC&pg=PA2&lpg=PA2&dq=clustered+phenomena&source=bl&ots=yftMfShveB&sig=XcPOJriI1gineu-%A2YGpoJT3OII&hl=en&sa=X&ved=0ahUKEwiBp4a-s-zKAhUI5WMKHZQ3Cd8Q6AEITzAI#v=onepage&q=clustered%20phenomena&f=false)
+\begin{figure}[!h]
+\centering
+\subcaptionbox{Close node count with $FSP = 20\%$ of available resources. \label{fig: clust_20}}{%
+\includegraphics[width=9.3cm, height=5.5cm]{figuresPng/fsTwentyPerc.png}%
+}\par\medskip
+\subcaptionbox{Close node count with $FSP = 40\%$ of available resources. \label{fig: clust_40}}{%
+\includegraphics[width=9cm, height=4.5cm]{figuresPng/fsFourtyPerc.png}%
+}\par\medskip     
+\subcaptionbox{Close node count with $FSP = 60\%$ of available resources. \label{fig: clust_60}}{%
+  \includegraphics[width=9cm ,height=4.5cm]{figuresPng/fsSixtyPerc.png}%
+}
+\subcaptionbox{Close node count with $FSP = 80\%$ of available resources. \label{fig: clust_80}}{%
+  \includegraphics[width=9cm ,height=4.5cm]{figuresPng/fsEightyPerc.png}%
+}
+\caption{Average number of nodes close to the incidents (Close node count) as FSP varies.}
+\label{fig:clusteredResults}
+\end{figure}
+
+
+\begin{figure}[!h]
+\centering
+\includegraphics[width=9cm ,height=5.5cm]{figuresPng/Coverage_Result.png}
+\caption{Incident coverage for different values of First stage percentage. }
+\label{fig: clustCoverage}
+\end{figure}
+
 \begin{table}[!h]
 \centering
 \begin{tabulary}{0.5\textwidth}{|C|C|C|C|C|}
@@ -181,34 +222,11 @@ Surge over Dispersion Maximization   & $67.8\%$ & $62.32\%$  & $39.8\%$  & $20.6
 \caption{Surge of Two Stage technique in comparison to Random and Dispersion Maximization techniques.}
 \label{table:clusteredSurge}
 \end{table}
-%Real life examples of clustered events include
-%- Begin by pointing out real-life examples of spatially clustered phenomenon and spatial correlation in general. Lots of social phenomena are spatially dependent. %(https://books.google.com/books?id=jbFRojt85TUC&pg=PA2&lpg=PA2&dq=clustered+phenomena&source=bl&ots=yftMfShveB&sig=XcPOJriI1gineu-%A2YGpoJT3OII&hl=en&sa=X&ved=0ahUKEwiBp4a-s-zKAhUI5WMKHZQ3Cd8Q6AEITzAI#v=onepage&q=clustered%20phenomena&f=false)
 \begin{figure}[!h]
-\centering
-\subcaptionbox{Close node count with $FSP = 20\%$ of available resources. \label{fig: clust_20}}{%
-\includegraphics[width=9cm, height=4.5cm]{figuresPng/fsTwentyPerc.png}%
-}\par\medskip
-\subcaptionbox{Close node count with $FSP = 40\%$ of available resources. \label{fig: clust_40}}{%
-\includegraphics[width=9cm, height=4.5cm]{figuresPng/fsFourtyPerc.png}%
-}\par\medskip     
-\subcaptionbox{Close node count with $FSP = 60\%$ of available resources. \label{fig: clust_60}}{%
-  \includegraphics[width=9cm ,height=4.5cm]{figuresPng/fsSixtyPerc.png}%
-}
-\subcaptionbox{Close node count with $FSP = 80\%$ of available resources. \label{fig: clust_80}}{%
-  \includegraphics[width=9cm ,height=4.5cm]{figuresPng/fsEightyPerc.png}%
-}
-\caption{Average number of people close to the incidents (Close node count) as FSP varies.}
-\label{fig:clusteredResults}
-\end{figure}
-\begin{figure}[!h]
-\centering
-\includegraphics[width=9cm ,height=5.5cm]{figuresPng/Coverage_Result.png}
-\caption{Incident coverage for different values of First stage percentage. }
-\label{fig: clustCoverage}
-\end{figure}
+
 \subsection{Uniformly distributed data experiments}
-In this type of experiments, the probability of occurrence of incidents is uniform across the grid i.e. $P_I (j) = P_I (k)$ where $j \neq k$ and $P_I$ denotes the probability of an incident occurring at a specific cell. We generate a $100$ different matrices. We note that in the case that we know that the distribution of the incidents is uniform, the best we can do is to choose $N$ nodes uniformly. Using the two-stage technique, we select $N$ nodes without assuming any distribution about the incidents and check the performance in comparison to the uniform random selection which in this case is the best we can do. Figure~\ref{fig:uniClosePeople} shows that the two-stage technique with $FSP = 20\%$ achieves the highest number of close nodes to the incidents while Figure~\ref{fig:uniIncdCove} shows that the two-stage technique with $FSP = 80\%$ achieves higher coverage that the uniform random policy and it is close to the maximum coverage by an average of $1.32$ incidents.
-\begin{figure}[!h]
+The next step of experiments, the probability of occurrence of incidents is uniform across the grid, i.e. $P_I (j) = P_I (k)$ where $j \neq k$ and $P_I$ denotes the probability of an incident occurring at a specific cell. We randomly generate $100$ different matrices and average the results. We note that if we know that the distribution of the incidents is uniform, the best we can do is to choose $N$ nodes uniformly. Using the two-stage technique, we select $N$ nodes without assuming any distribution about the incidents and check the performance in comparison to the uniform random selection, which yields the best results in terms of close node count. Figure~\ref{fig:uniClosePeople} shows that the two-stage technique with $FSP = 20\%$ achieves the highest number of close node count while Figure~\ref{fig:uniIncdCove} shows that the two-stage technique with $FSP = 80\%$ achieves higher coverage that the uniform random policy and it is close to the maximum coverage by an average of $1.32$ incidents. This shows that our technique can achieve better node selection than the uniform scheme in terms of close node count when $FSP = 20\%$ and achieves better coverage than the uniform scheme in $FSP = 80\%$.
+
 \centering
 \includegraphics[width=9cm ,height=5.5cm]{figuresPng/Uni_ClosePeople_Count.png}
 \caption{Close node count for different values of First stage percentage. }
@@ -220,8 +238,8 @@ In this type of experiments, the probability of occurrence of incidents is unifo
 \caption{Incident coverage for different values of First stage percentage. }
 \label{fig:uniIncdCove}
 \end{figure}
-\subsection{Long Tail Distribution}
-In this subsection, the incidents are generated according to a special case of the Long Tail distribution called the ``Pareto principle''. According to the Pareto principle, we assume that $20\%$ of the matrix cells are home for $80\%$ of the incidents and $80\%$ of the matrix cells are home for $20\%$ of the incidents. We generate a $100$ different matrices applying the Pareto Principle randomly on the cells. We use a random uniform distribution to select $20\%$ of the cells and generate $80\%$ of the incidents uniformly for these cells and vice versa. Figure~\ref{fig:LTClosePeople} shows that the two-stage outperforms both the random policy and the dispersion maximization policy by up to $10.2\%$ and $12.1\%$ respectively in terms of close node count. This is probably due to the clustering of events in only $20\%$ of the grid which means that more than one incident is likely to occur in the same cell. So, if the two-stage technique reaches a node close to an incident in one cell, this same node will cover more than one incident in the same cell. Dispersion maximization achieves the best incident coverage as shown in Figure~\ref{fig:LTIncdCove}. The two- stage technique approaches the maximum incident coverage when $FSP = 80\%$ with a difference of $1.24$ incidents on average.
+\subsection{Long tail distribution}
+In this subsection, the incidents are generated according to a special case of the Long Tail distribution called the ``Pareto principle''. According to the Pareto principle, we assume that $20\%$ of the matrix cells are home for $80\%$ of the incidents while conversly $80\%$ of the matrix cells are home for $20\%$ of the incidents. We generate $100$ different matrices applying the Pareto Principle randomly on the cells. We use a random uniform distribution to select $20\%$ of the cells and generate $80\%$ of the incidents uniformly for these cells and vice versa. Figure~\ref{fig:LTClosePeople} shows that the two-stage outperforms both the random policy and the dispersion maximization policy by up to $10.2\%$ and $12.1\%$, respectively, in terms of close node count. This is due to the clustering of events in only $20\%$ of the grid which means that more than one incident is likely to occur in the same cell. So, if the two-stage technique reaches a node close to an incident in one cell, this same node will cover more than one incident in the same cell. Dispersion maximization achieves the best incident coverage as shown in Figure~\ref{fig:LTIncdCove}. The two- stage technique approaches the maximum incident coverage when $FSP = 80\%$ with a difference of $1.24$ incidents on average.
 \begin{figure}[!h]
 \centering
 \includegraphics[width=9cm ,height=5.5cm]{figuresPng/LT-closePeople.png}
@@ -234,13 +252,14 @@ In this subsection, the incidents are generated according to a special case of t
 \caption{Incident coverage for different values of First stage percentage in the case of a long tail distribution. }
 \label{fig:LTIncdCove}
 \end{figure}
-\subsection{Case Study: Hollaback harassment data set}
+\subsection{Case study: Hollaback harassment data set}
 After applying the two-stage querying technique to the previously mentioned three distributions (clustered, uniform and long-tail), we wish to examine the technique under real incident distributions. To do so, we test our querying technique on a global street harassment dataset provided by Hollaback~\cite{hollaback}.
-\subsubsection{Data Overview}
+\subsubsection{Data overview}
 Hollaback is a non-profit movement powered by local activists in $92$ cities and $32$ countries to end street harassment. The Hollaback project collects data on street harassment events worldwide. Through the Hollaback phone app and the online platform, users can report stories of street harassment to share with the Hollaback community. This empowers victims to speak out about everyday harassment and spread the word about the prevalence of these events. In some communities, local governments are informed in real-time about street harassment so that there is a system-wide level of accountability. In addition, the Hollaback app uses GPS to record a data set that represents the locations of street harassment events as a means of improving the collective understanding of street harassment and how it can be prevented.  As of January $2016$, over $8000$ street harassment incidents have been recorded in their dataset since February $2011$.  It is on this data set that we wish to test the two-stage querying technique.\par
 \subsubsection{Analysis}
-From the Hollaback dataset, we select multiple cities for which we have enough harassment samples for statistical significance (i.e. more than 30 samples). We test the performance of Random selection, Dispersion maximization selection, and the two-stage querying on six different cities: Paris, Brussels, Berlin, Baltimore, Buenos Aires and Istanbul. These cities were in the top ten cities with respect to the number of harassment reports in this dataset. In this paper, we show results for Paris, Brussels, and Istanbul. The results for Berlin, Baltimore, and Buenosaires were consistent with the results shown in this paper. \par
-As a first step, we must parse the Hollaback dataset such that incidents reports are grouped by city. To do so, we use bounding box coordinates. We then draw the border lines for the different cities and remove any outliers from our datasets. Figure~\ref{fig:citiesDistribution} shows the resulting distribution of events for the different cities. The Paris dataset contains $197$ harassment incidents and covers an area of $28.2$ $mi^2$, while the Brussels dataset contains $154$ incidents covering a geographic area of $28.4$ $mi^2$. Istanbul had $87$ reported incidents covering an area of $138$ $mi^2$ on the left of Bosporus Strait and $69$ $mi^2$ on the right. \par
+From the Hollaback dataset, we select cities for which we have enough harassment samples for statistical significance (i.e. more than 30 samples). We test the performance of Random selection, Dispersion maximization selection, and the two-stage querying on six different cities: Paris, Brussels, Berlin, Baltimore, Buenos Aires and Istanbul. These cities were in the top ten cities with respect to the number of harassment reports in this dataset. In this paper, we show results for Paris, Brussels, and Istanbul. The results for Berlin, Baltimore, and Buenos Aires were consistent with the results shown in this paper. \par
+
+As a first step, we must parse the Hollaback dataset such that incidents reports are grouped by city. To do so, we use bounding box coordinates. We then draw the border lines for the different cities and remove any outliers from our datasets. Figure~\ref{fig:citiesDistribution} shows the resulting distribution of events for the three-case study. The Paris dataset contains $197$ harassment incidents and covers an area of $28.2$ $mi^2$, while the Brussels dataset contains $154$ incidents covering a geographic area of $28.4$ $mi^2$. Istanbul has $87$ reported incidents covering an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right. \par
 \begin{figure}[!h]
 \centering
 \subcaptionbox{ Paris. \label{fig: clust_20}}{%
@@ -252,14 +271,14 @@ As a first step, we must parse the Hollaback dataset such that incidents reports
 \subcaptionbox{ Istanbul.\label{fig: clust_60}}{%
   \includegraphics[width=8cm ,height=5cm]{figuresPng/Istanbul.png}%
 }
-\caption{Distribution of harassment incidents across Paris, Brussels and Istanbul.}
+\caption{Distribution of harassment incidents across representative city datasets.}
 \label{fig:citiesDistribution}
 \end{figure}
-For each of the cities, we generate different variations of uniformly distributed crowd ($M = 100$) across the city. In this kind of analysis, the parameters, matrix dimension and incident count, are not generated by our analysis but rather taken from the dataset. In this case, we update the distance metric in Equation~\ref{eq:maxDisp} and use the Haversine formula to calculate the great-circle distance between two points as follows:
+For each of the cities, we generate different variations of uniformly distributed crowds ($M = 100$) across the city. In this kind of analysis, the parameters, matrix dimension and incident count, are not generated by our analysis but rather taken from the dataset. In this case, we update the distance metric in Equation~\ref{eq:maxDisp} and use the Haversine formula to calculate the great-circle distance between two points as follows:
 \begin{equation} \label{eq:maxDisp2}
 d = 2R*atan2(sqrt(a), sqrt(1-a))
 \end{equation}
-where $a$ is calculated as $ \sin ^2((\Delta \phi)/2 ) + \cos(\phi_1)\cos(\phi_2) * \sin ^2((\Delta \lambda)/2 )$, $\Delta \phi$ and $\Delta \lambda$ are calculated as the radian difference between the latitudes, and longitudes respectively, and $R$ is the Earth's radius (mean radius = 6,371km). We measure the Close node count and the Incident Coverage for all three querying techniques and plot the results in Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage}, respectively. We notice that the Two-stage technique outperforms both the Random and Dispersion Maximization in terms of Close node count for all three cities. In terms of incident coverage, Figure~\ref{fig: hollaIncCoverage} shows that dispersion maximization achieves maximum incident coverage. The figure also shows that the two-stage technique can achieve this maximum by setting the first stage percentage to be $80\%$. Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage} suggest that there is an inherent tradeoff between accuracy and coverage under constrained resources which we discuss in detail in later sections. The figures also suggest that the two-stage technique under setting the first stage percentage to be $80\%$, can achieve a balance between accuracy and coverage.\par
+where $a$ is calculated as $ \sin ^2((\Delta \phi)/2 ) + \cos(\phi_1)\cos(\phi_2) * \sin ^2((\Delta \lambda)/2 )$, $\Delta \phi$ and $\Delta \lambda$ are calculated as the radian difference between the latitudes and longitudes, respectively, and $R$ is the Earth's radius (mean radius = 6,371km). We measure the Close node count and the Incident Coverage for all three querying techniques and plot the results in Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage}, respectively. The Two-stage algorithm outperforms both the Random and Dispersion Maximization in terms of Close node count for all three cities. In terms of incident coverage, Figure~\ref{fig: hollaIncCoverage} shows that dispersion maximization achieves maximum incident coverage. The figure also shows that the two-stage technique can achieve this maximum by setting the first stage percentage to be $80\%$. Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage} suggest that there is an inherent tradeoff between accuracy and coverage under constrained resources which we discuss in detail in later sections. The figures also suggest that the two-stage technique when the first stage percentage is $80\%$, can achieve a balance between accuracy and coverage.\par
 \begin{figure}[!h]
 \centering
 \includegraphics[width=9cm ,height=5.5cm]{figuresPng/hollaCloseCnt.png}
@@ -272,14 +291,15 @@ where $a$ is calculated as $ \sin ^2((\Delta \phi)/2 ) + \cos(\phi_1)\cos(\phi_2
 \caption{Incident coverage for different values of First stage percentage. }
 \label{fig: hollaIncCoverage}
 \end{figure}
-\subsection{Stressing the two-stage querying technique (k=1)}
-After applying the two-stage technique to different datasets, we wish to look at how the different selection policies, in terms of identifying the first nearest neighbor to the different incidents. This is beneficial in case of targeting first responders in case of an emergency scenario or just in case of spatial task distribution where you want to select the nearest neighbors to maximize spatial task assignment. This can be viewed as stressing the selection policies in order to determine which one achieves a higher number of first nearest neighbors.\par
-In order to study first nearest neighbors, we examine the real Hollaback datasets for Paris, Brussels, and Istanbul. We examine the total close node count and for each incident, we look if we selected the first nearest neighbor in the queried users set or not. These results can be shown in Table~\ref{table:NNParis}, where NN denotes nearest neighbors, CNC denotes close node count, TS denotes the two-stage querying technique, Bruss denotes Brussels, and Istan denotes Istanbul. For Paris, the two-stage technique achieves a $9.5\%$ surge on average in selecting nearest neighbors in comparison to dispersion maximization and $19\%$ surge in comparison to random selection. For Brussels, the surge is $14.2\%$ and $21.35\%$ in comparison to dispersion maximization and random selection respectively. For Istanbul, the surge percentages were $26.7\%$ and $36.5\%$.
+\subsection{Stressing the two-stage querying algorithm (k=1)}
+After applying the two-stage technique to different datasets, we are interested in checking which schemes were able to query nodes that were the first nearest neighbors to the incidents. This is beneficial, for example, when targeting first responders in an emergency scenario or in a spatial task distribution where you want to select the nearest neighbors to maximize spatial task assignment. This can be viewed as stressing the selection policies in order to determine which achieves a higher number of first nearest neighbors.\par
+
+To study first nearest neighbors, we examine the Hollaback datasets for Paris, Brussels, and Istanbul. We examine the total close node count and for each incident, we determine whether we selected the first nearest neighbor in the queried users set. These results are shown in Table~\ref{table:NNParis}, where NN denotes nearest neighbors, CNC denotes close node count, and TS denotes the two-stage querying technique. For Paris, the two-stage technique achieves a $9.5\%$ surge on average in selecting nearest neighbors in comparison to dispersion maximization and $19\%$ surge in comparison to random selection. For Brussels (Bruss), the surge is $14.2\%$ and $21.35\%$ in comparison to dispersion maximization and random selection, respectively. For Istanbul (Istan), the surge percentages were $26.7\%$ and $36.5\%$.
 \begin{table}[!h]
 \centering
 \begin{tabulary}{0.5\textwidth}{|C|C|C|C|C|C|C|}
 \hline
-City & Random & Maximize & TS ($FSP = 0.2$) & TS ($FSP = 0.4$)  & TS ($FSP = 0.6$)  &TS ($FSP = 0.8$)   \\ \hline
+City & Random & DispMax & TS ($FSP = 0.2$) & TS ($FSP = 0.4$)  & TS ($FSP = 0.6$)  &TS ($FSP = 0.8$)   \\ \hline
 Paris-NN & $58$ & $63$  & $54$  & $69$ & $69$ & $84$  \\ \hline
 Paris-CNC   & $300$ & $298$  & $281$  & $328$ & $343$ & $399$  \\ \hline
 Bruss-NN & $48$ & $51$  & $55$  & $58$ & $55$ & $65$  \\ \hline
@@ -292,14 +312,15 @@ Istan-CNC   & $131$ & $132$  & $190$  & $188$ & $188$ & $184$  \\ \hline
 \end{table}
 \section{Discussion}
 \subsection{Tradeoff}
-In the previous section, we examined the performance of the two-stage querying technique and we observed that as $FSP$ decreases, the number of close node count tend to increases. We also observed that in this case the same node can be in the K nearest neighbors for multiple incidents. This means that the algorithm tends to select central nodes that are in proximity with other incidents. This is beneficial in cases where the centrality of nodes is important to the problem, e.g. minimizing trip costs to these incidents and maximizing task assignments. This observation ensures diversity of the feedback i.e. instead of relying on a small number of nodes close to the incidents, we have a greater sample that can contribute to the measurement.
-On the other hand, as $FSP$ increases so does the probability of catching more incidents in the spatial environment which is crucial in applications where coverage is important and where a false positive is less expensive than a false negative. This is due to the fact that more nodes are selected in the first stage and fewer nodes in the second phase. The conclusion is that under resource constrained conditions, there is a tradeoff between accuracy and coverage.
+In the previous section, we examined the performance of the two-stage querying technique in a variety of incident and node/user configurations and we observed that as $FSP$ decreases, the close node count tends to increase. We also observed that in this case the same node can be in the K nearest neighbors for multiple incidents. This means that the algorithm tends to select central nodes that are in proximity with other incidents. This is beneficial in cases where the centrality of nodes is important to the problem, e.g. minimizing trip costs to these incidents and maximizing task assignments. This observation ensures diversity/accuracy of the feedback, i.e., instead of relying on a small number of nodes close to the incidents, we have a greater sample that can contribute to the measurement.
+On the other hand, as $FSP$ increases so does the probability of catching more incidents in the spatial environment, which is crucial in applications where coverage is important and where a false positive is less expensive than a false negative. This is due to the fact that more nodes are selected in the first stage and fewer nodes in the second phase. It is no surprise, under resource constrained conditions, there is a tradeoff between accuracy and coverage.
+
 \subsection{Technique variants}
-\subsubsection{Trust based responses}
-In our second stage of our algorithm, we select users based on the pivot nodes that provided a positive feedback in the first stage. To incorporate trust into the algorithm, trust-based algorithms can provide feedback about certain nodes and their feedback. If some of the nodes queried in the first stage of the algorithm were deemed trust unworthy, the second stage can be divided among two querying parts. The first part is the KNN for the trustworthy-nodes and a second attempt of dispersion maximization. 
+\subsubsection{Trust-based responses}
+In our second stage of our algorithm, we select users based on the pivot nodes that provide a positive feedback in the first stage. To incorporate trust into the algorithm, trust-based algorithms can provide feedback about certain nodes and their feedback. If some of the nodes queried in the first stage of the algorithm were deemed trust unworthy, the second stage can be divided into two querying steps. The first step is the KNN for the trustworthy-nodes, and the second is determining dispersion maximization. 
 \subsubsection{Prior knowledge availability}
-The two-stage querying technique does not assume any knowledge about the distribution of events. Given some prior info about the distribution, the algorithm can be tailored to take the prior distribution into account. The idea is to divide the spatial area into bounding regions and for each region we give a specific weight that reflects the probability of occurrence in that bounding regions.
-For example, Figure~\ref{fig: BaltimoreRegions} shows Baltimore divided into four bounding regions denoted as br1, br2, br3, and br4. Using the knowledge that br3 has more incidents than br2 which has more incidents than br1 and br4, a higher weight should be given to br3. In particular, $br3_w > br3_w> br4_w> br1_w$ where the subscript $w$ denotes the weight assigned to the bounding region. The next step would be applying the algorithm on the different bounding regions taking into account the weights assigned when allocation resources as shown in~\ref{TSBR}.
+The two-stage querying technique does not assume any knowledge about the distribution of events. Given some prior information about the distribution, the algorithm can be tailored to take the prior distribution into account. The idea is to divide the spatial area into bounding regions and for each region we give a specific weight that reflects the probability of occurrence in that bounding regions.
+For example, Figure~\ref{fig: BaltimoreRegions} shows Baltimore divided into four bounding regions denoted as br1, br2, br3, and br4. Using the knowledge that br3 has more incidents than br2, which has more incidents than br1 and br4, a higher weight should be given to br3. In particular, $br3_w > br2_w> br4_w> br1_w$ where the subscript $w$ denotes the weight assigned to the bounding region. The next step would be to apply the algorithm on the different bounding regions taking into account the weights assigned when allocation resources as shown in Algorithm~\ref{TSBR}.
 \begin{algorithm}
 \caption{Bounding regions two-stage variation.}
 \label{TSBR}
@@ -323,8 +344,9 @@ For example, Figure~\ref{fig: BaltimoreRegions} shows Baltimore divided into fou
 \label{fig: BaltimoreRegions}
 \end{figure}
 \section{Conclusion}
-This paper proposed a two-stage spatial querying technique that attempts to probe nodes that are closer to the incidents in a $2D$ spatial environment. The algorithm maximizes the dispersion of location in the first stage and selects the K nearest neighbors in the second stage based on nodes' feedback. The experimental evaluation confirms the applicability of proposed approach.
-Important aspects that need to be taken into consideration include the sensing range and the sensing accuracy of the nodes. Nodes with accurate sensing and larger sensing ranges will provide a more robust effect on the two-stage technique. Another important parameter that can impact the performance of the technique is the distribution of the available nodes in the spatial environment. To ensure an optimal performance, nodes should be placed uniformly in the environment if the incident distribution is not known or following an approximate distribution of the incidents. Another important factor when choosing the number of nodes to query is the granularity of the incidents. For instance, when using human as sensors, incidents such as disasters can be sensed/detected by a lot of people in the range of the incident. On the other hand, incidents such as harassment require the presence of the human being at the same exact place of the incident otherwise, the incident would not be detected.
+This paper proposed a two-stage spatial querying technique that attempts to probe nodes that are closer to the incidents in a $2D$ spatial environment. The algorithm maximizes the dispersion of location in the first stage and selects the K nearest neighbors in the second stage based on node feedback. The experimental evaluation confirms the applicability of proposed approach.
+Important aspects that need to be taken into consideration include the sensing range and the sensing accuracy of the nodes. Nodes with accurate sensing and larger sensing ranges will provide more robustness to the two-stage technique. Another important parameter that can impact the performance of the technique is the distribution of the available nodes in the spatial environment. To ensure an optimal performance, nodes should be placed uniformly in the environment if the incident distribution is not known or following an approximate distribution of the incidents. The node placement can be controlled for some senors like traffic or agriculture sensors while in other cases it is hard to be controlled especially when human participation is involved. In that case, there are no gurantees that humans as sensors will be uniformly distributed across the spatial area under investigation. Another important factor when choosing the number of nodes to query is the granularity of the incidents. For instance, when using human as sensors, incidents such as disasters can likely be sensed/detected by numerous people in the range of the incident. On the other hand, incidents such as street harassment require the presence of the human at the same exact place of the incident; otherwise, the incident is unlikely to be detected.
+
 \section{Acknowledgments}
 The authors would like to thank Hollaback for sharing their collected dataset and taking the time to answer questions.
 \bibliographystyle{abbrv}
