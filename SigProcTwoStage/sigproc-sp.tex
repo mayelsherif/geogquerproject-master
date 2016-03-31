@@ -89,11 +89,6 @@ Our technique combines querying users to maximize the dispersion of their locati
 \begin{equation} \label{eq:maxDisp}
 \argmax \sum_{i=1}^{\floor{(FSP*N)}} \norm{p(i) - NN(p(i))}^2
 \end{equation}
-
-where $p$ represents a point in the $2D$ grid and $NN$ represents the nearest neighbor; the distance is measured as the Euclidean distance. The algorithm attempts to maximize the dispersion with a percentage of the $N$ resources up a certain number of trials controlled by the ``maximization trials'' setting as explained in Table~\ref{table:systemParameters}. \par
-After the dispersin maximization phase, we query the sensors that were selected and look at the feedback of these sensors. The feedback provided is application dependant. For some applications, the query can be in the form of probing for measurement and if that measurement exceeds a certain threhold, the system marks this as a positive feedback of the incident under investigation. In other applications such as in the case of emergency sitiuations, the query is usually a simple yes-no question. An example is in~\cite{crooks2013earthquake}, when an earthquake occured at the East Coast in the US in 2011, the query was the question ``Did You Feel It?'' (DYFI). Based on the senors/objects feedback in the first stage, we then proceed to a more fine-grained selection. The objects that provide a positive feedback, where the definition of a positive feedback is application dependant, are called the \textit{pivot users}. In our experiments, we simulate the positive feedback. A node will provide a positive feedback if it is in the kNN of one or more incidents in the grid. The positive feedback does not contain any information about the number or location of incidents. In the second stage, we divide the rest of the resources among the nearest neighbors for each of the pivot users. If no nodes provide a positive feedback, the second stage maximizes the dispersion of the location of nodes with the rest of the available resources. \par
-
-This initial algorithm assumes that the first stage users will respond with unfalsified responses. To relax this assumption, we explore dividing the selection of the second phase users into two groups: a group that consists of the $KNN$ of trusted pivot users, and another group that aims to maximize the dispersion. In the next section, we focus on studying our two-stage querying algorithm with the assumption of having full trust in the crowd and discuss other variants of the technique in Section 5.\par
 \begin{algorithm}
 \caption{Two-stage querying algorithm}
 \label{TSalgorithm}
@@ -118,6 +113,12 @@ This initial algorithm assumes that the first stage users will respond with unfa
 \end{algorithmic}
 \end{algorithm}
 
+
+where $p$ represents a point in the $2D$ grid and $NN$ represents the nearest neighbor; the distance is measured as the Euclidean distance. The algorithm attempts to maximize the dispersion with a percentage of the $N$ resources up a certain number of trials controlled by the ``maximization trials'' setting as explained in Table~\ref{table:systemParameters}. \par
+After the dispersin maximization phase, we query the sensors that were selected and look at the feedback of these sensors. The feedback provided is application dependant. For some applications, the query can be in the form of probing for measurement and if that measurement exceeds a certain threhold, the system marks this as a positive feedback of the incident under investigation. In other applications such as in the case of emergency sitiuations, the query is usually a simple yes-no question. An example is in~\cite{crooks2013earthquake}, when an earthquake occured at the East Coast in the US in 2011, the query was the question ``Did You Feel It?'' (DYFI). Based on the senors/objects feedback in the first stage, we then proceed to a more fine-grained selection. The objects that provide a positive feedback, where the definition of a positive feedback is application dependant, are called the \textit{pivot users}. In our experiments, we simulate the positive feedback. A node will provide a positive feedback if it is in the kNN of one or more incidents in the grid. The positive feedback does not contain any information about the number or location of incidents. In the second stage, we divide the rest of the resources among the nearest neighbors for each of the pivot users. If no nodes provide a positive feedback, the second stage maximizes the dispersion of the location of nodes with the rest of the available resources. \par
+
+This initial algorithm assumes that the first stage users will respond with unfalsified responses. To relax this assumption, we explore dividing the selection of the second phase users into two groups: a group that consists of the $KNN$ of trusted pivot users, and another group that aims to maximize the dispersion. In the next section, we focus on studying our two-stage querying algorithm with the assumption of having full trust in the crowd and discuss other variants of the technique in Section 5.\par
+
 \begin{table}{}
 \centering
 \begin{tabulary}{0.5\textwidth}{|L|}
@@ -139,7 +140,6 @@ This initial algorithm assumes that the first stage users will respond with unfa
 \caption{Parameters of the two-stage querying algorithm.}
 \label{table:systemParameters}
 \end{table}
-
 
 \section{Experiments}
 To quantify the performance of our technique, we perform multiple experiments with three types of data spread: clustered, uniform and real datasets. In our experiments, we compare our algorithm in the selection of users to two alternative approaches as follows:
@@ -188,16 +188,16 @@ Figure~\ref{fig:clusteredResults} depicts the results for Close node count when 
 \begin{figure}[!h]
 \centering
 \subcaptionbox{Close node count with $FSP = 20\%$ of available resources. \label{fig: clust_20}}{%
-\includegraphics[width=9.3cm, height=5.5cm]{figuresPng/fsTwentyPerc.png}%
+\includegraphics[width=9cm, height=4.5cm]{figuresPng/fsTwentyPerc.png}%
 }\par\medskip
 \subcaptionbox{Close node count with $FSP = 40\%$ of available resources. \label{fig: clust_40}}{%
 \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsFourtyPerc.png}%
 }\par\medskip     
 \subcaptionbox{Close node count with $FSP = 60\%$ of available resources. \label{fig: clust_60}}{%
-  \includegraphics[width=9cm ,height=4.5cm]{figuresPng/fsSixtyPerc.png}%
+  \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsSixtyPerc.png}%
 }
 \subcaptionbox{Close node count with $FSP = 80\%$ of available resources. \label{fig: clust_80}}{%
-  \includegraphics[width=9cm ,height=4.5cm]{figuresPng/fsEightyPerc.png}%
+  \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsEightyPerc.png}%
 }
 \caption{Average number of nodes close to the incidents (Close node count) as FSP varies.}
 \label{fig:clusteredResults}
@@ -253,22 +253,23 @@ In this subsection, the incidents are generated according to a special case of t
 \label{fig:LTIncdCove}
 \end{figure}
 \subsection{Case study: Hollaback harassment data set}
-After applying the two-stage querying technique to the previously mentioned three distributions (clustered, uniform and long-tail), we wish to examine the technique under real incident distributions. To do so, we test our querying technique on a global street harassment dataset provided by Hollaback~\cite{hollaback}.
+After applying the two-stage querying technique to the previously mentioned three distributions (clustered, uniform and long-tail), we wish to examine the technique under real incident distributions. To do that, we test our querying technique on a global street harassment dataset provided by Hollaback~\cite{hollaback}.
 \subsubsection{Data overview}
 Hollaback is a non-profit movement powered by local activists in $92$ cities and $32$ countries to end street harassment. The Hollaback project collects data on street harassment events worldwide. Through the Hollaback phone app and the online platform, users can report stories of street harassment to share with the Hollaback community. This empowers victims to speak out about everyday harassment and spread the word about the prevalence of these events. In some communities, local governments are informed in real-time about street harassment so that there is a system-wide level of accountability. In addition, the Hollaback app uses GPS to record a data set that represents the locations of street harassment events as a means of improving the collective understanding of street harassment and how it can be prevented.  As of January $2016$, over $8000$ street harassment incidents have been recorded in their dataset since February $2011$.  It is on this data set that we wish to test the two-stage querying technique.\par
 \subsubsection{Analysis}
 From the Hollaback dataset, we select cities for which we have enough harassment samples for statistical significance (i.e. more than 30 samples). We test the performance of Random selection, Dispersion maximization selection, and the two-stage querying on six different cities: Paris, Brussels, Berlin, Baltimore, Buenos Aires and Istanbul. These cities were in the top ten cities with respect to the number of harassment reports in this dataset. In this paper, we show results for Paris, Brussels, and Istanbul. The results for Berlin, Baltimore, and Buenos Aires were consistent with the results shown in this paper. \par
 
-As a first step, we must parse the Hollaback dataset such that incidents reports are grouped by city. To do so, we use bounding box coordinates. We then draw the border lines for the different cities and remove any outliers from our datasets. Figure~\ref{fig:citiesDistribution} shows the resulting distribution of events for the three-case study. The Paris dataset contains $197$ harassment incidents and covers an area of $28.2$ $mi^2$, while the Brussels dataset contains $154$ incidents covering a geographic area of $28.4$ $mi^2$. Istanbul has $87$ reported incidents covering an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right. \par
+As a first step, we must parse the Hollaback dataset such that incidents reports are grouped by city. To do so, we use bounding box coordinates. We then draw the border lines for the different cities and remove any outliers from our datasets. Figure~\ref{fig:citiesDistribution} shows the resulting distribution of events for the three-case study. \par
+%The Paris dataset contains , while the Brussels dataset contains $154$ incidents covering a geographic area of $28.4$ $mi^2$. Istanbul has $87$ reported incidents covering an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right. \par
 \begin{figure}[!h]
 \centering
-\subcaptionbox{ Paris. \label{fig: clust_20}}{%
+\subcaptionbox{ Paris: $197$ harassment incidents and covering an area of $28.2$ $mi^2$. \label{fig: clust_20}}{%
 \includegraphics[width=8cm, height=5cm]{figuresPng/Paris.png}%
 }\par\medskip
-\subcaptionbox{Brussels.\label{fig: clust_40}}{%
+\subcaptionbox{Brussels: $154$ incidents covering an area of $28.4$ $mi^2$.\label{fig: clust_40}}{%
 \includegraphics[width=8cm, height=5cm]{figuresPng/Brussels.png}%
 }\par\medskip     
-\subcaptionbox{ Istanbul.\label{fig: clust_60}}{%
+\subcaptionbox{ Istanbul: $87$ reported incidents covering an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right.\label{fig: clust_60}}{%
   \includegraphics[width=8cm ,height=5cm]{figuresPng/Istanbul.png}%
 }
 \caption{Distribution of harassment incidents across representative city datasets.}
@@ -276,18 +277,18 @@ As a first step, we must parse the Hollaback dataset such that incidents reports
 \end{figure}
 For each of the cities, we generate different variations of uniformly distributed crowds ($M = 100$) across the city. In this kind of analysis, the parameters, matrix dimension and incident count, are not generated by our analysis but rather taken from the dataset. In this case, we update the distance metric in Equation~\ref{eq:maxDisp} and use the Haversine formula to calculate the great-circle distance between two points as follows:
 \begin{equation} \label{eq:maxDisp2}
-d = 2R*atan2(sqrt(a), sqrt(1-a))
+d = 2R*atan2(\sqrt{a}, \sqrt{1-a})
 \end{equation}
 where $a$ is calculated as $ \sin ^2((\Delta \phi)/2 ) + \cos(\phi_1)\cos(\phi_2) * \sin ^2((\Delta \lambda)/2 )$, $\Delta \phi$ and $\Delta \lambda$ are calculated as the radian difference between the latitudes and longitudes, respectively, and $R$ is the Earth's radius (mean radius = 6,371km). We measure the Close node count and the Incident Coverage for all three querying techniques and plot the results in Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage}, respectively. The Two-stage algorithm outperforms both the Random and Dispersion Maximization in terms of Close node count for all three cities. In terms of incident coverage, Figure~\ref{fig: hollaIncCoverage} shows that dispersion maximization achieves maximum incident coverage. The figure also shows that the two-stage technique can achieve this maximum by setting the first stage percentage to be $80\%$. Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage} suggest that there is an inherent tradeoff between accuracy and coverage under constrained resources which we discuss in detail in later sections. The figures also suggest that the two-stage technique when the first stage percentage is $80\%$, can achieve a balance between accuracy and coverage.\par
 \begin{figure}[!h]
 \centering
-\includegraphics[width=9cm ,height=5.5cm]{figuresPng/hollaCloseCnt.png}
+\includegraphics[width=9cm ,height=6cm]{figuresPng/hollaCloseCnt.png}
 \caption{Close node count for different values of First stage percentage. }
 \label{fig: hollaCloseCount}
 \end{figure}
 \begin{figure}[!h]
 \centering
-\includegraphics[width=9cm ,height=5.5cm]{figuresPng/citiesInc.png}
+\includegraphics[width=9cm ,height=6cm]{figuresPng/citiesInc.png}
 \caption{Incident coverage for different values of First stage percentage. }
 \label{fig: hollaIncCoverage}
 \end{figure}
@@ -307,7 +308,7 @@ Bruss-CNC   & $233$ & $237$  & $286$  & $303$ & $288$ & $322$  \\ \hline
 Istan-NN & $26$ & $28$  & $36$  & $37$ & $35$ & $36$  \\ \hline
 Istan-CNC   & $131$ & $132$  & $190$  & $188$ & $188$ & $184$  \\ \hline
 \end{tabulary}
-\caption{Nearest neighbors and close node count for Paris, Brussels, and Istanbul.}
+\caption{First nearest neighbors (NN) count and close node count for Paris, Brussels, and Istanbul.}
 \label{table:NNParis}
 \end{table}
 \section{Discussion}
