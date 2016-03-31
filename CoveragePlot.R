@@ -18,14 +18,22 @@ firstStage_0.8_rounded = c(86, 87, 88, 89, 91, 91, 89, 88, 90, 89)
 
 df1 <- data.frame(Clust_Cnt = factor(c(rep(clust_cnt, 4))),
                   Incident_Coverage = c(firstStage_0.2_rounded, firstStage_0.4_rounded, firstStage_0.6_rounded, firstStage_0.8_rounded), 
-                  Query_type = factor(rep(c("firstStage0.2","firstStage0.4","firstStage0.6","firstStage0.8"), each=10)))
+                  Query_type = factor(rep(c("FSP = 20%","FSP = 40%","FSP = 60%","FSP = 80%"), each=10)))
 df1
 
 
 # Map sex to color
-ggplot(data=df1, aes(x=Clust_Cnt, y=Incident_Coverage, group=Query_type, colour=Query_type, shape = Query_type)) +
+ggplot(data=df1, aes(x=Clust_Cnt, y=Incident_Coverage, group=Query_type, colour=Query_type)) +
   geom_line(size=1.5) +
-  geom_point(size=3)
+  geom_point(size=3)+
+  labs(x = "Number of clusters", y = "Incident Coverage", linetype='Query Type:')+
+  theme(axis.title.y = element_text(size = 16, face = 'bold'), axis.title.x = element_text(size = 16, face = 'bold'), axis.text.x = element_text(size = 14, face = 'bold'))+
+  scale_fill_discrete(name = "Query Type:") + theme(legend.text=element_text(size=16, face = 'bold'), legend.title = element_text(size=16, face = 'bold')) + theme(legend.position="top")
+
+
+
+
+
 
 
 ### reshape this to give a column indicating group
