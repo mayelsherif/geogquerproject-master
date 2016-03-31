@@ -35,21 +35,21 @@
 % 1st. author
 \alignauthor
 Mai ElSherief\\
-   \affaddr{Dept. of Computer Science }\\
-   \affaddr{UC Santa Barbara}\\
-  %\affaddr{Santa Barbara, CA}\\
-   \email{mayelsherif@cs.ucsb.edu}   
-   \alignauthor
+  \affaddr{Dept. of Computer Science }\\
+  \affaddr{UC Santa Barbara}\\
+ %\affaddr{Santa Barbara, CA}\\
+  \email{mayelsherif@cs.ucsb.edu}  
+  \alignauthor
 Ramya Raghavendra\\
-   \affaddr{IBM T. J. Watson Research Center }\\
-   \email{rraghav@us.ibm.com}
+  \affaddr{IBM T. J. Watson Research Center }\\
+  \email{rraghav@us.ibm.com}
 % 2nd. author
 \alignauthor
 Elizabeth Belding\\
-  \affaddr{Dept. of Computer Science }\\
-   \affaddr{UC Santa Barbara}\\
-   %\affaddr{Santa Barbara, CA}\\
-   \email{ebelding@cs.ucsb.edu}
+ \affaddr{Dept. of Computer Science }\\
+  \affaddr{UC Santa Barbara}\\
+  %\affaddr{Santa Barbara, CA}\\
+  \email{ebelding@cs.ucsb.edu}
 }
 \maketitle
 \begin{abstract}
@@ -58,7 +58,7 @@ In this paper, we propose a two-stage node selection algorithm for resource cons
 %\category{H.1.2}{User/Machine Systems}{Human information processing}
 %\keywords{Street harassment, Urban analysis, Walkability score, Transit Score, Transit route }
 \section{Introduction}
-Sensors have become an integral part of daily life. The common smartphone includes a variety of different sensors, such as camera, microphone, GPS, accelerometer, digital compass, light sensor, and Bluetooth as proximity sensor. The ubiquity of sensors is also prevalent in the urban environment. Examples include traffic sensors, agriculture sensors, wireless parking sensors, infrastructure sensors, weather, and pollution sensors. Data analysis of such sensors can hold important observations. For instance, ~\cite{ferreira2013visual} leverages the geographic and temporal data associated with taxis in NYC to gain insight into many different aspects of city life, from economic activity and human behavior to mobility patterns. When combined with crowdsourcing of humans senses, critical data can be generated about surroundings. One example is the application ``Waze'', where users can report traffic jams, accidents and other road related incidents in real-time. The work in~\cite{agapie2015crowdsourcing} uses local workers to collect data at events and remote workers to curate the collected information and generate event reports.\par
+Sensors have become an integral part of daily life. The common smartphone includes a variety of different sensors, such as camera, microphone, GPS, accelerometer, digital compass, light sensor, and Bluetooth as a proximity sensor. The ubiquity of sensors is also prevalent in the urban environment. Examples include traffic sensors, agriculture sensors, wireless parking sensors, infrastructure sensors, weather, and pollution sensors. Data analysis of such sensors can hold important observations. For instance, ~\cite{ferreira2013visual} leverages the geographic and temporal data associated with taxis in NYC to gain insight into many different aspects of city life, from economic activity and human behavior to mobility patterns. When combined with crowdsourcing of humans senses, critical data can be generated about surroundings. One example is the application ``Waze'', where users can report traffic jams, accidents and other road related incidents in real-time. The work in~\cite{agapie2015crowdsourcing} uses local workers to collect data at events and remote workers to curate the collected information and generate event reports.\par
 
 Despite the ubiquity of human and device sensors, the challenges of energy preservation and resource constraints are always present. The truth is that all systems are bound by a fixed amount of resources. For instance,~\cite{marco2003many} and~\cite{pattem2008impact} focus on eliminating redundancies among correlated sensor measurements. \par
 
@@ -66,9 +66,9 @@ In this paper, we investigate the problem of how we can probe a limited subset o
 Our contribution in this paper is three-fold. First, we propose a two-stage matching algorithm that probes/queries $N$ nodes out of $M$ available nodes to track a real-time phenomenon with no prior information about the event distribution. The algorithm outperforms the random user selection by up to $63\%$ in terms of choosing nodes chosen that are closer to the events and outperforms the dispersion maximization algorithm by up to $68\%$. Secondly, we study the performance of our proposed algorithm under three different distributions: uniform, clustered and long-tailed. We then test the algorithm on a real dataset that is comprised of harassment cities in three different cities. Third, we discuss how the algorithm can be altered based on trust variations and prior knowledge availability.\par
 The rest of this paper is organized as follows. Section 2 surveys the related work while Section 3 describes the proposed two-stage algorithm. Section 4 experimentally evaluates the proposed algorithm, and Section 5 discusses tradeoffs and variations of the two-stage algorithm. Section 6 concludes the paper.
 \section{Related Work}
-Since the introduction of ``crowdsourcing'' as a modern business term in 2006~\cite{howe2006rise}, a significant body of work has been dedicated to the study and implementation of crowdsourcing in real life applications. In particular, spatial crowd sourcing, where crowd participation is bound by a particular geographic area, has received significant attention~\cite{kazemi2012geocrowd, deng2013maximizing, yu2015quality}. For instance, ~\cite{liu2013using} introduces a location-based real-time social question answering service, where users can ask temporal and geo-sensitive questions and then receive answers that are crowdsourced in a timely fashion. A crowdsensing platform was introduced in~\cite{cardone2013fostering} to facilitate the collaboration of large groups of people participating in collective actions of urban crowdsourcing.\par
+Since the introduction of ``crowdsourcing'' as a modern business term in 2006~\cite{howe2006rise}, a significant body of work has been dedicated to the study and implementation of crowdsourcing in real life applications. In particular, spatial crowdsourcing, where crowd participation is bound to a particular geographic area, has received significant attention~\cite{kazemi2012geocrowd, deng2013maximizing, yu2015quality}. For instance, ~\cite{liu2013using} introduces a location-based real-time social question answering service, where users can ask temporal and geo-sensitive questions and then receive answers that are crowdsourced in a timely fashion. A crowdsensing platform was introduced in~\cite{cardone2013fostering} to facilitate the collaboration of large groups of people participating in collective actions of urban crowdsourcing.\par
 
-Using people as sensors, collective sensing and citizen science have opened doors for interesting research problems. Some of these challenges are introduced in~\cite{blaschke2011collective}. One important challenge in geo-crowd sensing is detecting unusual events. The work proposed in~\cite{lee2010measuring} leverages microblogging websites such as Twitter to detect unusual geo-social events by identifying unusually crowded regions. Another challenge is the refinement of crowd sensed data and detection of fake data. Solutions based on a user's history and reputation have been introduced in the literature. The work in~\cite{yu2013reputation} proposes a reputation-aware model that balances the workload between users. Another challenge is fusing untrustworthy estimates~\cite{venanzi2013trust}. Taking into account spatial properties, ~\cite{venanzi2013crowdsourcing} tackles the problem of merging multiple spatial observations reported by possibly untrustworthy users using a heteroskedastic Gaussian process model.\par
+Using people as sensors, collective sensing, and citizen science have opened doors for interesting research problems. Some of these challenges are introduced in~\cite{blaschke2011collective}. One important challenge in geo-crowd sensing is detecting unusual events. The work proposed in~\cite{lee2010measuring} leverages microblogging websites such as Twitter to detect unusual geo-social events by identifying unusually crowded regions. Another challenge is the refinement of crowd sensed data and detection of fake data. Solutions based on a user's history and reputation have been introduced in the literature. The work in~\cite{yu2013reputation} proposes a reputation-aware model that balances the workload between users. Another challenge is fusing untrustworthy estimates~\cite{venanzi2013trust}. Taking into account spatial properties, ~\cite{venanzi2013crowdsourcing} tackles the problem of merging multiple spatial observations reported by possibly untrustworthy users using a heteroskedastic Gaussian process model.\par
 
 Another related body of work is sensor networks~\cite{akyildiz2002survey} that include spatially and ubiquitously distributed autonomous sensors used to monitor physical and environmental conditions. Since the sensors are typically small, low-powered nodes, resource-constrained protocols emerged to preserve the energy of these devices. Examples of work targeting energy preservation include, but are not limited to~\cite{sallai2004acoustic}, where the authors achieve geographic localization using noise tolerant acoustic ranging mechanism to meet severe resource constraints. In~\cite{krishnamachari2002impact}, data aggregation methods were introduced and achieved significant performance gains in comparison to end to end routing. The work proposed in~\cite{fontugne2013strip} implements a system that analyzes sensor behaviors and uncovers misbehavior corresponding to inefficient device usage that leads to energy waste. In contrast, our work focuses on the how to choose sensors to query based on their location while constraining the number of probes to a portion of the total number of sensors hence, preserving energy.
 
@@ -92,22 +92,22 @@ Our technique combines querying users to maximize the dispersion of their locati
 \begin{algorithm}
 \caption{Two-stage querying algorithm}
 \label{TSalgorithm}
- \begin{algorithmic}[1]
-     \Function{selectUsersFromGrid }{$FSP, N$}
-         \State selectedUsers = $\left\{\right\}$
-         \State firstStageCnt = $\floor{(FSP*N)}$
-         \State secondStageCnt = $M - firstStageCnt$
-         \State firstStageUsers = maximizeDisp(firstStageCnt)
-         \State usersFeedback = feedback(firstStageUsers)
-         \If {usersFeedback.size == 0}
-                \State selectedUsers = maximizeDisp(secondStageCnt){}
-         \Else
-             \State {selectedUsers.append(firstStageUsers)}
-         \EndIf 
-       \State firstStageQuota = calculateQuota(firstStageUsers)
-       \For{$user_i$ in firstStageUsers}
-     \State selectedUsers.append(KNN($user_i$, $firstStageQuota_i$))
-   \EndFor
+\begin{algorithmic}[1]
+    \Function{selectUsersFromGrid }{$FSP, N$}
+        \State selectedUsers = $\left\{\right\}$
+        \State firstStageCnt = $\floor{(FSP*N)}$
+        \State secondStageCnt = $M - firstStageCnt$
+        \State firstStageUsers = maximizeDisp(firstStageCnt)
+        \State usersFeedback = feedback(firstStageUsers)
+        \If {usersFeedback.size == 0}
+               \State selectedUsers = maximizeDisp(secondStageCnt){}
+        \Else
+            \State {selectedUsers.append(firstStageUsers)}
+        \EndIf
+      \State firstStageQuota = calculateQuota(firstStageUsers)
+      \For{$user_i$ in firstStageUsers}
+    \State selectedUsers.append(KNN($user_i$, $firstStageQuota_i$))
+  \EndFor
 \State return {selectedUsers}
 \EndFunction
 \end{algorithmic}
@@ -115,7 +115,7 @@ Our technique combines querying users to maximize the dispersion of their locati
 
 
 where $p$ represents a point in the $2D$ grid and $NN$ represents the nearest neighbor; the distance is measured as the Euclidean distance. The algorithm attempts to maximize the dispersion with a percentage of the $N$ resources up a certain number of trials controlled by the ``maximization trials'' setting as explained in Table~\ref{table:systemParameters}. \par
-After the dispersin maximization phase, we query the sensors that were selected and look at the feedback of these sensors. The feedback provided is application dependant. For some applications, the query can be in the form of probing for measurement and if that measurement exceeds a certain threhold, the system marks this as a positive feedback of the incident under investigation. In other applications such as in the case of emergency sitiuations, the query is usually a simple yes-no question. An example is in~\cite{crooks2013earthquake}, when an earthquake occured at the East Coast in the US in 2011, the query was the question ``Did You Feel It?'' (DYFI). Based on the senors/objects feedback in the first stage, we then proceed to a more fine-grained selection. The objects that provide a positive feedback, where the definition of a positive feedback is application dependant, are called the \textit{pivot users}. In our experiments, we simulate the positive feedback. A node will provide a positive feedback if it is in the kNN of one or more incidents in the grid. The positive feedback does not contain any information about the number or location of incidents. In the second stage, we divide the rest of the resources among the nearest neighbors for each of the pivot users. If no nodes provide a positive feedback, the second stage maximizes the dispersion of the location of nodes with the rest of the available resources. \par
+After the dispersion maximization phase, we query the sensors that were selected and look at the feedback of these sensors. The feedback provided is application dependent. For some applications, the query can be in the form of probing for measurement and if that measurement exceeds a certain threshold, the system marks this as a positive feedback of the incident under investigation. In other applications such as in the case of emergency situations, the query is usually a simple yes-no question. An example is in~\cite{crooks2013earthquake}, when an earthquake occurred on the East Coast in the US in 2011, the query was the question ``Did You Feel It?'' (DYFI). Based on the sensors/objects feedback in the first stage, we then proceed to a more fine-grained selection. The objects that provide a positive feedback, where the definition of a positive feedback is application dependent, are called the \textit{pivot users}. In our experiments, we simulate the positive feedback. A node will provide a positive feedback if it is in the kNN of one or more incidents in the grid. The positive feedback does not contain any information about the number or location of incidents. In the second stage, we divide the rest of the resources among the nearest neighbors for each of the pivot users. If no nodes provide a positive feedback, the second stage maximizes the dispersion of the location of nodes with the rest of the available resources. \par
 
 This initial algorithm assumes that the first stage users will respond with unfalsified responses. To relax this assumption, we explore dividing the selection of the second phase users into two groups: a group that consists of the $KNN$ of trusted pivot users, and another group that aims to maximize the dispersion. In the next section, we focus on studying our two-stage querying algorithm with the assumption of having full trust in the crowd and discuss other variants of the technique in Section 5.\par
 
@@ -149,7 +149,7 @@ To quantify the performance of our technique, we perform multiple experiments wi
 \end{itemize}
 \subsection{Experiment variables}
 There are multiple variables that can be controlled to test the behavior of the two-stage querying technique. Table~\ref{table:systemParameters} summarizes the most important.
-The environment settings are related to the size of the $2D$ matrix, the number of incidents, the distribution of incidents across the matrix, and the number of resources from which to choose. In all of our experiments, except the case study, we set up the $2D$ matrix as a $10$ by $10$ matrix. We show results for incident count of $50$ and number of resources ($M$) of $100$. 
+The environment settings are related to the size of the $2D$ matrix, the number of incidents, the distribution of incidents across the matrix, and the number of resources from which to choose. In all of our experiments, except the case study, we set up the $2D$ matrix as a $10$ by $10$ matrix. We show results for incident count of $50$ and number of resources ($M$) of $100$.
 We varied the environment settings in our experiments and we do not observe any differences in performance. Instead, we focus on varying the query settings to better understand the two-stage technique. In this section, we vary the first stage percentage and leave the variation of the $k$ setting to the following section. We also show results for $t\_setting = 30$, which constitutes $30\%$ of the available resources ($M$). We notice that the gap between the performance of our technique and the other techniques increases when $t\_setting$ decreases, and all the techniques converge in performance when $t\_setting$ approaches $M$. \par
 
 We compare the performance of our technique to two alternative selection approaches: random selection and dispersion maximization. To do so, we utilize two different metrics: count of nodes queried in the $KNN$ of incidents, and the number of incidents covered by the nodes queried. The two metrics are defined as:
@@ -164,10 +164,10 @@ where $QU$ (the ``Queried Users'' set) is the set of users selected for querying
 Coverage = \sum \forall_{incident\ i}\ Coverage_i\  where,
 \end{equation}
 \[
- Coverage_i =
+Coverage_i =
 \begin{cases}
- 1,& \text{if }(KNN_i \cap {QU}) \neq \phi\\
- 0,              & \text{otherwise}
+1,& \text{if }(KNN_i \cap {QU}) \neq \phi\\
+0,              & \text{otherwise}
 \end{cases}
 \]
 \end{itemize}
@@ -192,12 +192,12 @@ Figure~\ref{fig:clusteredResults} depicts the results for Close node count when 
 }\par\medskip
 \subcaptionbox{Close node count with $FSP = 40\%$ of available resources. \label{fig: clust_40}}{%
 \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsFourtyPerc.png}%
-}\par\medskip     
+}\par\medskip    
 \subcaptionbox{Close node count with $FSP = 60\%$ of available resources. \label{fig: clust_60}}{%
-  \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsSixtyPerc.png}%
+ \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsSixtyPerc.png}%
 }
 \subcaptionbox{Close node count with $FSP = 80\%$ of available resources. \label{fig: clust_80}}{%
-  \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsEightyPerc.png}%
+ \includegraphics[width=9cm, height=4.5cm]{figuresPng/fsEightyPerc.png}%
 }
 \caption{Average number of nodes close to the incidents (Close node count) as FSP varies.}
 \label{fig:clusteredResults}
@@ -239,7 +239,7 @@ The next step of experiments, the probability of occurrence of incidents is unif
 \label{fig:uniIncdCove}
 \end{figure}
 \subsection{Long tail distribution}
-In this subsection, the incidents are generated according to a special case of the Long Tail distribution called the ``Pareto principle''. According to the Pareto principle, we assume that $20\%$ of the matrix cells are home for $80\%$ of the incidents while conversly $80\%$ of the matrix cells are home for $20\%$ of the incidents. We generate $100$ different matrices applying the Pareto Principle randomly on the cells. We use a random uniform distribution to select $20\%$ of the cells and generate $80\%$ of the incidents uniformly for these cells and vice versa. Figure~\ref{fig:LTClosePeople} shows that the two-stage outperforms both the random policy and the dispersion maximization policy by up to $10.2\%$ and $12.1\%$, respectively, in terms of close node count. This is due to the clustering of events in only $20\%$ of the grid which means that more than one incident is likely to occur in the same cell. So, if the two-stage technique reaches a node close to an incident in one cell, this same node will cover more than one incident in the same cell. Dispersion maximization achieves the best incident coverage as shown in Figure~\ref{fig:LTIncdCove}. The two- stage technique approaches the maximum incident coverage when $FSP = 80\%$ with a difference of $1.24$ incidents on average.
+In this subsection, the incidents are generated according to a special case of the Long Tail distribution called the ``Pareto principle''. According to the Pareto principle, we assume that $20\%$ of the matrix cells are home for $80\%$ of the incidents while conversely $80\%$ of the matrix cells are home for $20\%$ of the incidents. We generate $100$ different matrices applying the Pareto Principle randomly on the cells. We use a random uniform distribution to select $20\%$ of the cells and generate $80\%$ of the incidents uniformly for these cells and vice versa. Figure~\ref{fig:LTClosePeople} shows that the two-stage outperforms both the random policy and the dispersion maximization policy by up to $10.2\%$ and $12.1\%$, respectively, in terms of close node count. This is due to the clustering of events in only $20\%$ of the grid which means that more than one incident is likely to occur in the same cell. So, if the two-stage technique reaches a node close to an incident in one cell, this same node will cover more than one incident in the same cell. Dispersion maximization achieves the best incident coverage as shown in Figure~\ref{fig:LTIncdCove}. The two- stage technique approaches the maximum incident coverage when $FSP = 80\%$ with a difference of $1.24$ incidents on average.
 \begin{figure}[!h]
 \centering
 \includegraphics[width=9cm ,height=5.5cm]{figuresPng/LT-closePeople.png}
@@ -268,9 +268,9 @@ As a first step, we must parse the Hollaback dataset such that incidents reports
 }\par\medskip
 \subcaptionbox{Brussels: $154$ incidents covering an area of $28.4$ $mi^2$.\label{fig: clust_40}}{%
 \includegraphics[width=8cm, height=5cm]{figuresPng/Brussels.png}%
-}\par\medskip     
+}\par\medskip    
 \subcaptionbox{ Istanbul: $87$ reported incidents covering an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right.\label{fig: clust_60}}{%
-  \includegraphics[width=8cm ,height=5cm]{figuresPng/Istanbul.png}%
+ \includegraphics[width=8cm ,height=5cm]{figuresPng/Istanbul.png}%
 }
 \caption{Distribution of harassment incidents across representative city datasets.}
 \label{fig:citiesDistribution}
@@ -318,22 +318,22 @@ On the other hand, as $FSP$ increases so does the probability of catching more i
 
 \subsection{Technique variants}
 \subsubsection{Trust-based responses}
-In our second stage of our algorithm, we select users based on the pivot nodes that provide a positive feedback in the first stage. To incorporate trust into the algorithm, trust-based algorithms can provide feedback about certain nodes and their feedback. If some of the nodes queried in the first stage of the algorithm were deemed trust unworthy, the second stage can be divided into two querying steps. The first step is the KNN for the trustworthy-nodes, and the second is determining dispersion maximization. 
+In our second stage of our algorithm, we select users based on the pivot nodes that provide a positive feedback in the first stage. To incorporate trust into the algorithm, trust-based algorithms can provide feedback about certain nodes and their feedback. If some of the nodes queried in the first stage of the algorithm were deemed trust unworthy, the second stage can be divided into two querying steps. The first step is the KNN for the trustworthy-nodes, and the second is determining dispersion maximization.
 \subsubsection{Prior knowledge availability}
 The two-stage querying technique does not assume any knowledge about the distribution of events. Given some prior information about the distribution, the algorithm can be tailored to take the prior distribution into account. The idea is to divide the spatial area into bounding regions and for each region we give a specific weight that reflects the probability of occurrence in that bounding regions.
 For example, Figure~\ref{fig: BaltimoreRegions} shows Baltimore divided into four bounding regions denoted as br1, br2, br3, and br4. Using the knowledge that br3 has more incidents than br2, which has more incidents than br1 and br4, a higher weight should be given to br3. In particular, $br3_w > br2_w> br4_w> br1_w$ where the subscript $w$ denotes the weight assigned to the bounding region. The next step would be to apply the algorithm on the different bounding regions taking into account the weights assigned when allocation resources as shown in Algorithm~\ref{TSBR}.
 \begin{algorithm}
 \caption{Bounding regions two-stage variation.}
 \label{TSBR}
- \begin{algorithmic}[1]
-     \Function{selectUsersBRs }{$BRs[], w[], N, FSP$}
-     \State selectedUsers = $\left\{\right\}$
-      \State BRQuota = calculateQuota(BRs[], w[], N)
-       \For{$br$ in BRs}
-       \State brQuota = BRQuota(br)
-     \State brUsers = selectUsersFromGrid(FSP, brQuota)
-     \State brUsers.append(brUsers)
-   \EndFor
+\begin{algorithmic}[1]
+    \Function{selectUsersBRs }{$BRs[], w[], N, FSP$}
+    \State selectedUsers = $\left\{\right\}$
+     \State BRQuota = calculateQuota(BRs[], w[], N)
+      \For{$br$ in BRs}
+      \State brQuota = BRQuota(br)
+    \State brUsers = selectUsersFromGrid(FSP, brQuota)
+    \State brUsers.append(brUsers)
+  \EndFor
 \State return {selectedUsers}
 \EndFunction
 \end{algorithmic}
@@ -346,7 +346,7 @@ For example, Figure~\ref{fig: BaltimoreRegions} shows Baltimore divided into fou
 \end{figure}
 \section{Conclusion}
 This paper proposed a two-stage spatial querying technique that attempts to probe nodes that are closer to the incidents in a $2D$ spatial environment. The algorithm maximizes the dispersion of location in the first stage and selects the K nearest neighbors in the second stage based on node feedback. The experimental evaluation confirms the applicability of proposed approach.
-Important aspects that need to be taken into consideration include the sensing range and the sensing accuracy of the nodes. Nodes with accurate sensing and larger sensing ranges will provide more robustness to the two-stage technique. Another important parameter that can impact the performance of the technique is the distribution of the available nodes in the spatial environment. To ensure an optimal performance, nodes should be placed uniformly in the environment if the incident distribution is not known or following an approximate distribution of the incidents. The node placement can be controlled for some senors like traffic or agriculture sensors while in other cases it is hard to be controlled especially when human participation is involved. In that case, there are no gurantees that humans as sensors will be uniformly distributed across the spatial area under investigation. Another important factor when choosing the number of nodes to query is the granularity of the incidents. For instance, when using human as sensors, incidents such as disasters can likely be sensed/detected by numerous people in the range of the incident. On the other hand, incidents such as street harassment require the presence of the human at the same exact place of the incident; otherwise, the incident is unlikely to be detected.
+Important aspects that need to be taken into consideration include the sensing range and the sensing accuracy of the nodes. Nodes with accurate sensing and larger sensing ranges will provide more robustness to the two-stage technique. Another important parameter that can impact the performance of the technique is the distribution of the available nodes in the spatial environment. To ensure an optimal performance, nodes should be placed uniformly in the environment if the incident distribution is not known or following an approximate distribution of the incidents. The node placement can be controlled for some sensors like traffic or agriculture sensors while in other cases it is hard to be controlled especially when human participation is involved. In that case, there are no guarantees that humans as sensors will be uniformly distributed across the spatial area under investigation. Another important factor when choosing the number of nodes to query is the granularity of the incidents. For instance, when using human as sensors, incidents such as disasters can likely be sensed/detected by numerous people in the range of the incident. On the other hand, incidents such as street harassment require the presence of the human at the same exact place of the incident; otherwise, the incident is unlikely to be detected.
 
 \section{Acknowledgments}
 The authors would like to thank Hollaback for sharing their collected dataset and taking the time to answer questions.
@@ -363,4 +363,6 @@ The authors would like to thank Hollaback for sharing their collected dataset an
 %APPENDICES are optional
 %\balancecolumns
 \end{document}
+
+
 
