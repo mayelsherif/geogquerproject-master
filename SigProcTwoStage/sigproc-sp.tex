@@ -40,25 +40,25 @@
 % 1st. author
 \alignauthor
 Mai ElSherief\\
-  \affaddr{Dept. of Computer Science }\\
-  \affaddr{UC Santa Barbara}\\
- %\affaddr{Santa Barbara, CA}\\
-  \email{mayelsherif@cs.ucsb.edu}  
-  \alignauthor
+ \affaddr{Dept. of Computer Science }\\
+ \affaddr{UC Santa Barbara}\\
+%\affaddr{Santa Barbara, CA}\\
+ \email{mayelsherif@cs.ucsb.edu} 
+ \alignauthor
 Ramya Raghavendra\\
-  \affaddr{IBM T. J. Watson Research Center }\\
-  \email{rraghav@us.ibm.com}
+ \affaddr{IBM T. J. Watson Research Center }\\
+ \email{rraghav@us.ibm.com}
 % 2nd. author
 \alignauthor
 Elizabeth Belding\\
- \affaddr{Dept. of Computer Science }\\
-  \affaddr{UC Santa Barbara}\\
-  %\affaddr{Santa Barbara, CA}\\
-  \email{ebelding@cs.ucsb.edu}
+\affaddr{Dept. of Computer Science }\\
+ \affaddr{UC Santa Barbara}\\
+ %\affaddr{Santa Barbara, CA}\\
+ \email{ebelding@cs.ucsb.edu}
 }
 \maketitle
 \begin{abstract}
-The ubiquioty of sensors, whether devices or humans, along with the important roles they play have resulted in both opportunities and challenges. In this paper, we propose DispNN: a two-stage node selection algorithm for resource constrained systems based on the nodes location to identify incidents in a $2D$ spatial environment. To minimize the number of probes, our algorithm maximizes the dispersion of the locations with a subset of the available nodes. Based on the nodes' received response, it selects the K nearest neighbors using the rest of the available resources. We test the DispNN algorithm on three different distributions: uniform, clustered and long-tailed. We then apply the algorithm to a real harassment dataset provided by Hollaback. The proposed algorithm outperforms a random selection policy by up to $63\%$ and a policy that relies on dispersion maximization without incorporating response from the nodes by up to $68\%$.
+The ubiquity of sensors, whether devices or humans, along with the important roles they play have resulted in both opportunities and challenges. In this paper, we propose DispNN: a two-stage node selection algorithm for resource constrained systems based on the nodes location to identify incidents in a $2D$ spatial environment. To minimize the number of probes, our algorithm maximizes the dispersion of the locations with a subset of the available nodes. Based on the nodes' received response, it selects the K nearest neighbors using the rest of the available resources. We test the DispNN algorithm on three different distributions: uniform, clustered and long-tailed. We then apply the algorithm to a real harassment dataset provided by Hollaback. The proposed algorithm outperforms a random selection policy by up to $63\%$ and a policy that relies on dispersion maximization without incorporating response from the nodes by up to $68\%$.
 \end{abstract}
 %\category{H.1.2}{User/Machine Systems}{Human information processing}
 %\keywords{Street harassment, Urban analysis, Walkability score, Transit Score, Transit route }
@@ -68,12 +68,12 @@ Sensors have become an integral part of daily life. The common smartphone includ
 Despite the ubiquity of human and device sensors, the challenges of energy preservation and resource constraints are ever-present. The truth is that all systems are bound by a fixed amount of resources. For instance,~\cite{marco2003many} and~\cite{pattem2008impact} focus on eliminating redundancies among correlated sensor measurements. \par
 
 In this paper, we investigate the problem of how we can probe a limited subset of sensors in a particular environment to either preserve energy or other resources. In particular, we envision a world where users/sensors can be probed to collectively answer some question. An unanswered question can be related to a phenomenon that needs to be identified under the constraints of $N$ resources. The experiments, analyzing the spatial and temporal characteristics of the twitter feed activity responding to a 5.8 magnitude earthquake which occurred on the East Coast of the United States (US) on August 23, 2011 in~\cite{crooks2013earthquake}, support the notion that people act as sensors to give us comparable results in a timely manner. Examples of resource constrained systems include disaster and safety applications or in general terms to identify incidents related to any spatial phenomenon. In an emergency, communication networks tend to fail and available resources, such as bandwidth, are scarce~\cite{manoj2007communication}. Under these constrained settings, DispNN can be used to probe the crowd/sensors about the current situation of the disaster in their current location. Another example of safety applications is what happens in Tahrir Square during Egyptian revolutions in 2011 and 2012. At that time, women were discouraged from participation due to the high harassment rates~\cite{guardianSH}. This resulted in movements of men forming protective human shields~\cite{worldPostHS} around female protestors to avoid assault. Our proposed algorithm can be used to query users for safe zones for women and then use the results for safe routing around the square or for identifying zones where women can safely participate in the protests. \par
-Our contribution in this paper is three-fold. First, we propose DispNN: a two-stage matching algorithm that probes or queries $N$ nodes out of $M$ available nodes to identify incidents related to a phenomenon with no prior information about the phenomenon spatial distribution. The algorithm outperforms the random user selection by up to $63\%$ in terms of selecting nodes that are closer (in the KNN) to the events and outperforms the dispersion maximization algorithm by up to $68\%$. Secondly, we study the performance of our proposed algorithm under three different distributions: uniform, clustered and long-tailed. We then test the algorithm on a real dataset that is comprised of harassment cities in three different cities. Third, we discuss how the algorithm can be altered based on trust variations and prior knowledge availability.\par
+Our contribution in this paper is three-fold. First, we propose DispNN: a two-stage matching algorithm that probes or queries $N$ nodes out of $M$ available nodes to identify incidents related to a phenomenon with no prior information about its spatial distribution. The algorithm outperforms the random user selection by up to $63\%$ in terms of selecting nodes that are closer (in the KNN) to the events and outperforms the dispersion maximization algorithm by up to $68\%$. Secondly, we study the performance of our proposed algorithm under three different distributions: uniform, clustered and long-tailed. We then test the algorithm on a real dataset that is comprised of harassment cities in three different cities. Third, we discuss how the algorithm can be altered based on trust variations and prior knowledge availability.\par
 The rest of this paper is organized as follows. Section 2 surveys the related work while Section 3 describes DispNN. Section 4 experimentally evaluates DispNN, and Section 5 discusses tradeoffs and variations of DispNN. Section 6 concludes the paper.
 \section{Related Work}
 Since the introduction of ``crowdsourcing'' as a modern business term in 2006~\cite{howe2006rise}, a significant body of work has been dedicated to the study and implementation of crowdsourcing in real life applications. In particular, spatial crowdsourcing, where crowd participation is bound to a particular geographic area, has received significant attention~\cite{kazemi2012geocrowd, deng2013maximizing, yu2015quality}. For instance, ~\cite{liu2013using} introduces a location-based real-time social question answering service, where users can ask temporal and geo-sensitive questions and then receive answers that are crowdsourced in a timely fashion. A crowdsensing platform was introduced in~\cite{cardone2013fostering} to facilitate the collaboration of large groups of people participating in collective actions of urban crowdsourcing. Our work is different in the sense that it imposes a constraint on the number of users participating in the question answering. This is particularly important to avoid disturbing a large number of people in a specific geographic area. In addition, this prevents the server requesting the responses for a specific query from entering a state of response overload.\par
 
-Using people as sensors, collective sensing, and citizen science have opened doors for interesting research problems. Some of these challenges are introduced in~\cite{blaschke2011collective}. One important challenge in geo-crowd sensing is detecting unusual events. The work proposed in~\cite{lee2010measuring} leverages microblogging websites such as Twitter to detect unusual geo-social events by identifying unusually crowded regions. Another challenge is the refinement of crowd sensed data and detection of fake data. Solutions based on a user's history and reputation have been introduced in the literature. The work in~\cite{yu2013reputation} proposes a reputation-aware model that balances the workload between users. Another challenge is fusing untrustworthy estimates~\cite{venanzi2013trust}. Taking into account spatial properties, ~\cite{venanzi2013crowdsourcing} tackles the problem of merging multiple spatial observations reported by possibly untrustworthy users using a heteroskedastic Gaussian process model. In this paper, as opposed to detecing unusual events~\cite{blaschke2011collective}, we provide a generic framework that could answer a pre-specified question if sensors, whether human or devices, are available in the spatial area. Detecing untrusted responses is not the main focus of the paper. Instead, we assume that a trust algorithm can be built on top of our algorithm to eliminate untrusted responses.\par
+Using people as sensors, collective sensing, and citizen science have opened doors for interesting research problems. Some of these challenges are introduced in~\cite{blaschke2011collective}. One important challenge in geo-crowd sensing is detecting unusual events. The work proposed in~\cite{lee2010measuring} leverages microblogging websites such as Twitter to detect unusual geo-social events by identifying unusually crowded regions. Another challenge is the refinement of crowd sensed data and detection of fake data. Solutions based on a user's history and reputation have been introduced in the literature. The work in~\cite{yu2013reputation} proposes a reputation-aware model that balances the workload between users. Another challenge is fusing untrustworthy estimates~\cite{venanzi2013trust}. Taking into account spatial properties, ~\cite{venanzi2013crowdsourcing} tackles the problem of merging multiple spatial observations reported by possibly untrustworthy users using a heteroskedastic Gaussian process model. In this paper, as opposed to detecting unusual events~\cite{blaschke2011collective}, we provide a generic framework that could answer a pre-specified question if sensors, whether human or devices, are available in the spatial area. Detecting untrusted responses is not the main focus of the paper. Instead, we assume that a trust algorithm can be built on top of our algorithm to eliminate untrusted responses.\par
 
 Another related body of work is sensor networks~\cite{akyildiz2002survey} that include spatially and ubiquitously distributed autonomous sensors used to monitor physical and environmental conditions. Since the sensors are typically small, low-powered nodes, resource-constrained protocols emerged to preserve the energy of these devices. Examples of work targeting energy preservation include, but are not limited to~\cite{sallai2004acoustic}, where the authors achieve geographic localization using noise tolerant acoustic ranging mechanism to meet severe resource constraints. In~\cite{krishnamachari2002impact}, data aggregation methods were introduced and achieved significant performance gains in comparison to end to end routing. The work proposed in~\cite{fontugne2013strip} implements a system that analyzes sensor behaviors and uncovers misbehavior corresponding to inefficient device usage that leads to energy waste. In contrast, our work focuses on the how to choose sensors to query based on their location while constraining the number of probes to a portion of the total number of sensors hence, preserving energy.
 
@@ -85,13 +85,13 @@ In our system, we have a two-dimensional grid and a number of objects that can s
 
 If we attempt to tackle this question from a probabilistic point of view, then the straightforward answer is to try to select objects with the same probabilistic distribution as the phenomenon. For instance, if we know that a certain phenomenon occurs at different places in the two-dimensional grid uniformly, then we would have no bias in selecting the users to query, i.e. each user/object should have the same probability of selection to be queried. On the other hand, if we know the phenomenon we are interested in is more prevalent in certain areas of the grid as opposed to other areas, we should take that into consideration when we are selecting the users such that we query users in the area of interest and fewer users in areas where there is a smaller probability of occurrence.\par
 
-The question becomes far more challenging if the distribution is not known or if it is time variant. In this case, we inquire if there is a systematic algorithm that can be used for querying/selecting users to spatially identify a phenomenon regardless of the probabilistic distribution or time variation. In the following sections, we propose DispNN: a two-stage algorithm that queries objects without any assumptions about the distribution of events and succeeds in locating objects that are close to the events and in covering up to more than $80\%$ of the incidents. \par
+The question becomes far more challenging if the distribution is not known or if it is time variant. In this case, we inquire if there is a systematic algorithm that can be used for querying/selecting users to spatially identify a phenomenon regardless of the probabilistic distribution or time variation. In the following sections, we propose DispNN: a two-stage algorithm that queries objects without any assumptions about the distribution of events and succeeds in locating nodes that are close to the events and in covering up to more than $90\%$ of the incidents. \par
 
 \subsection{Algorithm description}
 We assume that there are $M$ users in a two-dimensional grid and that the system that selects a user to query is bounded by $N$ resources, where $N < M$.  Each of the $M$ users has a specific location in the grid, determined by a two-dimensional system, e.g. (x, y) or a (lat, long). We also assume that the selected users, in the case of human involvement, will fully cooperate and respond to the query. If needed, a pre-selection phase can be used to eliminate users that are not likely to co-operate, such as requiring the installation of an app to facilitate querying. Here, we focus on how to select $N$ out of $M$ users, where $N < M$ to identify both events occurring in the two-dimensional grid and nodes that are close to these events.\par
 
 Given $N$ nodes, DispNN divides the selection of users into two stages as depicted in Algorithm~\ref{TSalgorithm}. The number of users in the first stage is determined by $\floor{(FSP*N)}$ where FSP denotes the first stage percentage.
- In the first stage, our goal is to select users that maximize the dispersion of users' locations. This is accomplished by selecting the set of points, $\mathcal{P} = \{ p(i), \ i \in \{ 1,..., \floor{(FSP*N)} \}$, that maximize the average distance between each point and its nearest neighbor as follows:
+In the first stage, our goal is to select nodes that maximize the dispersion of their locations. This is accomplished by selecting the set of points, $\mathcal{P} = \{ p(i), \ i \in \{ 1,..., \floor{(FSP*N)} \}$, that maximize the average distance between each point and its nearest neighbor as follows:
 \begin{equation} \label{eq:maxDisp}
 \argmax\limits_{\mathcal{P}} \sum_{i=1}^{|\mathcal{P} |} \norm{p(i) - NN(p(i))}^2
 \end{equation}
@@ -99,27 +99,27 @@ Given $N$ nodes, DispNN divides the selection of users into two stages as depict
 \caption{DispNN querying algorithm}
 \label{TSalgorithm}
 \begin{algorithmic}[1]
-    \Function{selectUsersFromGrid }{$FSP, N$}
-        \State selectedUsers = $\left\{\right\}$ 
-        \State firstStageCnt = $\floor{(FSP*N)}$
-        \State secondStageCnt = $M - firstStageCnt$\\
-       
-        \State firstStageUsers = maximizeDisp(firstStageCnt)\\
-        \Comment{First Stage: Maximize dispersion with firstStageCnt}\\
-        \State usersFeedback = feedback(firstStageUsers)\\
-         \Comment{Second Stage:}\\
-        \Comment{(a) Identify pivot nodes}\\
-          
-        \If {usersFeedback.size == 0}
-               \State selectedUsers = maximizeDisp(secondStageCnt){}
-        \Else
-            \State {selectedUsers.append(firstStageUsers)}
-        \EndIf \Comment{(b) Get kNN for pivot users depending on quota or maximize dispersion}\\
-      \State firstStageQuota = calculateQuota(firstStageUsers)
-      
-      \For{$user_i$ in firstStageUsers}\\ \Comment{Aggregate selected users}
-    \State selectedUsers.append(KNN($user_i$, $firstStageQuota_i$))
-  \EndFor
+   \Function{selectUsersFromGrid }{$FSP, N$}
+       \State selectedUsers = $\left\{\right\}$
+       \State firstStageCnt = $\floor{(FSP*N)}$
+       \State secondStageCnt = $M - firstStageCnt$\\
+     
+       \State firstStageUsers = maximizeDisp(firstStageCnt)\\
+       \Comment{First Stage: Maximize dispersion with firstStageCnt}\\
+       \State usersFeedback = feedback(firstStageUsers)\\
+        \Comment{Second Stage:}\\
+       \Comment{(a) Identify pivot nodes}\\
+        
+       \If {usersFeedback.size == 0}
+              \State selectedUsers = maximizeDisp(secondStageCnt){}
+       \Else
+           \State {selectedUsers.append(firstStageUsers)}
+       \EndIf \Comment{(b) Get kNN for pivot users depending on quota or maximize dispersion}\\
+     \State firstStageQuota = calculateQuota(firstStageUsers)
+    
+     \For{$user_i$ in firstStageUsers}\\ \Comment{Aggregate selected users}
+   \State selectedUsers.append(KNN($user_i$, $firstStageQuota_i$))
+ \EndFor
 \State return {selectedUsers}
 \EndFunction
 \end{algorithmic}
@@ -127,7 +127,8 @@ Given $N$ nodes, DispNN divides the selection of users into two stages as depict
 
 
 where $p$ represents a point in the $2D$ grid and $NN$ represents the nearest neighbor; the distance is measured as the Euclidean distance. The algorithm attempts to maximize the dispersion with a percentage of the $N$ resources up a certain number of trials controlled by the ``maximization trials'' setting as explained in Table~\ref{table:systemParameters}. \par
-After the first stage of dispersion maximization, stage 2 consists of querying the sensors that were selected and looking at the response of these sensors. The response provided is application dependent. For some applications, the query can be in the form of probing for measurement and if that measurement exceeds a certain threshold, the system marks this as a positive response of the incident under investigation. In other applications such as in the case of emergency situations, the query is usually a simple yes-no question. An example is in~\cite{crooks2013earthquake}, when an earthquake occurred on the East Coast in the US in 2011, the query was the question ``Did You Feel It?'' (DYFI). Based on the sensors/objects response in the first stage, we then proceed to a more fine-grained selection. The objects that provide a positive response, where the definition of a positive response is application dependent, are called the \textit{pivot users}. In our experiments, we simulate the positive response. A node will provide a positive response if it is in the kNN of one or more incidents in the grid. Choosing a small value of $k$ will simulate a fine grained phenomenon like harassment. In contrsast, a large value of $k$ will simulate a phenomenon with a larger range like a flood. The positive response does not contain any information about the number or location of incidents. The response simply indicates that the person/sensor detected one or more incidents in their range. After response inspection, we divide the rest of the resources among the nearest neighbors for each of the pivot users. If no nodes provide a positive response, the second stage maximizes the dispersion of the location of nodes with the rest of the available resources. \par
+After the first stage of dispersion maximization, stage 2 consists of querying the sensors that were selected and looking at the response of these sensors. The response provided is application dependent. For some applications, the query can be in the form of probing for measurement and if that measurement exceeds a certain threshold, the system marks this as a positive response to the incident under investigation. In other applications such as in the case of emergency situations, the query is usually a simple yes-no question. An example is in~\cite{crooks2013earthquake}, when an earthquake occurred on the East Coast in the US in 2011, the query was the question ``Did You Feel It?'' (DYFI).\par
+ Based on the sensors/objects response in the first stage, we then proceed to a more fine-grained selection. The objects that provide a positive response, where the definition of a positive response is application dependent, are called the \textit{pivot users}. In our experiments, we simulate the positive response. A node will provide a positive response if it is in the kNN of one or more incidents in the grid. Choosing a small value of $k$ will simulate a fine-grained phenomenon like harassment. In contrast, a large value of $k$ will simulate a phenomenon with a larger range like a flood. The positive response does not contain any information about the number or location of incidents. The response simply indicates that the person/sensor detected one or more incidents in their range. After response inspection, we divide the rest of the resources among the nearest neighbors for each of the pivot users. If no nodes provide a positive response, the second stage maximizes the dispersion of the location of nodes with the rest of the available resources. \par
 
 This initial algorithm assumes that the first stage users will respond with unfalsified responses. To relax this assumption, we explore dividing the selection of the second stage users into two groups: a group that consists of the $KNN$ of trusted pivot users, and another group that aims to maximize the dispersion. In the next section, we focus on studying DispNN with the assumption of having full trust in the crowd and discuss other variants of the algorithm in Section 5.\par
 
@@ -193,7 +194,7 @@ Geographer Waldo R. Tobler's stated in the first law of geography: ``Everything 
 
 For this set of experiments, we vary the number of clusters in our $2D$ matrix from one to ten clusters while fixing the resources or crowd count to be $100$. To enforce data variability, we model the size of each cluster as a random variable while ensuring that the aggregated size of all the clusters is equal to the crowd count. For each case of number of clusters, we average over $100$ different configurations. Our objective is to measure the effect of variation of the first stage percentage on our performance metrics.\par
 
-Figure~\ref{fig:clusteredResults} depicts the results for CNC when varying the first stage percentage (FSP) from $20\%$ to $80\%$. DispNN always outperforms the Random node selection and the Dispersion Maximization selection. Table~\ref{table:clusteredSurge} depicts the performance gain for CNC in comparison to the Random and Dispersion maximization approaches. As the amount of resources queried in the first stage decreases, CNC increases. This is due to the fact that when the first stage percentage decreases, the second stage resources increase under limited resources constraints, which focuses on resources close to incidents detected in the first stage. On the other hand, incident coverage tends to increase as the first stage count increases. This is depicted in Figure~\ref{fig: clustCoverage}. Both CNC and Incident coverage tend to increase with the number of clusters until the number of clusters is around four or five. Then, they decrease. The reason is that as the number of clusters increase in the grid, so does the probability of success of the first stage in identifying more incidents. On the other hand, as the number of clusters increase, the cluster size decreases which results in less incidents per cluster. 
+Figure~\ref{fig:clusteredResults} depicts the results for CNC when varying the first stage percentage (FSP) from $20\%$ to $80\%$. DispNN always outperforms the Random node selection and the Dispersion Maximization selection. Table~\ref{table:clusteredSurge} depicts the performance gain for CNC in comparison to the Random and Dispersion maximization approaches. As the amount of resources queried in the first stage decreases, CNC increases. This is due to the fact that when the first stage percentage decreases, the second stage resources increase under limited resources constraints, which focuses on resources close to incidents detected in the first stage. On the other hand, incident coverage tends to increase as the first stage count increases. This is depicted in Figure~\ref{fig: clustCoverage}. Both CNC and Incident coverage tend to increase with the number of clusters until the number of clusters is around four or five. Then, they decrease. The reason is that as the number of clusters increases in the grid, so does the probability of success of the first stage in identifying more incidents. On the other hand, as the number of clusters increase, the cluster size decreases which results in fewer incidents per cluster.
 
 %Real life examples of clustered events include
 %- Begin by pointing out real-life examples of spatially clustered phenomenon and spatial correlation in general. Lots of social phenomena are spatially dependent. %(https://books.google.com/books?id=jbFRojt85TUC&pg=PA2&lpg=PA2&dq=clustered+phenomena&source=bl&ots=yftMfShveB&sig=XcPOJriI1gineu-%A2YGpoJT3OII&hl=en&sa=X&ved=0ahUKEwiBp4a-s-zKAhUI5WMKHZQ3Cd8Q6AEITzAI#v=onepage&q=clustered%20phenomena&f=false)
@@ -204,14 +205,14 @@ Figure~\ref{fig:clusteredResults} depicts the results for CNC when varying the f
 %\caption{Average number of nodes close to the incidents (Close node count) as FSP varies.}
 %\label{fig:clusteredResults}
 \begin{table*}[t]
-  \centering
-  \begin{tabular}{cc}
-     \includegraphics[width=0.5\textwidth]{figuresPng/fsTwentyPerc.png} &  \includegraphics[width=0.5\textwidth]{figuresPng/fsFourtyPerc.png}\\ 
-     (a) Close node count with $FSP = 20\%$ of available resources. & (b) Close node count with $FSP = 40\%$ of available resources.\\
-     \includegraphics[width=0.5\textwidth]{figuresPng/fsSixtyPerc.png} &  \includegraphics[width=0.5\textwidth]{figuresPng/fsEightyPerc.png}\\
-       (c) Close node count with $FSP = 60\%$ of available resources. & (d) Close node count with $FSP = 80\%$ of available resources.\\
-  \end{tabular}
-   \captionof{figure}{Average number of nodes close to the incidents (Close node count) as FSP varies}
+ \centering
+ \begin{tabular}{cc}
+    \includegraphics[width=0.5\textwidth]{figuresPng/fsTwentyPerc.png} &  \includegraphics[width=0.5\textwidth]{figuresPng/fsFourtyPerc.png}\\
+    (a) Close node count with $FSP = 20\%$ of available resources. & (b) Close node count with $FSP = 40\%$ of available resources.\\
+    \includegraphics[width=0.5\textwidth]{figuresPng/fsSixtyPerc.png} &  \includegraphics[width=0.5\textwidth]{figuresPng/fsEightyPerc.png}\\
+      (c) Close node count with $FSP = 60\%$ of available resources. & (d) Close node count with $FSP = 80\%$ of available resources.\\
+ \end{tabular}
+  \captionof{figure}{Average number of nodes close to the incidents (Close node count) as FSP varies}
 \label{fig:clusteredResults}
 \end{table*}
 
@@ -280,17 +281,16 @@ Hollaback is a non-profit movement powered by local activists in $92$ cities and
 \subsubsection{Analysis}
 From the Hollaback dataset, we select cities for which we have enough harassment samples for statistical significance (i.e. more than 30 samples). We test the performance of Random selection, Dispersion maximization selection, and DispNN on six different cities: Paris, Brussels, Berlin, Baltimore, Buenos Aires and Istanbul. These cities were in the top ten cities with respect to the number of harassment reports in this dataset. In this paper, we show results for Paris, Brussels, and Istanbul. The results for Berlin, Baltimore, and Buenos Aires were consistent with the results shown in this paper. \par
 
-As a first step, we must parse the Hollaback dataset such that incidents reports are grouped by city. To do so, we use bounding box coordinates. We then draw the border lines for the different cities and remove any outliers from our datasets. Figure~\ref{fig:citiesDistribution} shows the resulting distribution of events for the three-case study. \par
-%The Paris dataset contains , while the Brussels dataset contains $154$ incidents covering a geographic area of $28.4$ $mi^2$. Istanbul has $87$ reported incidents covering an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right. \par
+As a first step, we must parse the Hollaback dataset such that incidents reports are grouped by city. To do so, we use bounding box coordinates. We then draw the border lines for the different cities and remove any outliers from our datasets. Figure~\ref{fig:citiesDistribution} shows the resulting distribution of events for the three-case study. The Paris dataset contains $197$ harassment incidents, while the Brussels dataset contains $154$ incidents covering a geographic area of $28.4$ $mi^2$. For Istanbul, we divide the coverage into two areas: $87$ reported incidents over an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right. \par
 
 
 \begin{table*}[t]
-  \centering
-  \begin{tabular}{ccc}
-     \includegraphics[width=0.33\textwidth, height=5cm]{figuresPng/Paris.png}&  \includegraphics[width=0.33\textwidth, height=5cm]{figuresPng/Brussels.png} & \includegraphics[width=0.33\textwidth, height=5cm]{figuresPng/Istanbul.png}\\ 
-     (a) Paris & (b) Brussels & (c) Istanbul\\
-  \end{tabular}
-   \captionof{figure}{Distribution of harassment incidents across representative city datasets.}
+ \centering
+ \begin{tabular}{ccc}
+    \includegraphics[width=0.33\textwidth, height=5cm]{figuresPng/Paris.png}&  \includegraphics[width=0.33\textwidth, height=5cm]{figuresPng/Brussels.png} & \includegraphics[width=0.33\textwidth, height=5cm]{figuresPng/Istanbul.png}\\
+    (a) Paris & (b) Brussels & (c) Istanbul\\
+ \end{tabular}
+  \captionof{figure}{Distribution of harassment incidents across representative city datasets.}
 \label{fig:citiesDistribution}
 \end{table*}
 
@@ -302,9 +302,9 @@ As a first step, we must parse the Hollaback dataset such that incidents reports
 %}\par\medskip
 %\subcaptionbox{Brussels: $154$ incidents covering an area of $28.4$ $mi^2$.\label{fig: clust_40}}{%
 %\includegraphics[width=8cm, height=5cm]{figuresPng/Brussels.png}%
-%}\par\medskip    
+%}\par\medskip   
 %\subcaptionbox{ Istanbul: $87$ reported incidents covering an area of $138$ $mi^2$ on the left of the Bosporus Strait and $69$ $mi^2$ on the right.\label{fig: clust_60}}{%
- %\includegraphics[width=8cm ,height=5cm]{figuresPng/Istanbul.png}%
+%\includegraphics[width=8cm ,height=5cm]{figuresPng/Istanbul.png}%
 %}
 %\caption{Distribution of harassment incidents across representative city datasets.}
 %\label{fig:citiesDistribution}
@@ -316,6 +316,25 @@ For each of the cities, we generate different variations of uniformly distribute
 d = 2R*atan2(\sqrt{a}, \sqrt{1-a})
 \end{equation}
 where $a$ is calculated as $ \sin ^2((\Delta \phi)/2 ) + \cos(\phi_1)\cos(\phi_2) * \sin ^2((\Delta \lambda)/2 )$, $\Delta \phi$ and $\Delta \lambda$ are calculated as the radian difference between the latitudes and longitudes, respectively, and $R$ is the Earth's radius (mean radius = 6,371km). We measure CNC and the Incident Coverage for all three querying approaches and plot the results in Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage}, respectively. DispNN outperforms both the Random and Dispersion Maximization in terms of CNC for all three cities. In terms of incident coverage, Figure~\ref{fig: hollaIncCoverage} shows that dispersion maximization achieves maximum incident coverage. The figure also shows that DispNN can achieve this maximum by setting the first stage percentage to be $80\%$. Figures~\ref{fig: hollaCloseCount} and~\ref{fig: hollaIncCoverage} suggest that there is an inherent tradeoff between accuracy and coverage under constrained resources which we discuss in detail in later sections. The figures also suggest that DispNN with $FSP = 80\%$, can achieve a balance between accuracy and coverage.\par
+
+\subsection{Stressing DispNN (k=1)}
+After applying DispNN to different datasets, we are interested in checking which schemes were able to query nodes that were the first nearest neighbors to the incidents. This is beneficial, for example, when targeting first responders in an emergency scenario or in a spatial task distribution where you want to select the nearest neighbors to maximize spatial task assignment. This can be viewed as stressing the selection policies in order to determine which achieves a higher number of first nearest neighbors.\par
+
+To study first nearest neighbors, we examine the Hollaback datasets for Paris, Brussels, and Istanbul. We examine the total CNC and for each incident, we determine whether we selected the first nearest neighbor in the queried users set. These results are shown in Table~\ref{table:NNParis}, where NN denotes nearest neighbors, CNC denotes close node count, and DispNN denotes the two-stage querying algorithm. For Paris, DispNN achieves a $9.5\%$ increase in performance on average in selecting nearest neighbors in comparison to dispersion maximization and a $19\%$ increase in comparison to random selection. For Brussels (Bruss), the performance gain is $14.2\%$ and $21.35\%$ in comparison to dispersion maximization and random selection, respectively. For Istanbul (Istan), the performance gains were $26.7\%$ and $36.5\%$. These results show that DispNN is able to locate more first nearest neighbors to incidents. This can be used to minimize the cost of traveling of users as a part of spatial task assignment. 
+
+\section{Discussion}
+\subsection{Tradeoff}
+In the previous section, we examined the performance of the DispNN querying algorithm in a variety of incident and node/user configurations and we observed that as $FSP$ decreases, CNC tends to increase. We also observed that in this case the same node can be in the K nearest neighbors for multiple incidents. This means that the algorithm tends to select central nodes that are in proximity with other incidents. This is beneficial in cases where the centrality of nodes is important to the problem, e.g. minimizing trip costs to these incidents and maximizing task assignments. This observation can be used to diversify feedback to improve accuracy i.e., instead of relying on a small number of nodes close to the incidents, we have a greater sample that can contribute to the measurement.
+On the other hand, as $FSP$ increases so does the probability of catching more incidents in the spatial environment, which is crucial in applications where coverage is important and where a false positive is less expensive than a false negative. This is due to the fact that more nodes are selected in the first stage and fewer nodes in the second stage. It is no surprise, under resource constrained conditions, there is a tradeoff between accuracy and coverage.
+
+\subsection{Algorithm variants}
+\subsubsection{Trust-based responses}
+In our second stage of our algorithm, we select users based on the pivot nodes that provide a positive feedback in the first stage. To incorporate trust into the algorithm, trust-based algorithms can provide feedback about certain nodes and their feedback. If some of the nodes queried in the first stage of the algorithm were deemed trust unworthy, the second stage can be divided into two querying steps. The first step is the KNN for the trustworthy-nodes, and the second is determining dispersion maximization.
+\subsubsection{Prior knowledge availability}
+DispNN does not assume any knowledge about the distribution of events. Given some prior information about the distribution, the algorithm can be tailored to take the prior distribution into account. The idea is to divide the spatial area into bounding regions and for each region we give a specific weight that reflects the probability of occurrence in that bounding regions.
+For example, Figure~\ref{fig: BaltimoreRegions} shows Baltimore divided into four bounding regions denoted as br1, br2, br3, and br4. Using the knowledge that br3 has more incidents than br2, which has more incidents than br1 and br4, a higher weight should be given to br3. In particular, $br3_w > br2_w> br4_w> br1_w$ where the subscript $w$ denotes the weight assigned to the bounding region. The next step would be to apply the algorithm on the different bounding regions taking into account the weights assigned when allocating resources as shown in Algorithm~\ref{TSBR}.
+
+
 \begin{figure}[!h]
 \centering
 \includegraphics[width=9cm ,height=6cm]{figuresPng/hollaCloseCnt.png}
@@ -328,10 +347,8 @@ where $a$ is calculated as $ \sin ^2((\Delta \phi)/2 ) + \cos(\phi_1)\cos(\phi_2
 \caption{Incident coverage for different values of FSP. }
 \label{fig: hollaIncCoverage}
 \end{figure}
-\subsection{Stressing DispNN (k=1)}
-After applying DispNN to different datasets, we are interested in checking which schemes were able to query nodes that were the first nearest neighbors to the incidents. This is beneficial, for example, when targeting first responders in an emergency scenario or in a spatial task distribution where you want to select the nearest neighbors to maximize spatial task assignment. This can be viewed as stressing the selection policies in order to determine which achieves a higher number of first nearest neighbors.\par
 
-To study first nearest neighbors, we examine the Hollaback datasets for Paris, Brussels, and Istanbul. We examine the total CNC and for each incident, we determine whether we selected the first nearest neighbor in the queried users set. These results are shown in Table~\ref{table:NNParis}, where NN denotes nearest neighbors, CNC denotes close node count, and DispNN denotes the two-stage querying algorithm. For Paris, DispNN achieves a $9.5\%$ increase in performance on average in selecting nearest neighbors in comparison to dispersion maximization and a $19\%$ increase in comparison to random selection. For Brussels (Bruss), the performance gain is $14.2\%$ and $21.35\%$ in comparison to dispersion maximization and random selection, respectively. For Istanbul (Istan), the performance gains were $26.7\%$ and $36.5\%$. These results show that DispNN is able to locate more first nearest neighbors to incidents. This can be used to minimize the cost of traveling of users as a part of spatial task assignement.  
+
 \begin{table}[!h]
 \centering
 \begin{tabulary}{0.5\textwidth}{|C|C|C|C|C|C|C|}
@@ -347,39 +364,34 @@ Istan-CNC   & $131$ & $132$  & $190$  & $188$ & $188$ & $184$  \\ \hline
 \caption{First nearest neighbors (NN) count and CNC for Paris, Brussels, and Istanbul.}
 \label{table:NNParis}
 \end{table}
-\section{Discussion}
-\subsection{Tradeoff}
-In the previous section, we examined the performance of the DispNN querying algorithm in a variety of incident and node/user configurations and we observed that as $FSP$ decreases, CNC tends to increase. We also observed that in this case the same node can be in the K nearest neighbors for multiple incidents. This means that the algorithm tends to select central nodes that are in proximity with other incidents. This is beneficial in cases where the centrality of nodes is important to the problem, e.g. minimizing trip costs to these incidents and maximizing task assignments. This observation can be used to diversify feedback to improve accuracy i.e., instead of relying on a small number of nodes close to the incidents, we have a greater sample that can contribute to the measurement.
-On the other hand, as $FSP$ increases so does the probability of catching more incidents in the spatial environment, which is crucial in applications where coverage is important and where a false positive is less expensive than a false negative. This is due to the fact that more nodes are selected in the first stage and fewer nodes in the second stage. It is no surprise, under resource constrained conditions, there is a tradeoff between accuracy and coverage.
 
-\subsection{Algorithm variants}
-\subsubsection{Trust-based responses}
-In our second stage of our algorithm, we select users based on the pivot nodes that provide a positive feedback in the first stage. To incorporate trust into the algorithm, trust-based algorithms can provide feedback about certain nodes and their feedback. If some of the nodes queried in the first stage of the algorithm were deemed trust unworthy, the second stage can be divided into two querying steps. The first step is the KNN for the trustworthy-nodes, and the second is determining dispersion maximization.
-\subsubsection{Prior knowledge availability}
-DispNN does not assume any knowledge about the distribution of events. Given some prior information about the distribution, the algorithm can be tailored to take the prior distribution into account. The idea is to divide the spatial area into bounding regions and for each region we give a specific weight that reflects the probability of occurrence in that bounding regions.
-For example, Figure~\ref{fig: BaltimoreRegions} shows Baltimore divided into four bounding regions denoted as br1, br2, br3, and br4. Using the knowledge that br3 has more incidents than br2, which has more incidents than br1 and br4, a higher weight should be given to br3. In particular, $br3_w > br2_w> br4_w> br1_w$ where the subscript $w$ denotes the weight assigned to the bounding region. The next step would be to apply the algorithm on the different bounding regions taking into account the weights assigned when allocating resources as shown in Algorithm~\ref{TSBR}.
-\begin{algorithm}
-\caption{Bounding regions two-stage variation.}
-\label{TSBR}
-\begin{algorithmic}[1]
-    \Function{selectUsersBRs }{$BRs[], w[], N, FSP$}
-    \State selectedUsers = $\left\{\right\}$
-     \State BRQuota = calculateQuota(BRs[], w[], N)
-      \For{$br$ in BRs}
-      \State brQuota = BRQuota(br)
-    \State brUsers = selectUsersFromGrid(FSP, brQuota)
-    \State brUsers.append(brUsers)
-  \EndFor
-\State return {selectedUsers}
-\EndFunction
-\end{algorithmic}
-\end{algorithm}
+
+
+
 \begin{figure}[!h]
 \centering
 \includegraphics[width=9cm ,height=5.5cm]{figuresPng/BaltimoreBr.png}
 \caption{Baltimore divided into bounding regions depending on prior knowledge of harassment occurrence.}
 \label{fig: BaltimoreRegions}
 \end{figure}
+
+
+\begin{algorithm}
+\caption{Bounding regions two-stage variation.}
+\label{TSBR}
+\begin{algorithmic}[1]
+   \Function{selectUsersBRs }{$BRs[], w[], N, FSP$}
+   \State selectedUsers = $\left\{\right\}$
+    \State BRQuota = calculateQuota(BRs[], w[], N)
+     \For{$br$ in BRs}
+     \State brQuota = BRQuota(br)
+   \State brUsers = selectUsersFromGrid(FSP, brQuota)
+   \State brUsers.append(brUsers)
+ \EndFor
+\State return {selectedUsers}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
 \section{Conclusion}
 This paper proposed DispNN: a two-stage spatial querying algorithm that attempts to probe nodes that are closer to the incidents in a $2D$ spatial environment. The algorithm maximizes the dispersion of location in the first stage and selects the K nearest neighbors in the second stage based on node feedback. The experimental evaluation confirms the applicability of proposed approach.
 Important aspects that need to be taken into consideration include the sensing range and the sensing accuracy of the nodes. Nodes with accurate sensing and larger sensing ranges will provide more robustness to DispNN. Another important parameter that can impact the performance of the algorithm is the distribution of the available nodes in the spatial environment. To ensure an optimal performance, nodes should be placed uniformly in the environment if the incident distribution is not known or following an approximate distribution of the incidents. The node placement can be controlled for some sensors like traffic or agriculture sensors while in other cases it is hard to be controlled especially when human participation is involved. In that case, there are no guarantees that humans as sensors will be uniformly distributed across the spatial area under investigation. Another important factor when choosing the number of nodes to query is the granularity of the incidents. For instance, when using human as sensors, incidents such as disasters can likely be sensed/detected by numerous people in the range of the incident. On the other hand, incidents such as street harassment require the presence of the human at the same exact place of the incident; otherwise, the incident is unlikely to be detected.
@@ -399,6 +411,8 @@ The authors would like to thank Hollaback for sharing their collected dataset an
 %APPENDICES are optional
 %\balancecolumns
 \end{document}
+
+
 
 
 
