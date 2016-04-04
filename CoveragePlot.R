@@ -28,7 +28,7 @@ ggplot(data=df1, aes(x=Clust_Cnt, y=Incident_Coverage, group=Query_type, colour=
   geom_point(size=3)+
   labs(x = "Number of clusters", y = "Incident Coverage", linetype='Query Type:')+
   theme(axis.title.y = element_text(size = 16, face = 'bold'), axis.title.x = element_text(size = 16, face = 'bold'), axis.text.x = element_text(size = 14, face = 'bold'))+
-  scale_fill_discrete(name = "Query Type:") + theme(legend.text=element_text(size=16, face = 'bold'), legend.title = element_text(size=16, face = 'bold')) + theme(legend.position="top")
+  scale_fill_discrete(name = "") + theme(legend.text=element_text(size=16, face = 'bold')) + theme(legend.title =element_blank()) + theme(legend.position="top")
 
 
 
