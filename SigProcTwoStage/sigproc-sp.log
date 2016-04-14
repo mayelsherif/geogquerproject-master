@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  9 APR 2016 01:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  11 APR 2016 04:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1109,6 +1109,12 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (/usr/local/texlive/2014/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen202
+\c@nlinenum=\count152
+\TeXr@lab=\toks59
+)
 (./sigproc-sp.aux)
 \openout1 = `sigproc-sp.aux'.
 
@@ -1132,17 +1138,17 @@ File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    ... okay on input line 29.
  (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
-\scratchdimen=\dimen202
+\scratchcounter=\count153
+\scratchdimen=\dimen203
 \scratchbox=\box46
-\nofMPsegments=\count153
-\nofMParguments=\count154
-\everyMPshowfont=\toks59
-\MPscratchCnt=\count155
-\MPscratchDim=\dimen203
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
-\everyMPtoPDFconversion=\toks60
+\nofMPsegments=\count154
+\nofMParguments=\count155
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count156
+\MPscratchDim=\dimen204
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
+\everyMPtoPDFconversion=\toks61
 ) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -1232,60 +1238,64 @@ Overfull \hbox (5.72028pt too wide) in paragraph at lines 90--90
 []\secfnt DISPNN: A TWO-STAGE QUERY-ING AL-
  []
 
-
-Overfull \hbox (4.86324pt too wide) in paragraph at lines 91--91
-\T1/aer/m/n/9 These ob-jects can be hu-mans, ar-ti-fi-cial sen-sors, mo-bile ph
-ones
- []
-
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 114--116
-[] \T1/aer/m/n/9 sec-ond-StageCnt = M - first-StageCnt
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+[] \T1/aer/m/n/9 first-StageN-odes = max-i-mizeDisp(firstStageCnt)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
-[] \T1/aer/m/n/9 users-Feed-back = feed-back(firstStageUsers)
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+[] \T1/aer/m/n/9 nodes-Feed-back = feed-back(firstStageNodes)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
-[] \T1/aer/bx/n/9 if \T1/aer/m/n/9 users-Feed-back.size == 0 \T1/aer/bx/n/9 the
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+[] \T1/aer/bx/n/9 if \T1/aer/m/n/9 nodes-Feed-back.size == 0 \T1/aer/bx/n/9 the
 n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
 []$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-[] \T1/aer/m/n/9 selectedUsers.append(KNN($\OML/cmm/m/it/9 user[]$\T1/aer/m/n/9
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+[] \T1/aer/m/n/9 first-Stage-Quota = cal-cu-late-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+[] \T1/aer/m/n/9 selectedNodes.append(KNN($\OML/cmm/m/it/9 user[]$\T1/aer/m/n/9
  ,
  []
 
 
-Overfull \hbox (78.67647pt too wide) in paragraph at lines 128--129
+Overfull \hbox (78.67647pt too wide) in paragraph at lines 125--126
 \OML/cmm/m/it/9 firstStageQuota[]$\T1/aer/m/n/9 ))  $[]$ 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 160.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 158.
 
-LaTeX Font Info:    No file TS1aer.fd. on input line 160.
+LaTeX Font Info:    No file TS1aer.fd. on input line 158.
 
 LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 160.
+(Font)              for symbol `textbullet' on input line 158.
 
 
-Overfull \hbox (12.00536pt too wide) in paragraph at lines 160--161
+Overfull \hbox (12.00536pt too wide) in paragraph at lines 158--159
  [][] 
  []
 
 
-Overfull \hbox (5.29443pt too wide) in paragraph at lines 169--170
-\T1/aer/m/n/9 ap-proach, $\OML/cmm/m/it/9 N$ \T1/aer/m/n/9 users are se-lected 
+Overfull \hbox (8.03036pt too wide) in paragraph at lines 167--168
+\T1/aer/m/n/9 ap-proach, $\OML/cmm/m/it/9 N$ \T1/aer/m/n/9 nodes are se-lected 
 from the re-sources/crowd
  []
 
@@ -1293,10 +1303,10 @@ from the re-sources/crowd
 File: figuresPng/clust.png Graphic file (type png)
 
 <use figuresPng/clust.png>
-Package pdftex.def Info: figuresPng/clust.png used on input line 203.
+Package pdftex.def Info: figuresPng/clust.png used on input line 202.
 (pdftex.def)             Requested size: 256.07596pt x 156.49194pt.
 
-Overfull \hbox (16.07596pt too wide) in paragraph at lines 203--204
+Overfull \hbox (16.07596pt too wide) in paragraph at lines 202--203
  [][] 
  []
 
@@ -1305,233 +1315,218 @@ Overfull \hbox (16.07596pt too wide) in paragraph at lines 203--204
 File: figuresPng/fsTwentyPerc.png Graphic file (type png)
 
 <use figuresPng/fsTwentyPerc.png>
-Package pdftex.def Info: figuresPng/fsTwentyPerc.png used on input line 222.
+Package pdftex.def Info: figuresPng/fsTwentyPerc.png used on input line 221.
 (pdftex.def)             Requested size: 252.0pt x 130.86415pt.
 
 <figuresPng/fsFourtyPerc.png, id=37, 701.62125pt x 364.36125pt>
 File: figuresPng/fsFourtyPerc.png Graphic file (type png)
 
 <use figuresPng/fsFourtyPerc.png>
-Package pdftex.def Info: figuresPng/fsFourtyPerc.png used on input line 222.
+Package pdftex.def Info: figuresPng/fsFourtyPerc.png used on input line 221.
 (pdftex.def)             Requested size: 252.0pt x 130.86415pt.
 
 <figuresPng/fsSixtyPerc.png, id=38, 701.62125pt x 364.36125pt>
 File: figuresPng/fsSixtyPerc.png Graphic file (type png)
 
 <use figuresPng/fsSixtyPerc.png>
-Package pdftex.def Info: figuresPng/fsSixtyPerc.png used on input line 224.
+Package pdftex.def Info: figuresPng/fsSixtyPerc.png used on input line 223.
 (pdftex.def)             Requested size: 252.0pt x 130.86415pt.
 
 <figuresPng/fsEightyPerc.png, id=39, 701.62125pt x 364.36125pt>
 File: figuresPng/fsEightyPerc.png Graphic file (type png)
 
 <use figuresPng/fsEightyPerc.png>
-Package pdftex.def Info: figuresPng/fsEightyPerc.png used on input line 224.
+Package pdftex.def Info: figuresPng/fsEightyPerc.png used on input line 223.
 (pdftex.def)             Requested size: 252.0pt x 130.86415pt.
 
-Overfull \hbox (21.59998pt too wide) in paragraph at lines 221--227
+Overfull \hbox (21.59998pt too wide) in paragraph at lines 220--226
  [][] 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 20%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 40%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 60%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 80%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 63%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 59%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 35%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 20%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 68%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 62%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 40%$| 
  []
 
 
-Overfull \hbox (4.36299pt too wide) in paragraph at lines 247--247
+Overfull \hbox (4.36299pt too wide) in paragraph at lines 257--257
  []$\OT1/cmr/m/n/9 21%$| 
  []
 
 
-Overfull \hbox (12.00739pt too wide) in paragraph at lines 247--248
+Overfull \hbox (12.00739pt too wide) in paragraph at lines 257--258
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figuresPng/Coverage_Result.png, id=40, 701.62125pt x 364.36125pt>
 File: figuresPng/Coverage_Result.png Graphic file (type png)
 
 <use figuresPng/Coverage_Result.png>
-Package pdftex.def Info: figuresPng/Coverage_Result.png used on input line 255.
+Package pdftex.def Info: figuresPng/Coverage_Result.png used on input line 265.
 
 (pdftex.def)             Requested size: 256.07356pt x 156.4888pt.
 
-Overfull \hbox (16.07356pt too wide) in paragraph at lines 255--256
+Overfull \hbox (16.07356pt too wide) in paragraph at lines 265--266
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figuresPng/Uni_ClosePeople_Count.png, id=41, 701.62125pt x 364.36125pt>
 File: figuresPng/Uni_ClosePeople_Count.png Graphic file (type png)
 
 <use figuresPng/Uni_ClosePeople_Count.png>
 Package pdftex.def Info: figuresPng/Uni_ClosePeople_Count.png used on input lin
-e 262.
+e 272.
 (pdftex.def)             Requested size: 256.07356pt x 156.4888pt.
 
-Overfull \hbox (16.07356pt too wide) in paragraph at lines 262--263
+Overfull \hbox (16.07356pt too wide) in paragraph at lines 272--273
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figuresPng/Uni-Inc_Coverage.png, id=42, 701.62125pt x 364.36125pt>
 File: figuresPng/Uni-Inc_Coverage.png Graphic file (type png)
 
 <use figuresPng/Uni-Inc_Coverage.png>
-Package pdftex.def Info: figuresPng/Uni-Inc_Coverage.png used on input line 268
+Package pdftex.def Info: figuresPng/Uni-Inc_Coverage.png used on input line 278
 .
 (pdftex.def)             Requested size: 256.07356pt x 156.4888pt.
 
-Overfull \hbox (16.07356pt too wide) in paragraph at lines 268--269
+Overfull \hbox (16.07356pt too wide) in paragraph at lines 278--279
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figuresPng/LT-closePeople.png, id=43, 701.62125pt x 364.36125pt>
 File: figuresPng/LT-closePeople.png Graphic file (type png)
 
 <use figuresPng/LT-closePeople.png>
-Package pdftex.def Info: figuresPng/LT-closePeople.png used on input line 276.
+Package pdftex.def Info: figuresPng/LT-closePeople.png used on input line 286.
 (pdftex.def)             Requested size: 256.07356pt x 156.4888pt.
 
-Overfull \hbox (16.07356pt too wide) in paragraph at lines 276--277
+Overfull \hbox (16.07356pt too wide) in paragraph at lines 286--287
  [][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figuresPng/LT-incidCov.png, id=44, 701.62125pt x 364.36125pt>
 File: figuresPng/LT-incidCov.png Graphic file (type png)
 
 <use figuresPng/LT-incidCov.png>
-Package pdftex.def Info: figuresPng/LT-incidCov.png used on input line 282.
+Package pdftex.def Info: figuresPng/LT-incidCov.png used on input line 292.
 (pdftex.def)             Requested size: 256.07356pt x 156.4888pt.
 
-Overfull \hbox (16.07356pt too wide) in paragraph at lines 282--283
+Overfull \hbox (16.07356pt too wide) in paragraph at lines 292--293
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Text page \thepage  contains only floats.
-
-[5 <./figuresPng/Coverage_Result.png> <./figuresPng/Uni_ClosePeople_Count.png> 
-<./figuresPng/Uni-Inc_Coverage.png>]
-Underfull \vbox (badness 1552) has occurred while \output is active []
-
- [6 <./figuresPng/fsTwentyPerc.png> <./figuresPng/fsFourtyPerc.png> <./figuresP
-ng/fsSixtyPerc.png> <./figuresPng/fsEightyPerc.png> <./figuresPng/LT-closePeopl
-e.png> <./figuresPng/LT-incidCov.png>]
-<figuresPng/Paris.png, id=61, 743.77875pt x 423.5825pt>
+<figuresPng/Paris.png, id=45, 743.77875pt x 423.5825pt>
 File: figuresPng/Paris.png Graphic file (type png)
 
 <use figuresPng/Paris.png>
-Package pdftex.def Info: figuresPng/Paris.png used on input line 302.
+Package pdftex.def Info: figuresPng/Paris.png used on input line 300.
 (pdftex.def)             Requested size: 166.32156pt x 142.26457pt.
 
-<figuresPng/Brussels.png, id=62, 445.665pt x 449.68pt>
+<figuresPng/Brussels.png, id=46, 445.665pt x 449.68pt>
 File: figuresPng/Brussels.png Graphic file (type png)
 
 <use figuresPng/Brussels.png>
-Package pdftex.def Info: figuresPng/Brussels.png used on input line 302.
+Package pdftex.def Info: figuresPng/Brussels.png used on input line 300.
 (pdftex.def)             Requested size: 166.32152pt x 142.26062pt.
 
-<figuresPng/Istanbul.png, id=63, 587.19376pt x 410.53375pt>
+<figuresPng/Istanbul.png, id=47, 587.19376pt x 410.53375pt>
 File: figuresPng/Istanbul.png Graphic file (type png)
 
 <use figuresPng/Istanbul.png>
-Package pdftex.def Info: figuresPng/Istanbul.png used on input line 302.
+Package pdftex.def Info: figuresPng/Istanbul.png used on input line 300.
 (pdftex.def)             Requested size: 166.32158pt x 142.26071pt.
 
-Overfull \hbox (27.36462pt too wide) in paragraph at lines 301--305
+Overfull \hbox (27.36462pt too wide) in paragraph at lines 299--303
  [][] 
  []
 
+[5]
+Overfull \hbox (2.4351pt too wide) in paragraph at lines 327--328
+\T1/aer/m/n/9 and plot the re-sults in Fig-ures 9[] and 10[], re-spec-tively. D
+ispNN
+ []
 
-Underfull \vbox (badness 1803) has occurred while \output is active []
-
- [7]
-<figuresPng/hollaCloseCnt.png, id=68, 701.62125pt x 364.36125pt>
+[6 <./figuresPng/fsTwentyPerc.png> <./figuresPng/fsFourtyPerc.png> <./figuresPn
+g/fsSixtyPerc.png> <./figuresPng/fsEightyPerc.png> <./figuresPng/Coverage_Resul
+t.png> <./figuresPng/Uni_ClosePeople_Count.png>] [7 <./figuresPng/Paris.png> <.
+/figuresPng/Brussels.png> <./figuresPng/Istanbul.png> <./figuresPng/Uni-Inc_Cov
+erage.png> <./figuresPng/LT-closePeople.png> <./figuresPng/LT-incidCov.png>]
+<figuresPng/hollaCloseCnt.png, id=71, 701.62125pt x 364.36125pt>
 File: figuresPng/hollaCloseCnt.png Graphic file (type png)
 
 <use figuresPng/hollaCloseCnt.png>
-Package pdftex.def Info: figuresPng/hollaCloseCnt.png used on input line 352.
+Package pdftex.def Info: figuresPng/hollaCloseCnt.png used on input line 350.
 (pdftex.def)             Requested size: 256.07356pt x 170.71606pt.
 
-Overfull \hbox (16.07356pt too wide) in paragraph at lines 352--353
+Overfull \hbox (16.07356pt too wide) in paragraph at lines 350--351
  [][] 
  []
 
-<figuresPng/citiesInc.png, id=69, 701.62125pt x 364.36125pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figuresPng/citiesInc.png, id=72, 701.62125pt x 364.36125pt>
 File: figuresPng/citiesInc.png Graphic file (type png)
 
 <use figuresPng/citiesInc.png>
-Package pdftex.def Info: figuresPng/citiesInc.png used on input line 358.
+Package pdftex.def Info: figuresPng/citiesInc.png used on input line 356.
 (pdftex.def)             Requested size: 256.07356pt x 170.71606pt.
 
-Overfull \hbox (16.07356pt too wide) in paragraph at lines 358--359
+Overfull \hbox (16.07356pt too wide) in paragraph at lines 356--357
  [][] 
  []
 
@@ -1539,129 +1534,128 @@ Overfull \hbox (16.07356pt too wide) in paragraph at lines 358--359
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (7.09752pt too wide) in paragraph at lines 375--375
+Overfull \hbox (7.09752pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Ran- 
  []
 
 
-Overfull \hbox (4.91968pt too wide) in paragraph at lines 375--375
+Overfull \hbox (4.91968pt too wide) in paragraph at lines 373--373
  \T1/aer/m/n/9 dom| 
  []
 
 
-Overfull \hbox (8.07906pt too wide) in paragraph at lines 375--375
+Overfull \hbox (8.07906pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Disp- 
  []
 
 
-Overfull \hbox (4.56042pt too wide) in paragraph at lines 375--375
+Overfull \hbox (4.56042pt too wide) in paragraph at lines 373--373
  \T1/aer/m/n/9 Max| 
  []
 
 
-Overfull \hbox (2.49222pt too wide) in paragraph at lines 375--375
+Overfull \hbox (2.49222pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 DispNN: 
  []
 
 
-Overfull \hbox (2.49222pt too wide) in paragraph at lines 375--375
+Overfull \hbox (2.49222pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 DispNN: 
  []
 
 
-Overfull \hbox (2.49222pt too wide) in paragraph at lines 375--375
+Overfull \hbox (2.49222pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 DispNN: 
  []
 
 
-Overfull \hbox (2.49222pt too wide) in paragraph at lines 375--375
+Overfull \hbox (2.49222pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 DispNN: 
  []
 
 
-Overfull \hbox (6.44464pt too wide) in paragraph at lines 375--375
+Overfull \hbox (6.44464pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Paris- 
  []
 
 
-Overfull \hbox (6.44464pt too wide) in paragraph at lines 375--375
+Overfull \hbox (6.44464pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Paris- 
  []
 
 
-Overfull \hbox (3.16905pt too wide) in paragraph at lines 375--375
+Overfull \hbox (3.16905pt too wide) in paragraph at lines 373--373
  \T1/aer/m/n/9 CNC| 
  []
 
 
-Overfull \hbox (1.34381pt too wide) in paragraph at lines 375--375
+Overfull \hbox (1.34381pt too wide) in paragraph at lines 373--373
  []$\OT1/cmr/m/n/9 300$| 
  []
 
 
-Overfull \hbox (8.54156pt too wide) in paragraph at lines 375--375
+Overfull \hbox (8.54156pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Bruss- 
  []
 
 
-Overfull \hbox (8.54156pt too wide) in paragraph at lines 375--375
+Overfull \hbox (8.54156pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Bruss- 
  []
 
 
-Overfull \hbox (3.16905pt too wide) in paragraph at lines 375--375
+Overfull \hbox (3.16905pt too wide) in paragraph at lines 373--373
  \T1/aer/m/n/9 CNC| 
  []
 
 
-Overfull \hbox (1.34381pt too wide) in paragraph at lines 375--375
+Overfull \hbox (1.34381pt too wide) in paragraph at lines 373--373
  []$\OT1/cmr/m/n/9 233$| 
  []
 
 
-Overfull \hbox (6.27362pt too wide) in paragraph at lines 375--375
+Overfull \hbox (6.27362pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Istan- 
  []
 
 
-Overfull \hbox (6.27362pt too wide) in paragraph at lines 375--375
+Overfull \hbox (6.27362pt too wide) in paragraph at lines 373--373
  []\T1/aer/m/n/9 Istan- 
  []
 
 
-Overfull \hbox (3.16905pt too wide) in paragraph at lines 375--375
+Overfull \hbox (3.16905pt too wide) in paragraph at lines 373--373
  \T1/aer/m/n/9 CNC| 
  []
 
 
-Overfull \hbox (1.34381pt too wide) in paragraph at lines 375--375
+Overfull \hbox (1.34381pt too wide) in paragraph at lines 373--373
  []$\OT1/cmr/m/n/9 131$| 
  []
 
 
-Overfull \hbox (11.9999pt too wide) in paragraph at lines 375--376
+Overfull \hbox (11.9999pt too wide) in paragraph at lines 373--374
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figuresPng/BaltimoreBr.png, id=70, 606.265pt x 628.3475pt>
+<figuresPng/BaltimoreBr.png, id=73, 606.265pt x 628.3475pt>
 File: figuresPng/BaltimoreBr.png Graphic file (type png)
 
 <use figuresPng/BaltimoreBr.png>
-Package pdftex.def Info: figuresPng/BaltimoreBr.png used on input line 385.
+Package pdftex.def Info: figuresPng/BaltimoreBr.png used on input line 383.
 (pdftex.def)             Requested size: 256.0727pt x 156.48245pt.
 
-Overfull \hbox (16.0727pt too wide) in paragraph at lines 385--386
+Overfull \hbox (16.0727pt too wide) in paragraph at lines 383--384
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./figuresPng/Paris.png> <./figuresPng/Brussels.png> <./figuresPng/Istanbul.
-png> <./figuresPng/hollaCloseCnt.png> <./figuresPng/citiesInc.png>]
+[8 <./figuresPng/hollaCloseCnt.png> <./figuresPng/citiesInc.png>]
 (./sigproc-sp.bbl
 LaTeX Font Info:    Try loading font information for T1+aett on input line 7.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/ae/t1aett.fd
@@ -1682,13 +1676,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 25761 strings out of 493117
- 612265 string characters out of 6135433
- 768806 words of memory out of 5000000
- 28680 multiletter control sequences out of 15000+600000
+ 25914 strings out of 493117
+ 613906 string characters out of 6135433
+ 769806 words of memory out of 5000000
+ 28829 multiletter control sequences out of 15000+600000
  59356 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,12n,76p,1556b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,76p,1625b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texl
@@ -1708,7 +1702,7 @@ st/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2014/texmf-dist
 type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/u
 rw/times/utmb8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on sigproc-sp.pdf (10 pages, 2512321 bytes).
+Output written on sigproc-sp.pdf (10 pages, 2510991 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  81 compressed objects within 1 object stream
