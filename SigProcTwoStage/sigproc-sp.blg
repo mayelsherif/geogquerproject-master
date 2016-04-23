@@ -7,43 +7,43 @@ Warning--to sort, need author or key in guardianSH
 Warning--to sort, need author or key in worldPostHS
 You've used 24 entries,
             2118 wiz_defined-function locations,
-            645 strings with 9230 characters,
-and the built_in function-call counts, 9623 in all, are:
-= -- 942
+            637 strings with 9164 characters,
+and the built_in function-call counts, 8182 in all, are:
+= -- 749
 > -- 456
-< -- 11
+< -- 3
 + -- 185
 - -- 156
-* -- 658
-:= -- 1480
+* -- 569
+:= -- 1351
 add.period$ -- 74
 call.type$ -- 24
 change.case$ -- 150
 chr.to.int$ -- 0
 cite$ -- 26
-duplicate$ -- 384
-empty$ -- 772
+duplicate$ -- 312
+empty$ -- 667
 format.name$ -- 156
-if$ -- 2086
+if$ -- 1708
 int.to.chr$ -- 0
 int.to.str$ -- 24
 missing$ -- 21
 newline$ -- 124
 num.names$ -- 44
-pop$ -- 190
+pop$ -- 198
 preamble$ -- 1
 purify$ -- 126
 quote$ -- 0
-skip$ -- 298
+skip$ -- 194
 stack$ -- 0
-substring$ -- 616
-swap$ -- 130
-text.length$ -- 11
+substring$ -- 357
+swap$ -- 58
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 96
 warning$ -- 2
-while$ -- 90
+while$ -- 66
 width$ -- 26
-write$ -- 264
+write$ -- 256
 (There were 2 warnings)
